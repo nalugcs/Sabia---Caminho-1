@@ -1,0 +1,1210 @@
+{
+  "language": "Inglês",
+  "code": "en",
+  "lessons": [
+    {
+      "id": 1,
+      "level": "Básico",
+      "theme": "Apresentação pessoal",
+      "objective": "Apresentar-se, dizer o nome, a origem e a idade em inglês.",
+      "content": [
+        "My name is...",
+        "I am from...",
+        "I am ... years old",
+        "Nice to meet you",
+        "I live in...",
+        "I work as..."
+      ],
+      "phrases": [
+        {
+          "target": "Hello! My name is Ana.",
+          "pt": "Olá! Meu nome é Ana."
+        },
+        {
+          "target": "I am from Brazil.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "target": "I am twenty-five years old.",
+          "pt": "Eu tenho vinte e cinco anos."
+        },
+        {
+          "target": "Nice to meet you.",
+          "pt": "Prazer em conhecer você."
+        },
+        {
+          "target": "I live in a big city.",
+          "pt": "Eu moro em uma cidade grande."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "My name ___ Ana.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "is",
+          "explanation": "Com 'my name' (sujeito de 3ª pessoa do singular), usamos 'is'."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'Nice to meet you'?",
+          "options": [
+            "Prazer em conhecer você.",
+            "Até logo.",
+            "Bom dia."
+          ],
+          "answer": "Prazer em conhecer você.",
+          "explanation": "'Nice to meet you' é usado ao conhecer alguém pela primeira vez."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "level": "Básico",
+      "theme": "Família e pessoas",
+      "objective": "Falar sobre familiares e usar adjetivos possessivos.",
+      "content": [
+        "mother, father, sister, brother",
+        "my, your, his, her",
+        "This is my...",
+        "I have two brothers.",
+        "My father is a teacher.",
+        "We are a big family."
+      ],
+      "phrases": [
+        {
+          "target": "This is my mother.",
+          "pt": "Esta é minha mãe."
+        },
+        {
+          "target": "I have two brothers.",
+          "pt": "Eu tenho dois irmãos."
+        },
+        {
+          "target": "My father is a teacher.",
+          "pt": "Meu pai é professor."
+        },
+        {
+          "target": "Her name is Julia.",
+          "pt": "O nome dela é Julia."
+        },
+        {
+          "target": "We are a big family.",
+          "pt": "Nós somos uma família grande."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "This ___ my sister.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "is",
+          "explanation": "Usamos 'is' com 'this' no singular."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'I have two brothers'?",
+          "options": [
+            "Eu tenho dois irmãos.",
+            "Eu tenho duas irmãs.",
+            "Eu tenho dois primos."
+          ],
+          "answer": "Eu tenho dois irmãos.",
+          "explanation": "'Brothers' significa irmãos do sexo masculino."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "level": "Básico",
+      "theme": "Rotina diária",
+      "objective": "Descrever a rotina diária e os horários em inglês.",
+      "content": [
+        "I wake up at...",
+        "I have breakfast",
+        "I go to work by bus",
+        "I usually...",
+        "every day",
+        "in the morning"
+      ],
+      "phrases": [
+        {
+          "target": "I wake up at seven o'clock.",
+          "pt": "Eu acordo às sete horas."
+        },
+        {
+          "target": "I have breakfast with my family.",
+          "pt": "Eu tomo café da manhã com minha família."
+        },
+        {
+          "target": "I go to work by bus.",
+          "pt": "Eu vou ao trabalho de ônibus."
+        },
+        {
+          "target": "I usually study at night.",
+          "pt": "Eu normalmente estudo à noite."
+        },
+        {
+          "target": "I go to bed at eleven.",
+          "pt": "Eu vou dormir às onze."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "She ___ up at six every day.",
+          "options": [
+            "wakes",
+            "wake",
+            "waking"
+          ],
+          "answer": "wakes",
+          "explanation": "Com 'she' no presente simples, o verbo recebe -s: wakes."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "I go to work by bus.",
+            "I go to work in bus.",
+            "I go work by bus."
+          ],
+          "answer": "I go to work by bus.",
+          "explanation": "Usamos 'by' + meio de transporte: by bus, by car, by train."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "level": "Básico",
+      "theme": "Gostos e preferências",
+      "objective": "Expressar gostos, preferências e coisas favoritas.",
+      "content": [
+        "I like...",
+        "I love...",
+        "I don't like...",
+        "My favorite ... is...",
+        "I prefer...",
+        "playing soccer"
+      ],
+      "phrases": [
+        {
+          "target": "I like coffee in the morning.",
+          "pt": "Eu gosto de café de manhã."
+        },
+        {
+          "target": "I love playing soccer.",
+          "pt": "Eu adoro jogar futebol."
+        },
+        {
+          "target": "I don't like cold weather.",
+          "pt": "Eu não gosto de frio."
+        },
+        {
+          "target": "My favorite food is pizza.",
+          "pt": "Minha comida favorita é pizza."
+        },
+        {
+          "target": "I prefer tea to coffee.",
+          "pt": "Eu prefiro chá a café."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I ___ like horror movies.",
+          "options": [
+            "don't",
+            "doesn't",
+            "not"
+          ],
+          "answer": "don't",
+          "explanation": "Com 'I' usamos 'don't' para negar no presente simples."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'I prefer tea to coffee'?",
+          "options": [
+            "Eu prefiro chá a café.",
+            "Eu prefiro café a chá.",
+            "Eu tomo chá e café."
+          ],
+          "answer": "Eu prefiro chá a café.",
+          "explanation": "A estrutura 'prefer A to B' indica preferência de A em relação a B."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "level": "Básico",
+      "theme": "Revisão do básico",
+      "objective": "Revisar o presente simples, o verbo to be e as perguntas básicas.",
+      "content": [
+        "Verb to be: am, is, are",
+        "Present simple: I work / she works",
+        "Possessive adjectives: my, your, his, her",
+        "Frequency adverbs: always, usually, sometimes",
+        "Questions: Do you...? / Does she...?",
+        "What time do you get up?"
+      ],
+      "phrases": [
+        {
+          "target": "Do you speak English?",
+          "pt": "Você fala inglês?"
+        },
+        {
+          "target": "She works in a hospital.",
+          "pt": "Ela trabalha em um hospital."
+        },
+        {
+          "target": "They are my friends.",
+          "pt": "Eles são meus amigos."
+        },
+        {
+          "target": "I always have lunch at noon.",
+          "pt": "Eu sempre almoço ao meio-dia."
+        },
+        {
+          "target": "What time do you get up?",
+          "pt": "A que horas você se levanta?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ she like music?",
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "answer": "Does",
+          "explanation": "Perguntas com 'she' no presente simples usam 'Does'."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "He goes to school every day.",
+            "He go to school every day.",
+            "He going to school every day."
+          ],
+          "answer": "He goes to school every day.",
+          "explanation": "Com 'he', acrescentamos -es ao verbo 'go': goes."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "level": "Intermediário",
+      "theme": "Passado simples",
+      "objective": "Contar ações do passado usando verbos regulares e irregulares.",
+      "content": [
+        "yesterday, last week, last weekend",
+        "regular verbs: visited, worked, watched",
+        "irregular verbs: went, saw, had",
+        "did / didn't",
+        "Did you...?",
+        "time expressions in the past"
+      ],
+      "phrases": [
+        {
+          "target": "I visited my grandparents last weekend.",
+          "pt": "Eu visitei meus avós no fim de semana passado."
+        },
+        {
+          "target": "She went to the beach yesterday.",
+          "pt": "Ela foi à praia ontem."
+        },
+        {
+          "target": "We didn't watch the movie.",
+          "pt": "Nós não assistimos ao filme."
+        },
+        {
+          "target": "Did you study for the test?",
+          "pt": "Você estudou para a prova?"
+        },
+        {
+          "target": "He worked late last night.",
+          "pt": "Ele trabalhou até tarde ontem à noite."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I ___ to the cinema yesterday.",
+          "options": [
+            "went",
+            "go",
+            "gone"
+          ],
+          "answer": "went",
+          "explanation": "'Go' é irregular: o passado simples é 'went'."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'She went to the beach yesterday'?",
+          "options": [
+            "Ela foi à praia ontem.",
+            "Ela vai à praia amanhã.",
+            "Ela estava na praia ontem."
+          ],
+          "answer": "Ela foi à praia ontem.",
+          "explanation": "'Went' é o passado de 'go', indicando uma ação concluída."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "level": "Intermediário",
+      "theme": "Planos futuros",
+      "objective": "Falar sobre planos e previsões usando 'going to' e 'will'.",
+      "content": [
+        "I am going to...",
+        "will / won't",
+        "next week, next month",
+        "plan to",
+        "probably",
+        "I think it will..."
+      ],
+      "phrases": [
+        {
+          "target": "I am going to travel next month.",
+          "pt": "Eu vou viajar no mês que vem."
+        },
+        {
+          "target": "She will start a new job soon.",
+          "pt": "Ela vai começar um novo trabalho em breve."
+        },
+        {
+          "target": "We are planning to move.",
+          "pt": "Nós estamos planejando nos mudar."
+        },
+        {
+          "target": "I think it will rain tomorrow.",
+          "pt": "Eu acho que vai chover amanhã."
+        },
+        {
+          "target": "I am going to study tonight.",
+          "pt": "Eu vou estudar hoje à noite."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I ___ travel next month.",
+          "options": [
+            "am going to",
+            "going to",
+            "will going to"
+          ],
+          "answer": "am going to",
+          "explanation": "A estrutura correta é sujeito + verbo to be + going to + verbo."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'I am going to study tonight'?",
+          "options": [
+            "Eu vou estudar hoje à noite.",
+            "Eu estudei ontem à noite.",
+            "Eu estou estudando agora."
+          ],
+          "answer": "Eu vou estudar hoje à noite.",
+          "explanation": "'Am going to' expressa um plano ou intenção futura."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "level": "Intermediário",
+      "theme": "Compras e restaurante",
+      "objective": "Fazer pedidos, perguntar preços e pedir a conta.",
+      "content": [
+        "How much is it?",
+        "I would like...",
+        "Can I try this on?",
+        "size / larger size",
+        "the bill",
+        "order"
+      ],
+      "phrases": [
+        {
+          "target": "How much does this cost?",
+          "pt": "Quanto custa isto?"
+        },
+        {
+          "target": "I would like a coffee, please.",
+          "pt": "Eu gostaria de um café, por favor."
+        },
+        {
+          "target": "Can I have the menu?",
+          "pt": "Pode me trazer o cardápio, por favor?"
+        },
+        {
+          "target": "Could we have the bill, please?",
+          "pt": "Poderia trazer a conta, por favor?"
+        },
+        {
+          "target": "Do you have this in a larger size?",
+          "pt": "Você tem isto em um tamanho maior?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I ___ like a glass of water, please.",
+          "options": [
+            "would",
+            "will",
+            "do"
+          ],
+          "answer": "would",
+          "explanation": "'I would like' é a forma educada de pedir algo."
+        },
+        {
+          "type": "jogo",
+          "question": "Como você pede a conta em um restaurante?",
+          "options": [
+            "Could we have the bill, please?",
+            "How much is the menu?",
+            "Where is the kitchen?"
+          ],
+          "answer": "Could we have the bill, please?",
+          "explanation": "'Bill' significa a conta do restaurante."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "level": "Intermediário",
+      "theme": "Viagens",
+      "objective": "Usar vocabulário de aeroporto, passagens e hospedagem.",
+      "content": [
+        "boarding pass",
+        "luggage / hand luggage",
+        "one-way ticket / round-trip ticket",
+        "check in",
+        "departure gate",
+        "flight"
+      ],
+      "phrases": [
+        {
+          "target": "Where is the check-in counter?",
+          "pt": "Onde fica o balcão de check-in?"
+        },
+        {
+          "target": "I would like a one-way ticket to London.",
+          "pt": "Eu gostaria de uma passagem só de ida para Londres."
+        },
+        {
+          "target": "My flight departs at nine a.m.",
+          "pt": "Meu voo parte às nove da manhã."
+        },
+        {
+          "target": "Can I take this bag as hand luggage?",
+          "pt": "Posso levar esta bolsa como bagagem de mão?"
+        },
+        {
+          "target": "The gate is on the second floor.",
+          "pt": "O portão fica no piso superior."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I need to check ___ for my flight.",
+          "options": [
+            "in",
+            "on",
+            "up"
+          ],
+          "answer": "in",
+          "explanation": "O phrasal verb 'check in' é usado no aeroporto e em hotéis."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'boarding pass'?",
+          "options": [
+            "cartão de embarque",
+            "passaporte",
+            "bagagem"
+          ],
+          "answer": "cartão de embarque",
+          "explanation": "'Boarding pass' é o documento que permite embarcar no avião."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "level": "Intermediário",
+      "theme": "Revisão intermediária",
+      "objective": "Revisar passado, futuro e pedidos educados em situações reais.",
+      "content": [
+        "Past simple: went, visited, did",
+        "Future: going to / will",
+        "Polite requests: could, would like",
+        "Travel vocabulary",
+        "Did you...? / Have you...?",
+        "Time expressions"
+      ],
+      "phrases": [
+        {
+          "target": "I went to Rio last year.",
+          "pt": "Eu fui ao Rio no ano passado."
+        },
+        {
+          "target": "I am going to travel in July.",
+          "pt": "Eu vou viajar em julho."
+        },
+        {
+          "target": "Could you help me, please?",
+          "pt": "Você poderia me ajudar, por favor?"
+        },
+        {
+          "target": "I would like to book a room.",
+          "pt": "Eu gostaria de reservar um quarto."
+        },
+        {
+          "target": "Did you enjoy your trip?",
+          "pt": "Você gostou da sua viagem?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ you enjoy your trip last week?",
+          "options": [
+            "Did",
+            "Do",
+            "Are"
+          ],
+          "answer": "Did",
+          "explanation": "Para perguntas no passado simples usamos 'Did' + verbo base."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "I didn't go to the party.",
+            "I didn't went to the party.",
+            "I don't went to the party."
+          ],
+          "answer": "I didn't go to the party.",
+          "explanation": "Depois de 'didn't', o verbo fica na forma base: go."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "level": "Avançado",
+      "theme": "Opiniões e argumentos",
+      "objective": "Expressar e defender opiniões com conectores e ressalvas.",
+      "content": [
+        "In my opinion...",
+        "I believe that...",
+        "On the other hand...",
+        "However...",
+        "I agree / I disagree",
+        "From my point of view..."
+      ],
+      "phrases": [
+        {
+          "target": "In my opinion, education is essential.",
+          "pt": "Na minha opinião, a educação é essencial."
+        },
+        {
+          "target": "I believe that technology helps us learn.",
+          "pt": "Eu acredito que a tecnologia nos ajuda a aprender."
+        },
+        {
+          "target": "On the other hand, it can be distracting.",
+          "pt": "Por outro lado, ela pode distrair."
+        },
+        {
+          "target": "I completely agree with you.",
+          "pt": "Eu concordo totalmente com você."
+        },
+        {
+          "target": "However, there are some risks.",
+          "pt": "No entanto, existem alguns riscos."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ my opinion, this is the best option.",
+          "options": [
+            "In",
+            "On",
+            "At"
+          ],
+          "answer": "In",
+          "explanation": "A expressão fixa é 'in my opinion'."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão introduz uma opinião?",
+          "options": [
+            "In my opinion...",
+            "On the other hand...",
+            "As a result..."
+          ],
+          "answer": "In my opinion...",
+          "explanation": "'In my opinion' anuncia o ponto de vista do falante."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "level": "Avançado",
+      "theme": "Texto e interpretação",
+      "objective": "Identificar ideia principal, argumentos e inferências em textos.",
+      "content": [
+        "main idea",
+        "according to the text",
+        "the author argues that...",
+        "in other words",
+        "the passage suggests that...",
+        "supporting details"
+      ],
+      "phrases": [
+        {
+          "target": "According to the text, the main problem is pollution.",
+          "pt": "De acordo com o texto, o principal problema é a poluição."
+        },
+        {
+          "target": "The author argues that schools should change.",
+          "pt": "O autor argumenta que as escolas deveriam mudar."
+        },
+        {
+          "target": "In other words, the plan is too expensive.",
+          "pt": "Em outras palavras, o plano é caro demais."
+        },
+        {
+          "target": "The passage suggests a new approach.",
+          "pt": "O trecho sugere uma nova abordagem."
+        },
+        {
+          "target": "What is the main idea of the text?",
+          "pt": "Qual é a ideia principal do texto?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "According ___ the text, prices are rising.",
+          "options": [
+            "to",
+            "with",
+            "for"
+          ],
+          "answer": "to",
+          "explanation": "A expressão correta é 'according to' (de acordo com)."
+        },
+        {
+          "type": "jogo",
+          "question": "O que significa 'main idea' em um texto?",
+          "options": [
+            "ideia principal",
+            "personagem principal",
+            "conclusão"
+          ],
+          "answer": "ideia principal",
+          "explanation": "'Main idea' é o ponto central que o texto defende."
+        }
+      ],
+      "reading": {
+        "title": "The Future of Work",
+        "text": "Remote work changed where we work, and artificial intelligence is changing what we do. Routine tasks are increasingly automated, while judgment, communication and learning quickly matter more. Companies expect professionals to explain their reasoning, collaborate across cultures and keep learning new tools. For language learners, this is an advantage: the ability to negotiate, present and disagree politely is now a core skill, not a bonus. The challenge is to practise these situations before they happen. A short conversation about a real project teaches more than a list of isolated words."
+      }
+    },
+    {
+      "id": 13,
+      "level": "Avançado",
+      "theme": "Correção gramatical",
+      "objective": "Reconhecer e corrigir erros gramaticais comuns em inglês.",
+      "content": [
+        "If I were you...",
+        "I have been living...",
+        "used to + verb",
+        "Despite + noun",
+        "third person: doesn't + base verb",
+        "present perfect vs. past simple"
+      ],
+      "phrases": [
+        {
+          "target": "I have been living here for five years.",
+          "pt": "Eu moro aqui há cinco anos."
+        },
+        {
+          "target": "If I were you, I would apologize.",
+          "pt": "Se eu fosse você, eu pediria desculpas."
+        },
+        {
+          "target": "She doesn't like being late.",
+          "pt": "Ela não gosta de se atrasar."
+        },
+        {
+          "target": "I used to play the guitar.",
+          "pt": "Eu costumava tocar violão."
+        },
+        {
+          "target": "Despite the rain, we went out.",
+          "pt": "Apesar da chuva, nós saímos."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "If I ___ you, I would accept the offer.",
+          "options": [
+            "were",
+            "be",
+            "am"
+          ],
+          "answer": "were",
+          "explanation": "No condicional irreal formal, usamos 'were' para todas as pessoas; 'was' é aceito na fala informal."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "She doesn't like being late.",
+            "She don't like being late.",
+            "She doesn't likes being late."
+          ],
+          "answer": "She doesn't like being late.",
+          "explanation": "Com 'doesn't', o verbo principal fica na forma base: like."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "level": "Avançado",
+      "theme": "Ambiente profissional",
+      "objective": "Comunicar-se em reuniões, prazos e tarefas de trabalho.",
+      "content": [
+        "deadline",
+        "meeting / schedule a meeting",
+        "colleague",
+        "report",
+        "I am responsible for...",
+        "follow up on..."
+      ],
+      "phrases": [
+        {
+          "target": "I am responsible for the marketing team.",
+          "pt": "Eu sou responsável pela equipe de marketing."
+        },
+        {
+          "target": "The deadline is next Friday.",
+          "pt": "O prazo final é na próxima sexta-feira."
+        },
+        {
+          "target": "Could you send me the report?",
+          "pt": "Você poderia me enviar o relatório?"
+        },
+        {
+          "target": "Let's schedule a meeting for Monday.",
+          "pt": "Vamos agendar uma reunião para segunda-feira."
+        },
+        {
+          "target": "I will follow up on this issue.",
+          "pt": "Eu vou acompanhar esta questão."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "We have to meet the Friday ___.",
+          "options": [
+            "deadline",
+            "schedule",
+            "report"
+          ],
+          "answer": "deadline",
+          "explanation": "'Meet the Friday deadline' significa cumprir o prazo de sexta."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de 'colleague'?",
+          "options": [
+            "colega de trabalho",
+            "cliente",
+            "gerente"
+          ],
+          "answer": "colega de trabalho",
+          "explanation": "'Colleague' é a pessoa que trabalha com você."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "level": "Avançado",
+      "theme": "Revisão avançada",
+      "objective": "Revisar tempos verbais, condicionais e linguagem profissional.",
+      "content": [
+        "present perfect: have worked",
+        "third conditional: would have called",
+        "linking words: despite, however",
+        "passive voice: was sent",
+        "opinion language",
+        "professional vocabulary"
+      ],
+      "phrases": [
+        {
+          "target": "I have worked here since 2020.",
+          "pt": "Eu trabalho aqui desde 2020."
+        },
+        {
+          "target": "If I had known, I would have called.",
+          "pt": "Se eu tivesse sabido, eu teria ligado."
+        },
+        {
+          "target": "In my opinion, we should invest more.",
+          "pt": "Na minha opinião, deveríamos investir mais."
+        },
+        {
+          "target": "The report was sent yesterday.",
+          "pt": "O relatório foi enviado ontem."
+        },
+        {
+          "target": "Despite the challenges, we succeeded.",
+          "pt": "Apesar dos desafios, nós tivemos sucesso."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "I have worked here ___ 2020.",
+          "options": [
+            "since",
+            "for",
+            "from"
+          ],
+          "answer": "since",
+          "explanation": "Usamos 'since' com um ponto de partida no tempo (2020)."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "If I had known, I would have called.",
+            "If I knew, I would have called.",
+            "If I have known, I would call."
+          ],
+          "answer": "If I had known, I would have called.",
+          "explanation": "O terceiro condicional usa 'had + past participle' e 'would have + past participle'."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "level": "Fluente",
+      "theme": "Conversa natural",
+      "objective": "Usar expressões naturais para manter uma conversa fluida.",
+      "content": [
+        "to be honest",
+        "by the way",
+        "it depends",
+        "I see what you mean",
+        "no worries",
+        "actually"
+      ],
+      "phrases": [
+        {
+          "target": "To be honest, I haven't decided yet.",
+          "pt": "Para ser sincero, eu ainda não decidi."
+        },
+        {
+          "target": "By the way, did you get my message?",
+          "pt": "A propósito, você recebeu minha mensagem?"
+        },
+        {
+          "target": "It depends on the situation.",
+          "pt": "Depende da situação."
+        },
+        {
+          "target": "I see what you mean, but I disagree.",
+          "pt": "Eu entendo o que você quer dizer, mas discordo."
+        },
+        {
+          "target": "No worries, take your time.",
+          "pt": "Sem problemas, não tenha pressa."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ the way, have you seen my keys?",
+          "options": [
+            "By",
+            "On",
+            "In"
+          ],
+          "answer": "By",
+          "explanation": "A expressão fixa é 'by the way' (a propósito)."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão mostra que você entendeu o ponto do outro?",
+          "options": [
+            "I see what you mean.",
+            "It depends on you.",
+            "By the way."
+          ],
+          "answer": "I see what you mean.",
+          "explanation": "Essa frase demonstra compreensão antes de responder ou discordar."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "level": "Fluente",
+      "theme": "Simulação real",
+      "objective": "Resolver situações reais ao telefone e em atendimentos.",
+      "content": [
+        "I'm calling about...",
+        "Would you mind...?",
+        "Could I ask a favor?",
+        "Let me check",
+        "I'll get back to you",
+        "speak more slowly"
+      ],
+      "phrases": [
+        {
+          "target": "I'm calling about my reservation.",
+          "pt": "Estou ligando sobre minha reserva."
+        },
+        {
+          "target": "Would you mind speaking more slowly?",
+          "pt": "Você se importaria de falar mais devagar?"
+        },
+        {
+          "target": "Could I ask you a favor?",
+          "pt": "Eu poderia pedir um favor a você?"
+        },
+        {
+          "target": "Let me check that for you.",
+          "pt": "Deixe-me verificar isso para você."
+        },
+        {
+          "target": "I will get back to you by email.",
+          "pt": "Eu retorno para você por e-mail."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Would you mind ___ the window?",
+          "options": [
+            "opening",
+            "open",
+            "to open"
+          ],
+          "answer": "opening",
+          "explanation": "Depois de 'would you mind' usamos o verbo com -ing."
+        },
+        {
+          "type": "jogo",
+          "question": "Como pedir um favor educadamente?",
+          "options": [
+            "Could I ask you a favor?",
+            "Give me that now.",
+            "You must help me."
+          ],
+          "answer": "Could I ask you a favor?",
+          "explanation": "'Could I...?' é uma forma educada e indireta de pedir algo."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "level": "Fluente",
+      "theme": "Fluência e naturalidade",
+      "objective": "Soar mais natural com conectores, atenuações e expressões idiomáticas.",
+      "content": [
+        "as far as I know",
+        "more or less",
+        "it turns out",
+        "to some extent",
+        "that being said",
+        "in the long run"
+      ],
+      "phrases": [
+        {
+          "target": "As far as I know, the store is closed.",
+          "pt": "Pelo que eu sei, a loja está fechada."
+        },
+        {
+          "target": "It turns out she was right.",
+          "pt": "Acontece que ela estava certa."
+        },
+        {
+          "target": "That being said, we still need to be careful.",
+          "pt": "Dito isso, ainda precisamos ter cuidado."
+        },
+        {
+          "target": "To some extent, I agree with you.",
+          "pt": "Até certo ponto, eu concordo com você."
+        },
+        {
+          "target": "We'll finish it more or less by noon.",
+          "pt": "Nós vamos terminar isso mais ou menos ao meio-dia."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "As far as I ___, the meeting is canceled.",
+          "options": [
+            "know",
+            "knew",
+            "known"
+          ],
+          "answer": "know",
+          "explanation": "A expressão fixa é 'as far as I know', no presente."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão introduz um contraste ou ressalva?",
+          "options": [
+            "That being said...",
+            "In other words...",
+            "It turns out..."
+          ],
+          "answer": "That being said...",
+          "explanation": "'That being said' introduz uma ressalva ou contraste."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "level": "Fluente",
+      "theme": "Discussões complexas",
+      "objective": "Debater ideias complexas com argumentos e contra-argumentos.",
+      "content": [
+        "I take your point, but...",
+        "there is a strong case for...",
+        "the underlying issue",
+        "I would argue that...",
+        "on balance",
+        "the benefits outweigh the costs"
+      ],
+      "phrases": [
+        {
+          "target": "I take your point, but I see it differently.",
+          "pt": "Eu entendo seu ponto, mas vejo de outra forma."
+        },
+        {
+          "target": "There is a strong case for investing in education.",
+          "pt": "Há um forte argumento para investir em educação."
+        },
+        {
+          "target": "The underlying issue is inequality.",
+          "pt": "A questão de fundo é a desigualdade."
+        },
+        {
+          "target": "I would argue that the policy is flawed.",
+          "pt": "Eu argumentaria que a política é falha."
+        },
+        {
+          "target": "On balance, the benefits outweigh the costs.",
+          "pt": "No geral, os benefícios superam os custos."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "There is a strong ___ for changing the system.",
+          "options": [
+            "case",
+            "point",
+            "issue"
+          ],
+          "answer": "case",
+          "explanation": "'There is a strong case for' significa que há bons argumentos a favor."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase expressa discordância educada?",
+          "options": [
+            "I take your point, but I see it differently.",
+            "You are completely wrong.",
+            "I don't care about that."
+          ],
+          "answer": "I take your point, but I see it differently.",
+          "explanation": "Reconhecer o ponto do outro e depois discordar mantém o debate respeitoso."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "level": "Fluente",
+      "theme": "Avaliação final",
+      "objective": "Demonstrar domínio integrado de tempos, argumentos e apresentações.",
+      "content": [
+        "all verb tenses review",
+        "formal and informal register",
+        "presentation language",
+        "idiomatic expressions",
+        "cohesion and coherence",
+        "conclusion phrases"
+      ],
+      "phrases": [
+        {
+          "target": "I have been studying English for three years.",
+          "pt": "Eu estudo inglês há três anos."
+        },
+        {
+          "target": "If I had more time, I would travel more.",
+          "pt": "Se eu tivesse mais tempo, eu viajaria mais."
+        },
+        {
+          "target": "In conclusion, the project was a success.",
+          "pt": "Em conclusão, o projeto foi um sucesso."
+        },
+        {
+          "target": "I would like to highlight two main points.",
+          "pt": "Eu gostaria de destacar dois pontos principais."
+        },
+        {
+          "target": "Despite the difficulties, we achieved our goal.",
+          "pt": "Apesar das dificuldades, nós alcançamos nosso objetivo."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "In ___, the project was a success.",
+          "options": [
+            "conclusion",
+            "summarize",
+            "final"
+          ],
+          "answer": "conclusion",
+          "explanation": "A expressão fixa para concluir é 'in conclusion'."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta:",
+          "options": [
+            "I have been studying English for three years.",
+            "I am studying English for three years.",
+            "I study English since three years."
+          ],
+          "answer": "I have been studying English for three years.",
+          "explanation": "O present perfect continuous com 'for' indica duração até o presente."
+        }
+      ]
+    }
+  ]
+}

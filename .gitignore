@@ -1,0 +1,13 @@
+.venv/
+.uv-cache/
+.uv-python/
+.tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.db
+data/*.db-journal
+.env
+
+# temporários
+.tmp*/

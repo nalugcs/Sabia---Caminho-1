@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Entrar — sabiá{% endblock %}
+
+{% block content %}
+<section class="form-page narrow">
+  <div class="form-intro">
+    <p class="label">Retomar</p>
+    <h1>Seu código pessoal.</h1>
+    <p class="lede">É o código de seis letras que apareceu no seu cadastro.</p>
+  </div>
+
+  <form class="card" method="post" action="/entrar">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <div class="field">
+      <label for="codigo">Código</label>
+      <input id="codigo" name="codigo" class="code-input" autocomplete="off"
+             placeholder="ABC123" maxlength="8" required>
+    </div>
+    {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+    <div class="actions">
+      <button class="btn" type="submit">Entrar</button>
+      <a class="linklike" href="/">Voltar ao início</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

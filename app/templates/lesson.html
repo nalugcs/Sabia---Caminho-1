@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}{{ lesson.theme }} — sabiá{% endblock %}
+{% block body_class %}lesson-body{% endblock %}
+
+{% block content %}
+<section class="lesson" data-session="{{ session.id }}">
+  <aside class="rail">
+    <p class="label">{{ language_name }} · {{ lesson.level }}</p>
+    <h1>{{ lesson.theme }}</h1>
+    <p class="rail-objective">{{ lesson.objective }}</p>
+
+    <h2 class="rail-heading">Nesta lição</h2>
+    <ul class="content-list">
+      {% for item in lesson.content %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+
+    {% if lesson.reading %}
+    <details class="reading">
+      <summary>Texto da lição</summary>
+      <p class="reading-title">{{ lesson.reading.title }}</p>
+      <p class="reading-text">{{ lesson.reading.text }}</p>
+    </details>
+    {% endif %}
+
+    <section class="practice" data-practice>
+      <h2 class="rail-heading">Prática</h2>
+      {% for exercise in exercises %}
+      <article class="exercise" data-index="{{ exercise.index }}">
+        <p class="exercise-type">{{ exercise.type }}</p>
+        <p class="exercise-question">{{ exercise.question }}</p>
+        <div class="options">
+          {% for option in exercise.options %}
+          <button type="button" class="option" data-choice="{{ option }}">{{ option }}</button>
+          {% endfor %}
+        </div>
+        <p class="exercise-feedback" hidden></p>
+      </article>
+      {% endfor %}
+    </section>
+
+    <div class="rail-foot">
+      <button id="finish-lesson" class="btn ghost" type="button">Encerrar lição</button>
+      <a class="tiny" href="/app">Voltar ao início</a>
+    </div>
+  </aside>
+
+  <div class="chat">
+    <header class="chat-head">
+      <p class="label">{{ language_name }} · {{ lesson.level }}</p>
+      <h1>{{ lesson.theme }}</h1>
+    </header>
+    <div class="chat-log" data-chat aria-live="polite">
+      {% for turn in turns %}
+      <article class="msg msg-{{ turn.role }}">
+        <p>{{ turn.content }}</p>
+      </article>
+      {% endfor %}
+    </div>
+
+    <form class="composer" data-composer>
+      <label class="sr-only" for="resposta">Sua resposta</label>
+      <textarea id="resposta" name="resposta" rows="2" maxlength="2000"
+                placeholder="Escreva sua resposta no idioma estudado..." required></textarea>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+    <p class="composer-note" data-status>Enter para enviar · Shift+Enter para nova linha</p>
+  </div>
+</section>
+{% endblock %}

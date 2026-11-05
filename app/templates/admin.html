@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Painel — Sabiá{% endblock %}
+
+{% block content %}
+<section class="admin">
+  <header class="dash-head">
+    <p class="label">Coleta em andamento</p>
+    <h1>Painel de dados.</h1>
+    <p class="lede">Exportações usam apenas o código do participante — sem nomes.</p>
+  </header>
+
+  <section class="stats">
+    {% for label, value in [
+      ("Participantes", counts.participants),
+      ("Sessões", counts.sessions),
+      ("Sessões concluídas", counts.completed),
+      ("Turnos", counts.turns),
+      ("Avaliações", counts.evaluations),
+      ("Questionários finais", counts.final_surveys),
+      ("Erros de LLM", counts.llm_errors)
+    ] %}
+    <div class="stat">
+      <span class="stat-value">{{ value }}</span>
+      <span class="stat-label">{{ label }}</span>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="exports">
+    <h2>Exportar CSV</h2>
+    <ul class="export-list">
+      {% for key, name in [
+        ("participantes", "Participantes"),
+        ("sessoes", "Sessões"),
+        ("turnos", "Turnos"),
+        ("avaliacoes", "Avaliações por turno"),
+        ("exercicios", "Respostas dos exercícios"),
+        ("questionarios", "Questionários e micro-avaliações"),
+        ("eventos", "Eventos")
+      ] %}
+      <li><a href="/admin/exportar/{{ key }}">{{ name }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="errors">
+    <h2>Últimos erros</h2>
+    {% if errors %}
+    <table class="table">
+      <thead><tr><th>Quando</th><th>Tipo</th><th>Detalhe</th></tr></thead>
+      <tbody>
+        {% for event in errors %}
+        <tr>
+          <td class="mono">{{ event.created_at.strftime("%d/%m %H:%M") }}</td>
+          <td>{{ event.type }}</td>
+          <td class="mono">{{ event.payload_json[:120] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="tiny">Nenhum erro registrado.</p>
+    {% endif %}
+  </section>
+
+  <form method="post" action="/admin/sair" class="actions">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <button class="btn ghost" type="submit">Sair do painel</button>
+    <a class="linklike" href="/app">Voltar ao app</a>
+  </form>
+</section>
+{% endblock %}

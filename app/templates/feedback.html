@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Fim da aula — sabiá{% endblock %}
+
+{% block content %}
+<section class="feedback">
+  <p class="label">{{ language_name }} · lição {{ session.lesson_id }}</p>
+  <h1>Fim da aula.</h1>
+
+  <div class="feedback-text">{{ feedback_html|safe }}</div>
+
+  <section class="micro">
+    <h2>Três perguntas rápidas</h2>
+    <p class="lede">Sua resposta ajuda a avaliar a experiência. Não há resposta certa.</p>
+
+    <form class="micro-form" data-micro data-session="{{ session.id }}">
+      {% for item in [
+        ("m1", "A dificuldade desta aula foi adequada ao meu nível."),
+        ("m2", "O feedback desta aula me ajudou a entender meus erros."),
+        ("m3", "Eu faria outra aula neste formato.")
+      ] %}
+      <fieldset class="likert">
+        <legend>{{ item[1] }}</legend>
+        <div class="scale">
+          {% for value in range(1, 6) %}
+          <label>
+            <input type="radio" name="{{ item[0] }}" value="{{ value }}" {% if value == 4 %}checked{% endif %}>
+            <span>{{ value }}</span>
+          </label>
+          {% endfor %}
+        </div>
+      </fieldset>
+      {% endfor %}
+      <button class="btn" type="submit">Salvar respostas</button>
+      <p class="tiny" data-micro-status>
+        {% if answered %}Respostas já registradas.{% endif %}
+      </p>
+    </form>
+  </section>
+
+  <div class="actions">
+    <a class="btn ghost" href="/app">Voltar ao início</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,1207 @@
+{
+  "language": "Francês",
+  "code": "fr",
+  "lessons": [
+    {
+      "id": 1,
+      "level": "Básico",
+      "theme": "Apresentação pessoal",
+      "objective": "Apresentar-se e cumprimentar alguém em francês.",
+      "content": [
+        "Bonjour ! Je m'appelle…",
+        "Je suis brésilien(ne).",
+        "J'ai vingt-cinq ans.",
+        "Enchanté(e) de vous rencontrer.",
+        "Comment vous appelez-vous ?",
+        "Je parle portugais et un peu français."
+      ],
+      "phrases": [
+        {
+          "target": "Bonjour, je m'appelle Ana. Et vous ?",
+          "pt": "Olá, eu me chamo Ana. E você?"
+        },
+        {
+          "target": "Je suis brésilienne et j'habite à São Paulo.",
+          "pt": "Sou brasileira e moro em São Paulo."
+        },
+        {
+          "target": "J'ai vingt-cinq ans et je suis étudiante.",
+          "pt": "Tenho vinte e cinco anos e sou estudante."
+        },
+        {
+          "target": "Enchanté de faire votre connaissance.",
+          "pt": "Prazer em conhecê-lo."
+        },
+        {
+          "target": "Comment est-ce que vous vous appelez ?",
+          "pt": "Como você se chama?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Bonjour, je ___ Ana.",
+          "options": [
+            "m'appelle",
+            "appelle",
+            "m'appelles"
+          ],
+          "answer": "m'appelle",
+          "explanation": "« Je m'appelle » é a forma correta: o verbo pronominal s'appeler usa o pronome me."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de « J'ai vingt-cinq ans » ?",
+          "options": [
+            "Eu tenho vinte e cinco anos.",
+            "Eu sou vinte e cinco.",
+            "Eu quero vinte e cinco anos."
+          ],
+          "answer": "Eu tenho vinte e cinco anos.",
+          "explanation": "« J'ai » significa «eu tenho»; a idade em francês é expressa com o verbo avoir."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "level": "Básico",
+      "theme": "Família e pessoas",
+      "objective": "Falar sobre a família e descrever pessoas.",
+      "content": [
+        "mon père / ma mère",
+        "mon frère / ma sœur",
+        "mes grands-parents",
+        "Il est marié, elle est célibataire.",
+        "Il a les cheveux bruns et les yeux verts.",
+        "Nous sommes une famille de quatre personnes."
+      ],
+      "phrases": [
+        {
+          "target": "Voici ma famille : mon père, ma mère et ma sœur.",
+          "pt": "Aqui está minha família: meu pai, minha mãe e minha irmã."
+        },
+        {
+          "target": "Mon frère est plus jeune que moi.",
+          "pt": "Meu irmão é mais novo que eu."
+        },
+        {
+          "target": "Mes grands-parents habitent à la campagne.",
+          "pt": "Meus avós moram no campo."
+        },
+        {
+          "target": "Elle a les cheveux blonds et les yeux bleus.",
+          "pt": "Ela tem cabelos loiros e olhos azuis."
+        },
+        {
+          "target": "Nous sommes quatre à la maison.",
+          "pt": "Somos quatro em casa."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Mon père ___ médecin.",
+          "options": [
+            "est",
+            "a",
+            "es"
+          ],
+          "answer": "est",
+          "explanation": "Para indicar profissão usa-se o verbo être: « mon père est médecin »."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de « ma sœur » ?",
+          "options": [
+            "minha irmã",
+            "meu irmão",
+            "minha mãe"
+          ],
+          "answer": "minha irmã",
+          "explanation": "« Sœur » significa irmã; « frère » é irmão."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "level": "Básico",
+      "theme": "Rotina diária",
+      "objective": "Descrever ações do dia a dia e horários.",
+      "content": [
+        "Je me lève à sept heures.",
+        "Je prends le petit-déjeuner.",
+        "Je vais au travail en bus.",
+        "Je déjeune à midi.",
+        "Je me couche vers vingt-trois heures.",
+        "tous les jours / le matin / le soir"
+      ],
+      "phrases": [
+        {
+          "target": "Je me lève à six heures et demie tous les jours.",
+          "pt": "Levanto-me às seis e meia todos os dias."
+        },
+        {
+          "target": "Je prends le petit-déjeuner avant de partir.",
+          "pt": "Tomo o café da manhã antes de sair."
+        },
+        {
+          "target": "Elle va au travail à vélo.",
+          "pt": "Ela vai ao trabalho de bicicleta."
+        },
+        {
+          "target": "Nous déjeunons ensemble à midi.",
+          "pt": "Almoçamos juntos ao meio-dia."
+        },
+        {
+          "target": "Je me couche rarement après minuit.",
+          "pt": "Raramente me deito depois da meia-noite."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Je me ___ à sept heures.",
+          "options": [
+            "lève",
+            "lèves",
+            "lever"
+          ],
+          "answer": "lève",
+          "explanation": "Com « je », o verbo pronominal se lever fica « je me lève »."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta: « Eu tomo o café da manhã às oito. »",
+          "options": [
+            "Je prends le petit-déjeuner à huit heures.",
+            "Je prends le déjeuner à huit heures.",
+            "Je prends le dîner à huit heures."
+          ],
+          "answer": "Je prends le petit-déjeuner à huit heures.",
+          "explanation": "« Petit-déjeuner » é o café da manhã; déjeuner é almoço e dîner é jantar."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "level": "Básico",
+      "theme": "Gostos e preferências",
+      "objective": "Expressar gostos, preferências e desagrados.",
+      "content": [
+        "J'aime beaucoup…",
+        "Je n'aime pas du tout…",
+        "Je préfère…",
+        "Je suis passionné(e) de musique.",
+        "Ça me plaît énormément.",
+        "Je déteste faire la queue."
+      ],
+      "phrases": [
+        {
+          "target": "J'aime beaucoup la musique brésilienne.",
+          "pt": "Gosto muito de música brasileira."
+        },
+        {
+          "target": "Je n'aime pas me lever tôt.",
+          "pt": "Não gosto de me levantar cedo."
+        },
+        {
+          "target": "Je préfère le thé au café.",
+          "pt": "Prefiro chá a café."
+        },
+        {
+          "target": "Elle est passionnée de photographie.",
+          "pt": "Ela é apaixonada por fotografia."
+        },
+        {
+          "target": "Ce film ne me plaît pas beaucoup.",
+          "pt": "Não gosto muito desse filme."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "J'___ beaucoup le cinéma français.",
+          "options": [
+            "aime",
+            "aimes",
+            "aimer"
+          ],
+          "answer": "aime",
+          "explanation": "Com 'je' diante de vogal ocorre elisão: j'aime. A forma é a mesma da 1ª pessoa do singular."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase significa « Eu prefiro viajar de trem »?",
+          "options": [
+            "Je préfère voyager en train.",
+            "Je préfère voyager en voiture.",
+            "Je déteste voyager en train."
+          ],
+          "answer": "Je préfère voyager en train.",
+          "explanation": "« Préférer » significa preferir; « en train » significa de trem."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "level": "Básico",
+      "theme": "Revisão do básico",
+      "objective": "Revisar apresentação, família, rotina e gostos.",
+      "content": [
+        "Je m'appelle… / J'ai… ans",
+        "mon, ma, mes",
+        "les verbes être et avoir au présent",
+        "les verbes en -er au présent",
+        "à + heure",
+        "aimer / préférer + infinitif"
+      ],
+      "phrases": [
+        {
+          "target": "Je m'appelle Lucas, j'ai trente ans et j'habite à Rio.",
+          "pt": "Chamo-me Lucas, tenho trinta anos e moro no Rio."
+        },
+        {
+          "target": "Ma sœur travaille dans un hôpital.",
+          "pt": "Minha irmã trabalha em um hospital."
+        },
+        {
+          "target": "Le matin, je prends un café et je lis le journal.",
+          "pt": "De manhã, tomo um café e leio o jornal."
+        },
+        {
+          "target": "Nous aimons beaucoup voyager.",
+          "pt": "Gostamos muito de viajar."
+        },
+        {
+          "target": "Qu'est-ce que tu préfères : le thé ou le café ?",
+          "pt": "O que você prefere: chá ou café?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Nous ___ étudiants à l'université.",
+          "options": [
+            "sommes",
+            "êtes",
+            "sont"
+          ],
+          "answer": "sommes",
+          "explanation": "Conjugação de être no presente: nous sommes."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de « Elle a deux frères » ?",
+          "options": [
+            "Ela tem dois irmãos.",
+            "Ela é dois irmãos.",
+            "Ela quer dois irmãos."
+          ],
+          "answer": "Ela tem dois irmãos.",
+          "explanation": "« Elle a » vem do verbo avoir, que significa ter."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "level": "Intermediário",
+      "theme": "Passado composto (passé composé)",
+      "objective": "Contar ações concluídas no passado com o passé composé.",
+      "content": [
+        "J'ai mangé…",
+        "Je suis allé(e)…",
+        "Hier soir, on a regardé un film.",
+        "Elle est arrivée à huit heures.",
+        "Je n'ai pas compris.",
+        "Qu'est-ce que tu as fait hier ?"
+      ],
+      "phrases": [
+        {
+          "target": "Hier, j'ai visité le musée avec mes amis.",
+          "pt": "Ontem, visitei o museu com meus amigos."
+        },
+        {
+          "target": "Nous sommes allés au restaurant samedi soir.",
+          "pt": "Fomos ao restaurante no sábado à noite."
+        },
+        {
+          "target": "Elle a fini ses devoirs avant le dîner.",
+          "pt": "Ela terminou a lição de casa antes do jantar."
+        },
+        {
+          "target": "Je n'ai pas dormi beaucoup cette nuit.",
+          "pt": "Não dormi muito esta noite."
+        },
+        {
+          "target": "Qu'est-ce que vous avez fait pendant le week-end ?",
+          "pt": "O que vocês fizeram durante o fim de semana?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Hier, j'___ un film très intéressant.",
+          "options": [
+            "ai regardé",
+            "suis regardé",
+            "ai regarder"
+          ],
+          "answer": "ai regardé",
+          "explanation": "Passé composé com avoir: j'ai + particípio passado « regardé »."
+        },
+        {
+          "type": "jogo",
+          "question": "Escolha a frase correta para « Ela foi ao mercado ».",
+          "options": [
+            "Elle est allée au marché.",
+            "Elle a allé au marché.",
+            "Elle est allé au marché."
+          ],
+          "answer": "Elle est allée au marché.",
+          "explanation": "O verbo aller usa être e o particípio concorda com o sujeito: allée."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "level": "Intermediário",
+      "theme": "Planos futuros",
+      "objective": "Falar de planos e intenções futuras.",
+      "content": [
+        "Je vais voyager…",
+        "Nous allons déménager…",
+        "Je voudrais…",
+        "l'année prochaine",
+        "dans deux ans",
+        "J'ai l'intention de…"
+      ],
+      "phrases": [
+        {
+          "target": "L'année prochaine, je vais étudier à Paris.",
+          "pt": "No ano que vem, vou estudar em Paris."
+        },
+        {
+          "target": "Nous allons déménager en décembre.",
+          "pt": "Vamos nos mudar em dezembro."
+        },
+        {
+          "target": "Je voudrais trouver un meilleur emploi.",
+          "pt": "Eu gostaria de encontrar um emprego melhor."
+        },
+        {
+          "target": "Dans deux ans, elle aura son diplôme.",
+          "pt": "Em dois anos, ela terá seu diploma."
+        },
+        {
+          "target": "Qu'est-ce que tu vas faire ce week-end ?",
+          "pt": "O que você vai fazer neste fim de semana?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "L'année prochaine, je ___ apprendre le français.",
+          "options": [
+            "vais",
+            "va",
+            "aller"
+          ],
+          "answer": "vais",
+          "explanation": "Futuro próximo: aller no presente + infinitivo. Com je: « je vais »."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase expressa um plano futuro?",
+          "options": [
+            "Je vais partir en vacances en juillet.",
+            "Je suis parti en vacances en juillet.",
+            "Je pars en vacances hier."
+          ],
+          "answer": "Je vais partir en vacances en juillet.",
+          "explanation": "« Je vais partir » indica futuro próximo; « hier » remete ao passado."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "level": "Intermediário",
+      "theme": "Compras e restaurante",
+      "objective": "Fazer compras e pedir em um restaurante.",
+      "content": [
+        "Combien ça coûte ?",
+        "Je voudrais une table pour deux, s'il vous plaît.",
+        "L'addition, s'il vous plaît.",
+        "Avez-vous une taille plus grande ?",
+        "Je prends le menu du jour.",
+        "C'est trop cher."
+      ],
+      "phrases": [
+        {
+          "target": "Bonjour, je voudrais une table pour deux personnes.",
+          "pt": "Olá, eu gostaria de uma mesa para duas pessoas."
+        },
+        {
+          "target": "Combien coûte cette chemise ?",
+          "pt": "Quanto custa esta camisa?"
+        },
+        {
+          "target": "Je vais prendre le plat du jour, s'il vous plaît.",
+          "pt": "Vou querer o prato do dia, por favor."
+        },
+        {
+          "target": "L'addition, s'il vous plaît.",
+          "pt": "A conta, por favor."
+        },
+        {
+          "target": "Est-ce que je peux payer par carte ?",
+          "pt": "Posso pagar com cartão?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Je voudrais ___ table pour deux.",
+          "options": [
+            "une",
+            "un",
+            "des"
+          ],
+          "answer": "une",
+          "explanation": "« Table » é um substantivo feminino: une table."
+        },
+        {
+          "type": "jogo",
+          "question": "Como pedir a conta em francês?",
+          "options": [
+            "L'addition, s'il vous plaît.",
+            "La carte, s'il vous plaît.",
+            "Le menu, s'il vous plaît."
+          ],
+          "answer": "L'addition, s'il vous plaît.",
+          "explanation": "« L'addition » é a conta; « la carte » é o cardápio."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "level": "Intermediário",
+      "theme": "Viagens",
+      "objective": "Resolver situações comuns de viagem.",
+      "content": [
+        "Je voudrais un billet aller-retour.",
+        "Où est la gare ?",
+        "À quelle heure part le train ?",
+        "Je voudrais réserver une chambre.",
+        "Je suis perdu(e).",
+        "Combien de temps dure le trajet ?"
+      ],
+      "phrases": [
+        {
+          "target": "Je voudrais un billet aller-retour pour Lyon.",
+          "pt": "Eu gostaria de uma passagem de ida e volta para Lyon."
+        },
+        {
+          "target": "Où se trouve la gare la plus proche ?",
+          "pt": "Onde fica a estação mais próxima?"
+        },
+        {
+          "target": "À quelle heure part le prochain train ?",
+          "pt": "A que horas parte o próximo trem?"
+        },
+        {
+          "target": "J'ai réservé une chambre pour trois nuits.",
+          "pt": "Reservei um quarto para três noites."
+        },
+        {
+          "target": "Excusez-moi, je suis perdu.",
+          "pt": "Desculpe-me, estou perdido."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Où ___ la gare, s'il vous plaît ?",
+          "options": [
+            "est",
+            "es",
+            "a"
+          ],
+          "answer": "est",
+          "explanation": "Para localizar algo usa-se « où est… ? », com o verbo être."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de « un billet aller-retour » ?",
+          "options": [
+            "uma passagem de ida e volta",
+            "uma passagem só de ida",
+            "um bilhete de metrô"
+          ],
+          "answer": "uma passagem de ida e volta",
+          "explanation": "« Aller-retour » significa ida e volta; « aller simple » é só de ida."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "level": "Intermediário",
+      "theme": "Revisão intermediária",
+      "objective": "Revisar o passé composé, o futuro próximo e o vocabulário de viagens e compras.",
+      "content": [
+        "le passé composé avec avoir et être",
+        "le futur proche : aller + infinitif",
+        "les articles définis et indéfinis",
+        "les nombres et les prix",
+        "les formules de politesse"
+      ],
+      "phrases": [
+        {
+          "target": "La semaine dernière, nous sommes allés à Marseille en train.",
+          "pt": "Na semana passada, fomos a Marselha de trem."
+        },
+        {
+          "target": "Demain, je vais réserver une table pour quatre personnes.",
+          "pt": "Amanhã, vou reservar uma mesa para quatro pessoas."
+        },
+        {
+          "target": "Elle a acheté une robe et des chaussures.",
+          "pt": "Ela comprou um vestido e sapatos."
+        },
+        {
+          "target": "Combien coûte le billet aller simple ?",
+          "pt": "Quanto custa a passagem só de ida?"
+        },
+        {
+          "target": "Je voudrais payer par carte, s'il vous plaît.",
+          "pt": "Gostaria de pagar com cartão, por favor."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "La semaine dernière, nous ___ à la plage.",
+          "options": [
+            "sommes allés",
+            "avons allés",
+            "sommes aller"
+          ],
+          "answer": "sommes allés",
+          "explanation": "Aller usa être no passé composé e o particípio concorda: allés."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase está no futuro próximo?",
+          "options": [
+            "Je vais visiter le musée demain.",
+            "J'ai visité le musée hier.",
+            "Je visite le musée tous les jours."
+          ],
+          "answer": "Je vais visiter le musée demain.",
+          "explanation": "« Je vais + infinitivo » marca o futuro próximo."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "level": "Avançado",
+      "theme": "Opiniões e argumentos",
+      "objective": "Expressar e justificar opiniões com argumentos.",
+      "content": [
+        "À mon avis…",
+        "Je pense que…",
+        "D'après moi…",
+        "Je suis d'accord / Je ne suis pas d'accord.",
+        "C'est parce que…",
+        "D'un côté… de l'autre côté…"
+      ],
+      "phrases": [
+        {
+          "target": "À mon avis, le télétravail a beaucoup d'avantages.",
+          "pt": "Na minha opinião, o trabalho remoto tem muitas vantagens."
+        },
+        {
+          "target": "Je pense que les transports publics devraient être gratuits.",
+          "pt": "Penso que o transporte público deveria ser gratuito."
+        },
+        {
+          "target": "Je suis d'accord avec toi sur ce point.",
+          "pt": "Concordo com você nesse ponto."
+        },
+        {
+          "target": "D'un côté, c'est pratique ; de l'autre, c'est fatigant.",
+          "pt": "Por um lado, é prático; por outro, é cansativo."
+        },
+        {
+          "target": "C'est parce que les prix ont augmenté.",
+          "pt": "É porque os preços aumentaram."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ mon avis, ce film est excellent.",
+          "options": [
+            "À",
+            "De",
+            "En"
+          ],
+          "answer": "À",
+          "explanation": "A expressão fixa é « à mon avis », que significa na minha opinião."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão introduz uma opinião pessoal?",
+          "options": [
+            "Je pense que…",
+            "Il y a…",
+            "Tout à l'heure…"
+          ],
+          "answer": "Je pense que…",
+          "explanation": "« Je pense que » introduz uma opinião; « il y a » indica existência."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "level": "Avançado",
+      "theme": "Texto e interpretação",
+      "objective": "Ler e interpretar textos em francês.",
+      "content": [
+        "Selon l'auteur…",
+        "Le texte parle de…",
+        "L'idée principale est…",
+        "en revanche",
+        "par conséquent",
+        "cet extrait montre que…"
+      ],
+      "phrases": [
+        {
+          "target": "Selon l'auteur, la lecture reste essentielle.",
+          "pt": "Segundo o autor, a leitura continua essencial."
+        },
+        {
+          "target": "Le texte parle de l'impact des réseaux sociaux.",
+          "pt": "O texto fala do impacto das redes sociais."
+        },
+        {
+          "target": "L'idée principale est que l'éducation doit être accessible.",
+          "pt": "A ideia principal é que a educação deve ser acessível."
+        },
+        {
+          "target": "En revanche, les résultats restent contestés.",
+          "pt": "Em contrapartida, os resultados continuam contestados."
+        },
+        {
+          "target": "Cet extrait montre que la situation a changé.",
+          "pt": "Esse trecho mostra que a situação mudou."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "___ l'auteur, ce phénomène est récent.",
+          "options": [
+            "Selon",
+            "Comme",
+            "Parmi"
+          ],
+          "answer": "Selon",
+          "explanation": "« Selon » significa segundo e introduz a fonte da informação."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão indica oposição?",
+          "options": [
+            "En revanche",
+            "Par conséquent",
+            "De plus"
+          ],
+          "answer": "En revanche",
+          "explanation": "« En revanche » marca contraste; « par conséquent » indica consequência."
+        }
+      ],
+      "reading": {
+        "title": "L'avenir du travail",
+        "text": "Le travail à distance a changé le lieu où nous travaillons, et l'intelligence artificielle change ce que nous faisons. Les tâches routinières sont de plus en plus automatisées, tandis que le jugement, la communication et la capacité d'apprendre vite comptent davantage. Les entreprises attendent des professionnels qu'ils expliquent leur raisonnement, collaborent entre cultures et continuent d'apprendre de nouveaux outils. Pour les apprenants en langues, c'est un avantage : négocier, présenter et exprimer un désaccord avec courtoisie est aujourd'hui une compétence centrale. Le défi est de pratiquer ces situations avant qu'elles n'arrivent. Une courte conversation sur un projet réel enseigne plus qu'une liste de mots isolés."
+      }
+    },
+    {
+      "id": 13,
+      "level": "Avançado",
+      "theme": "Correção gramatical",
+      "objective": "Identificar e corrigir erros gramaticais frequentes.",
+      "content": [
+        "accord du participe passé",
+        "les pronoms relatifs qui / que",
+        "la négation ne… pas",
+        "les prépositions à / de",
+        "le subjonctif après « il faut que »"
+      ],
+      "phrases": [
+        {
+          "target": "Il faut que je parte avant la fin de la réunion.",
+          "pt": "É preciso que eu saia antes do fim da reunião."
+        },
+        {
+          "target": "Les livres que j'ai achetés sont sur la table.",
+          "pt": "Os livros que comprei estão sobre a mesa."
+        },
+        {
+          "target": "Elle ne travaille pas le dimanche.",
+          "pt": "Ela não trabalha aos domingos."
+        },
+        {
+          "target": "C'est la ville où j'ai grandi.",
+          "pt": "É a cidade onde cresci."
+        },
+        {
+          "target": "Nous parlons de ce projet depuis un mois.",
+          "pt": "Falamos desse projeto há um mês."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Il faut que tu ___ tôt demain.",
+          "options": [
+            "partes",
+            "pars",
+            "partir"
+          ],
+          "answer": "partes",
+          "explanation": "Após « il faut que » usa-se o subjonctif: que tu partes."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase está gramaticalmente correta?",
+          "options": [
+            "Les fleurs que j'ai achetées sont belles.",
+            "Les fleurs que j'ai acheté sont belles.",
+            "Les fleurs que j'ai achetés sont belles."
+          ],
+          "answer": "Les fleurs que j'ai achetées sont belles.",
+          "explanation": "Com avoir, o particípio concorda com o objeto direto anteposto « que » (feminino plural): achetées."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "level": "Avançado",
+      "theme": "Ambiente profissional",
+      "objective": "Comunicar-se em contextos de trabalho.",
+      "content": [
+        "une réunion / un entretien",
+        "Je vous envoie le compte rendu.",
+        "le budget / le délai",
+        "Nous devons respecter l'échéance.",
+        "Je me permets de vous relancer.",
+        "Cordialement,"
+      ],
+      "phrases": [
+        {
+          "target": "Je vous envoie le compte rendu de la réunion.",
+          "pt": "Envio-lhe a ata da reunião."
+        },
+        {
+          "target": "Pouvez-vous respecter la date limite ?",
+          "pt": "Você pode cumprir o prazo?"
+        },
+        {
+          "target": "Nous devons réduire les coûts ce trimestre.",
+          "pt": "Devemos reduzir os custos neste trimestre."
+        },
+        {
+          "target": "Je me permets de vous relancer au sujet du devis.",
+          "pt": "Permito-me retomar o contato a respeito do orçamento."
+        },
+        {
+          "target": "Je reste à votre disposition pour toute question.",
+          "pt": "Fico à disposição para qualquer pergunta."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Je vous envoie le compte ___ de la réunion.",
+          "options": [
+            "rendu",
+            "rendre",
+            "rendue"
+          ],
+          "answer": "rendu",
+          "explanation": "A expressão fixa é « compte rendu », que significa ata ou relatório."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual é a tradução de « une date limite » ?",
+          "options": [
+            "um prazo",
+            "uma data de nascimento",
+            "uma linha do tempo"
+          ],
+          "answer": "um prazo",
+          "explanation": "« Date limite » significa prazo final."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "level": "Avançado",
+      "theme": "Revisão avançada",
+      "objective": "Revisar argumentação, interpretação e gramática avançada.",
+      "content": [
+        "le subjonctif présent",
+        "les connecteurs logiques : donc, cependant, néanmoins",
+        "le discours indirect",
+        "les pronoms relatifs composés : lequel, auquel",
+        "la voix passive"
+      ],
+      "phrases": [
+        {
+          "target": "Bien que le projet soit ambitieux, il reste réalisable.",
+          "pt": "Embora o projeto seja ambicioso, ele continua viável."
+        },
+        {
+          "target": "Il a affirmé qu'il enverrait le rapport le lendemain.",
+          "pt": "Ele afirmou que enviaria o relatório no dia seguinte."
+        },
+        {
+          "target": "Le document auquel je fais référence est confidentiel.",
+          "pt": "O documento ao qual me refiro é confidencial."
+        },
+        {
+          "target": "Néanmoins, certaines questions restent ouvertes.",
+          "pt": "No entanto, algumas questões permanecem abertas."
+        },
+        {
+          "target": "La décision a été prise par le comité.",
+          "pt": "A decisão foi tomada pelo comitê."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Bien qu'il ___ fatigué, il continue.",
+          "options": [
+            "soit",
+            "est",
+            "sera"
+          ],
+          "answer": "soit",
+          "explanation": "« Bien que » exige o subjonctif: qu'il soit."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual conectivo expressa concessão?",
+          "options": [
+            "Bien que",
+            "Donc",
+            "Ainsi"
+          ],
+          "answer": "Bien que",
+          "explanation": "« Bien que » introduz concessão; « donc » e « ainsi » indicam consequência."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "level": "Fluente",
+      "theme": "Conversa natural",
+      "objective": "Manter uma conversa espontânea com expressões do dia a dia.",
+      "content": [
+        "Tu vois ce que je veux dire ?",
+        "Ça marche !",
+        "Franchement…",
+        "En fait, …",
+        "Ça dépend.",
+        "Bref, …"
+      ],
+      "phrases": [
+        {
+          "target": "Tu vois ce que je veux dire ?",
+          "pt": "Você entende o que quero dizer?"
+        },
+        {
+          "target": "En fait, je n'y avais pas pensé.",
+          "pt": "Na verdade, eu não tinha pensado nisso."
+        },
+        {
+          "target": "Ça marche pour moi, on se voit à dix-huit heures.",
+          "pt": "Para mim está combinado, nos vemos às dezoito horas."
+        },
+        {
+          "target": "Franchement, cette idée me plaît beaucoup.",
+          "pt": "Sinceramente, essa ideia me agrada muito."
+        },
+        {
+          "target": "Bref, on a trouvé une solution.",
+          "pt": "Enfim, encontramos uma solução."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "En ___, je n'y avais pas pensé.",
+          "options": [
+            "fait",
+            "faite",
+            "faire"
+          ],
+          "answer": "fait",
+          "explanation": "A expressão fixa é « en fait », que significa na verdade."
+        },
+        {
+          "type": "jogo",
+          "question": "O que significa « Ça marche ! » em uma conversa?",
+          "options": [
+            "Está combinado!",
+            "Isso anda!",
+            "Isso funciona mal."
+          ],
+          "answer": "Está combinado!",
+          "explanation": "« Ça marche » confirma um acordo, como «combinado»."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "level": "Fluente",
+      "theme": "Simulação real",
+      "objective": "Simular situações reais, como ligações, reclamações e imprevistos.",
+      "content": [
+        "Je vous appelle au sujet de…",
+        "Il y a eu un problème avec…",
+        "Pourriez-vous m'aider ?",
+        "Je souhaiterais faire une réclamation.",
+        "Je suis bloqué(e) à l'aéroport.",
+        "Merci de votre compréhension."
+      ],
+      "phrases": [
+        {
+          "target": "Je vous appelle au sujet de ma réservation annulée.",
+          "pt": "Estou ligando a respeito da minha reserva cancelada."
+        },
+        {
+          "target": "Il y a eu un problème avec ma commande.",
+          "pt": "Houve um problema com meu pedido."
+        },
+        {
+          "target": "Pourriez-vous transférer mon appel au service concerné ?",
+          "pt": "Poderia transferir minha ligação ao setor responsável?"
+        },
+        {
+          "target": "Je souhaiterais faire une réclamation.",
+          "pt": "Eu gostaria de fazer uma reclamação."
+        },
+        {
+          "target": "Je suis bloqué à l'aéroport à cause de l'annulation.",
+          "pt": "Estou preso no aeroporto por causa do cancelamento."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Pourriez-vous m'___ à résoudre ce problème ?",
+          "options": [
+            "aider",
+            "aide",
+            "aidé"
+          ],
+          "answer": "aider",
+          "explanation": "Depois de « pourriez-vous » usa-se o infinitivo: m'aider."
+        },
+        {
+          "type": "jogo",
+          "question": "Como fazer uma reclamação de forma educada?",
+          "options": [
+            "Je souhaiterais faire une réclamation.",
+            "Je veux une réclamation maintenant.",
+            "Donnez-moi une réclamation."
+          ],
+          "answer": "Je souhaiterais faire une réclamation.",
+          "explanation": "« Je souhaiterais » suaviza o pedido e mantém a cortesia."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "level": "Fluente",
+      "theme": "Fluência e naturalidade",
+      "objective": "Usar expressões idiomáticas e nuances para soar mais natural.",
+      "content": [
+        "avoir le coup de foudre",
+        "tomber dans les pommes",
+        "ça vaut le coup",
+        "avoir du mal à…",
+        "à vrai dire",
+        "c'est du gâteau"
+      ],
+      "phrases": [
+        {
+          "target": "On a eu le coup de foudre pour cette maison.",
+          "pt": "Foi amor à primeira vista por esta casa."
+        },
+        {
+          "target": "Elle est tombée dans les pommes pendant la réunion.",
+          "pt": "Ela desmaiou durante a reunião."
+        },
+        {
+          "target": "Ça vaut vraiment le coup d'essayer.",
+          "pt": "Vale muito a pena tentar."
+        },
+        {
+          "target": "J'ai du mal à m'exprimer quand je suis stressé.",
+          "pt": "Tenho dificuldade em me expressar quando estou estressado."
+        },
+        {
+          "target": "À vrai dire, ce n'est pas si difficile.",
+          "pt": "Sinceramente, não é tão difícil."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Ça vaut le ___ d'essayer.",
+          "options": [
+            "coup",
+            "coût",
+            "cours"
+          ],
+          "answer": "coup",
+          "explanation": "« Ça vaut le coup » significa vale a pena."
+        },
+        {
+          "type": "jogo",
+          "question": "O que significa « tomber dans les pommes » ?",
+          "options": [
+            "desmaiar",
+            "colher maçãs",
+            "adorar maçãs"
+          ],
+          "answer": "desmaiar",
+          "explanation": "É uma expressão idiomática: « tomber dans les pommes » significa desmaiar."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "level": "Fluente",
+      "theme": "Discussões complexas",
+      "objective": "Debater temas complexos com nuance e estrutura.",
+      "content": [
+        "Il n'en demeure pas moins que…",
+        "force est de constater que…",
+        "dans la mesure où…",
+        "en dépit de…",
+        "loin de…",
+        "cela soulève la question de…"
+      ],
+      "phrases": [
+        {
+          "target": "Il n'en demeure pas moins que des inégalités persistent.",
+          "pt": "Não obstante, as desigualdades persistem."
+        },
+        {
+          "target": "Force est de constater que les mesures ont échoué.",
+          "pt": "É forçoso constatar que as medidas fracassaram."
+        },
+        {
+          "target": "Cette politique est efficace dans la mesure où elle cible les plus vulnérables.",
+          "pt": "Essa política é eficaz na medida em que visa os mais vulneráveis."
+        },
+        {
+          "target": "En dépit des critiques, le projet a été maintenu.",
+          "pt": "Apesar das críticas, o projeto foi mantido."
+        },
+        {
+          "target": "Cela soulève la question de la responsabilité individuelle.",
+          "pt": "Isso levanta a questão da responsabilidade individual."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Cette solution est valable ___ la mesure où elle est durable.",
+          "options": [
+            "dans",
+            "en",
+            "à"
+          ],
+          "answer": "dans",
+          "explanation": "A locução é « dans la mesure où », que significa na medida em que."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual expressão introduz uma objeção ou concessão?",
+          "options": [
+            "En dépit de",
+            "Par conséquent",
+            "De plus"
+          ],
+          "answer": "En dépit de",
+          "explanation": "« En dépit de » equivale a «apesar de» e introduz contraste."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "level": "Fluente",
+      "theme": "Avaliação final",
+      "objective": "Demonstrar domínio global do francês em situações variadas.",
+      "content": [
+        "le passé composé et l'imparfait",
+        "le subjonctif et le conditionnel",
+        "les connecteurs : cependant, ainsi, en effet",
+        "le registre soutenu",
+        "l'expression de l'hypothèse : si + imparfait → conditionnel présent",
+        "la nuance et la reformulation"
+      ],
+      "phrases": [
+        {
+          "target": "Si j'avais plus de temps, je suivrais des cours de théâtre.",
+          "pt": "Se eu tivesse mais tempo, faria aulas de teatro."
+        },
+        {
+          "target": "Cependant, il conviendrait de nuancer cette conclusion.",
+          "pt": "No entanto, conviria nuançar essa conclusão."
+        },
+        {
+          "target": "Bien qu'elle soit débutante, elle progresse rapidement.",
+          "pt": "Embora seja iniciante, ela progride rapidamente."
+        },
+        {
+          "target": "En effet, les résultats confirment notre hypothèse.",
+          "pt": "Com efeito, os resultados confirmam nossa hipótese."
+        },
+        {
+          "target": "Il nous a expliqué qu'il avait déjà terminé le rapport.",
+          "pt": "Ele nos explicou que já tinha terminado o relatório."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "completar frase",
+          "question": "Si j'avais le temps, je ___ davantage.",
+          "options": [
+            "voyagerais",
+            "voyagerai",
+            "voyage"
+          ],
+          "answer": "voyagerais",
+          "explanation": "Com « si + imparfait », usa-se o condicional: je voyagerais."
+        },
+        {
+          "type": "jogo",
+          "question": "Qual frase está no discurso indireto corretamente?",
+          "options": [
+            "Il a dit qu'il viendrait le lendemain.",
+            "Il a dit qu'il viendra le lendemain.",
+            "Il a dit qu'il vient le lendemain."
+          ],
+          "answer": "Il a dit qu'il viendrait le lendemain.",
+          "explanation": "No discurso indireto no passado, o futuro do presente vira condicional: viendrait."
+        }
+      ]
+    }
+  ]
+}

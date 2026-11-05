@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Painel — Sabiá{% endblock %}
+
+{% block content %}
+<section class="form-page narrow">
+  <div class="form-intro">
+    <p class="label">Pesquisadora</p>
+    <h1>Painel de dados.</h1>
+    <p class="lede">Acesso restrito para acompanhar a coleta e exportar os dados do TCC.</p>
+  </div>
+
+  <form class="card" method="post" action="/admin/entrar">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <div class="field">
+      <label for="senha">Senha do painel</label>
+      <input id="senha" name="senha" type="password" required autocomplete="current-password">
+    </div>
+    {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+    <div class="actions">
+      <button class="btn" type="submit">Entrar</button>
+      <a class="linklike" href="/">Voltar ao app</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

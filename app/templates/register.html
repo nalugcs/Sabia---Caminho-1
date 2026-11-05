@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Cadastro — sabiá{% endblock %}
+
+{% block content %}
+<section class="form-page">
+  <div class="form-intro">
+    <p class="label">Cadastro</p>
+    <h1>Quem está praticando?</h1>
+    <p class="lede">
+      Seus dados ficam ligados a um código pessoal. Você vai usá-lo para voltar de
+      outro celular ou computador.
+    </p>
+  </div>
+
+  <form class="card form-grid" method="post" action="/cadastro">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <div class="field">
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" value="{{ form.get('nome', '') }}" required autocomplete="given-name">
+    </div>
+    <div class="field">
+      <label for="sobrenome">Sobrenome</label>
+      <input id="sobrenome" name="sobrenome" value="{{ form.get('sobrenome', '') }}" required autocomplete="family-name">
+    </div>
+    <div class="field">
+      <label for="idade">Idade</label>
+      <input id="idade" name="idade" type="number" min="18" max="120" value="{{ form.get('idade', '') }}" required>
+    </div>
+    <div class="field">
+      <label for="nivel">Nível</label>
+      <select id="nivel" name="nivel" required>
+        <option value="">Escolha</option>
+        {% for level in levels %}
+        <option value="{{ level }}" {% if form.get('nivel') == level %}selected{% endif %}>{{ level|capitalize }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <fieldset class="field wide">
+      <legend>Idioma que quero praticar</legend>
+      <div class="choices">
+        {% for code, name in languages %}
+        <label class="choice">
+          <input type="checkbox" name="idiomas" value="{{ code }}"
+                 {% if code in form.get('idiomas', []) %}checked{% endif %}>
+          <span>{{ name }}</span>
+        </label>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <fieldset class="field wide">
+      <legend>Temas que me interessam (opcional)</legend>
+      <div class="choices">
+        {% for interest in interests %}
+        <label class="choice">
+          <input type="checkbox" name="interesses" value="{{ interest }}"
+                 {% if interest in form.get('interesses', []) %}checked{% endif %}>
+          <span>{{ interest|capitalize }}</span>
+        </label>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <input type="hidden" name="aceite" value="on">
+
+    {% if error %}<p class="error wide" role="alert">{{ error }}</p>{% endif %}
+
+    <div class="wide actions">
+      <button class="btn" type="submit">Criar meu código</button>
+      <p class="tiny">Ao continuar, você concorda com o termo lido na etapa anterior.</p>
+    </div>
+  </form>
+</section>
+{% endblock %}

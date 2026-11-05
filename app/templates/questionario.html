@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Questionário final — Sabiá{% endblock %}
+
+{% block content %}
+<section class="feedback">
+  <p class="label">Fim da jornada</p>
+  <h1>Como foi a experiência?</h1>
+
+  {% if blocked %}
+  <p class="lede">
+    Você concluiu {{ done }} de {{ required }} sessões. O questionário final aparece
+    depois da última sessão.
+  </p>
+  <div class="actions">
+    <a class="btn" href="/app">Voltar e continuar praticando</a>
+  </div>
+
+  {% elif answered %}
+  <p class="lede">Suas respostas já foram registradas. Obrigado por participar.</p>
+  <div class="actions">
+    <a class="btn" href="/app">Voltar ao início</a>
+  </div>
+
+  {% else %}
+  <p class="lede">
+    São {{ blocks|length }} blocos curtos sobre a experiência. Não há resposta certa;
+    responda com o que você sentiu.
+  </p>
+
+  {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+
+  <form method="post" action="/questionario" class="questionnaire">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+
+    {% for block in blocks %}
+    <fieldset class="likert">
+      <legend>{{ block.title }}</legend>
+      {% for key, text in block["items"] %}
+      <div class="likert-row">
+        <p>{{ text }}</p>
+        <div class="scale">
+          {% for value in range(1, 6) %}
+          <label>
+            <input type="radio" name="{{ key }}" value="{{ value }}" required>
+            <span>{{ value }}</span>
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </fieldset>
+    {% endfor %}
+
+    <div class="field">
+      <label for="nps">De 0 a 10, qual a chance de você recomendar o app a um amigo?</label>
+      <select id="nps" name="nps" required>
+        <option value="">Escolha</option>
+        {% for value in range(0, 11) %}
+        <option value="{{ value }}">{{ value }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    {% for key, text in open_questions %}
+    <div class="field">
+      <label for="{{ key }}">{{ text }}</label>
+      <textarea id="{{ key }}" name="{{ key }}" rows="3" maxlength="2000"></textarea>
+    </div>
+    {% endfor %}
+
+    <button class="btn" type="submit">Enviar respostas</button>
+  </form>
+  {% endif %}
+</section>
+{% endblock %}

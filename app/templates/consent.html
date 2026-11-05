@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Consentimento — sabiá{% endblock %}
+
+{% block content %}
+<section class="consent">
+  <div class="consent-copy">
+    <p class="label">Pesquisa acadêmica</p>
+    <h1>Antes de praticar,<br>o combinado.</h1>
+    <p class="lede">
+      Este app faz parte de uma pesquisa sobre aprendizagem de idiomas com prática
+      de conversa. Ele registra suas interações para que a pesquisa possa avaliar
+      a experiência.
+    </p>
+
+    <details class="tcle">
+      <summary>Ler o termo de consentimento</summary>
+      <p>
+        A pesquisa avalia se a personalização das aulas (tema, dificuldade e feedback)
+        contribui para a prática de conversação. Você fará até três sessões de 10 a 15
+        minutos, em dias diferentes, e responderá questionários curtos.
+      </p>
+      <p>
+        Os riscos são mínimos. Você pode encerrar a sessão quando quiser e deixar
+        perguntas em branco. Seu nome é usado apenas para controle de participação;
+        nas análises você aparece por um código.
+      </p>
+      <p>
+        Os dados ficam em servidor com acesso restrito e são divulgados de forma
+        agregada. Você pode pedir a exclusão dos seus dados a qualquer momento.
+        A participação é gratuita e voluntária.
+      </p>
+    </details>
+  </div>
+
+  <div class="consent-card">
+    <h2>Para participar</h2>
+    <ul class="plain">
+      <li>Ter 18 anos ou mais.</li>
+      <li>Praticar inglês, espanhol ou francês.</li>
+      <li>Reservar cerca de 15 minutos por sessão.</li>
+    </ul>
+
+    <form method="post" action="/consentimento">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+      <label class="check">
+        <input type="checkbox" name="aceite">
+        <span>Li e concordo com o Termo de Consentimento.</span>
+      </label>
+      {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+      <button class="btn" type="submit">Continuar para o cadastro</button>
+    </form>
+
+    <p class="tiny">Já participou antes? <a href="/entrar">Entrar com meu código</a></p>
+  </div>
+
+  <figure class="song-figure">
+    <canvas id="song-canvas" class="song-canvas" aria-hidden="true"></canvas>
+    <figcaption>
+      <span class="label">O canto que ensina</span>
+      <span>Cada conversa vira uma onda. O app escuta, corrige e adapta o próximo passo.</span>
+    </figcaption>
+  </figure>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="/static/hero.js"></script>
+{% endblock %}

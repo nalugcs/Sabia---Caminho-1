@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}Sua prática — sabiá{% endblock %}
+
+{% block content %}
+<section class="dash">
+  <header class="dash-head">
+    <p class="label">{{ participant.level|capitalize }} · {{ recommendation.language }}</p>
+    <h1>Olá, {{ participant.name }}.<br>Vamos conversar?</h1>
+    <p class="lede">
+      Seu código é <strong class="mono">{{ participant.code }}</strong>. Guarde-o para
+      voltar de qualquer aparelho.
+    </p>
+    {% if recommendation.top_error %}
+    <p class="tiny">
+      Ponto de atenção até agora: {{ recommendation.top_error.label }}
+      ({{ recommendation.top_error.count }} ocorrência{% if recommendation.top_error.count != 1 %}s{% endif %}).
+    </p>
+    {% endif %}
+    {% if questionario_ok %}
+    <p class="ok-banner" role="status">Respostas do questionário registradas. Obrigado!</p>
+    {% endif %}
+  </header>
+
+  <section class="progress" aria-label="Progresso das sessões">
+    <div class="progress-text">
+      <strong>{{ done }} de {{ required }}</strong> sessões concluídas
+    </div>
+    <div class="progress-track">
+      {% for i in range(required) %}
+      <span class="tick {% if i < done %}is-done{% endif %}"></span>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="recommend">
+    <div class="recommend-copy">
+      <p class="label">Próxima lição</p>
+      <h2>{{ recommendation.lesson.theme }}</h2>
+      <p>{{ recommendation.lesson.objective }}</p>
+      <p class="reason">Recomendada porque {{ recommendation.reason }}.</p>
+      <ul class="content-list">
+        {% for item in recommendation.lesson.content[:4] %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <a class="btn" href="/licao/{{ recommendation.language_code }}/{{ recommendation.lesson.id }}">
+      Começar lição
+    </a>
+  </section>
+
+  {% if needs_final %}
+  <section class="recommend final-cta">
+    <div class="recommend-copy">
+      <p class="label">Última etapa</p>
+      <h2>Questionário final</h2>
+      <p>Você concluiu as {{ required }} sessões. Conte como foi a experiência.</p>
+    </div>
+    <a class="btn" href="/questionario">Responder questionário</a>
+  </section>
+  {% elif final_answered %}
+  <p class="tiny">Questionário final respondido. Obrigado por participar.</p>
+  {% endif %}
+
+  {% if sessions %}
+  <section class="history">
+    <h2>Últimas aulas</h2>
+    <ul class="plain">
+      {% for item in sessions %}
+      <li>
+        <span class="mono">{{ item.language|upper }}</span>
+        lição {{ item.lesson_id }}
+        {% if item.score is not none %} · nota {{ item.score }}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</section>
+{% endblock %}
