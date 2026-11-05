@@ -35,7 +35,7 @@ para navegar, testar o fluxo e desenvolver sem gastar tokens.
 ```bash
 export LLM_PROVIDER=openai
 export LLM_API_KEY="sua-chave"
-export LLM_MODEL="gemini-2.5-flash"
+export LLM_MODEL="gemini-3.1-flash-lite"
 .venv/bin/python -m uvicorn app.main:app --port 8000
 ```
 
@@ -85,7 +85,7 @@ em `backups/`. Agende no cron ou em um job do provedor.
 | `LLM_PROVIDER` | `mock` | `mock` ou `openai` |
 | `LLM_BASE_URL` | Gemini (OpenAI-compat) | endpoint `/chat/completions` |
 | `LLM_API_KEY` | vazio | chave do provedor |
-| `LLM_MODEL` | `gemini-2.5-flash` | modelo usado |
+| `LLM_MODEL` | `gemini-3.1-flash-lite` | modelo usado |
 | `LLM_FALLBACK_*` | vazio | segundo provedor em caso de falha |
 | `ADMIN_PASSWORD` | vazio | habilita o painel `/admin` |
 | `REQUIRED_SESSIONS` | `3` | sessões até o questionário final |
