@@ -1,17 +1,21 @@
 :root {
-  --paper: #edefe9;
-  --ink: #16211b;
+  --paper: #f2f4ee;
+  --surface: #fbfcf8;
+  --ink: #13211c;
   --muted: #5c6a62;
-  --line: #c9d1c7;
-  --accent: #0f6b4f;
-  --accent-ink: #f7fbf8;
-  --soft: #dce9e1;
-  --warm: #a9631f;
+  --line: #dadfd4;
+  --accent: #b4502a;
+  --accent-text: #8f3d1f;
+  --accent-ink: #fbfcf8;
+  --soft: #efe6d6;
+  --leaf: #2f5d4a;
+  --sand: #efe6d6;
+  --warm: #b4502a;
   --danger: #a33a2b;
-  --card: #f7f8f3;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --card: #fbfcf8;
+  --serif: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -23,17 +27,19 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 16px;
-  line-height: 1.55;
+  font-size: 16.5px;
+  line-height: 1.6;
 }
 
-a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a { color: var(--accent-text); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+::selection { background: var(--accent); color: var(--paper); }
 
 h1, h2, h3 {
   font-family: var(--serif);
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  line-height: 1.06;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
   margin: 0 0 0.5em;
 }
 
@@ -60,26 +66,20 @@ p { margin: 0 0 1em; }
   gap: 10px;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 1.2rem;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
   text-decoration: none;
 }
 
 .brand-mark {
-  width: 18px;
-  height: 18px;
-  color: var(--accent);
+  width: 22px;
+  height: 22px;
+  color: var(--ink);
   flex: none;
+  transition: color 0.2s ease;
 }
 
-.brand-mark .bar {
-  transform-box: fill-box;
-  transform-origin: center;
-  transition: transform 0.25s ease;
-}
-
-.brand:hover .bar-b { transform: scaleY(0.72); }
-.brand:hover .bar-a { transform: scaleY(1.25); }
-.brand:hover .bar-c { transform: scaleY(1.18); }
+.brand:hover .brand-mark { color: var(--accent); }
 
 .topbar-right { display: flex; align-items: center; gap: 16px; }
 .who { color: var(--muted); font-size: 0.9rem; }
@@ -99,8 +99,10 @@ p { margin: 0 0 1em; }
 .label {
   margin: 0 0 14px;
   color: var(--muted);
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
 }
 
 .lede {
@@ -145,7 +147,7 @@ p { margin: 0 0 1em; }
   transition: background 0.15s ease;
 }
 
-.btn:hover { background: #0b5540; }
+.btn:hover { background: var(--accent-text); }
 .btn:disabled { opacity: 0.55; cursor: wait; }
 
 .btn.ghost {
@@ -363,7 +365,7 @@ fieldset.field legend { margin-bottom: 8px; }
 .progress-track { display: flex; gap: 6px; width: min(260px, 50vw); }
 
 .tick { flex: 1; height: 6px; background: var(--line); }
-.tick.is-done { background: var(--accent); }
+.tick.is-done { background: var(--leaf); }
 
 .recommend {
   display: grid;
@@ -632,7 +634,7 @@ fieldset.field legend { margin-bottom: 8px; }
 .ok-banner {
   margin-top: 18px;
   padding: 10px 14px;
-  border-left: 2px solid var(--accent);
+  border-left: 2px solid var(--leaf);
   background: var(--soft);
   color: var(--ink);
   font-size: 0.9rem;
@@ -739,9 +741,9 @@ fieldset.field legend { margin-bottom: 8px; }
 .option:disabled { cursor: default; }
 
 .option.is-correct {
-  border-color: var(--accent);
+  border-color: var(--leaf);
   background: var(--soft);
-  color: var(--accent);
+  color: var(--leaf);
 }
 
 .option.is-wrong {
@@ -757,7 +759,7 @@ fieldset.field legend { margin-bottom: 8px; }
   color: var(--muted);
 }
 
-.exercise-feedback.is-correct { color: var(--accent); }
+.exercise-feedback.is-correct { color: var(--leaf); }
 .exercise-feedback.is-wrong { color: var(--danger); }
 
 /* leitura de apoio */

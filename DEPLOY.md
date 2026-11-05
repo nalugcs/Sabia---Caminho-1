@@ -1,10 +1,32 @@
 # Deploy do Sabiá
 
+## Estado atual (2026-11-05)
+
+- **Produção:** <https://sabia-1gv2.onrender.com> (Render free).
+- **Repo:** `nalugcs/Sabia---Caminho-1`, branch **`Estudos`** (é o default).
+- **Atualizar o app:** dê push no branch `Estudos`; o Render redeploya.
+- **Conta:** sempre `nalugcs` (Ana). O repo `ironidesflj/sabia-tcc` deve ser apagado.
+
+Para publicar a identidade v0.2 ou qualquer mudança:
+
+1. Baixe o zip atualizado do projeto.
+2. Na pasta local do repo da Ana, substitua os arquivos (mantenha o `.git` e o
+   `render.yaml` dela, se já estiver em plano free).
+3. Commit e push no branch **`Estudos`** (GitHub Desktop ou `git push`).
+4. O Render redeploya sozinho.
+
+> O histórico local desta máquina e o do repo da Ana são independentes; **não faça
+> force push**. Se a Ana autenticar o `gh` nesta máquina, eu reconcilio os históricos e
+> publico sem sobrescrever.
+
+---
+
 **Conta correta:** Ana (`nalugcs`) · **Repositório:** <https://github.com/nalugcs/Sabia---Caminho-1>
 
 O repositório antigo (`ironidesflj/sabia-tcc`) **não deve ser usado**; apague em
 `Settings → Danger Zone → Delete this repository` (a sessão atual do `gh` não tem o
 escopo `delete_repo`).
+
 
 ## 0. Estado do repositório da Ana
 

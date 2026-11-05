@@ -29,9 +29,9 @@ if (canvas) {
   const positions = new Float32Array(total * 3);
   const colors = new Float32Array(total * 3);
 
-  const green = new THREE.Color(0x0f6b4f);
-  const pale = new THREE.Color(0x6fae92);
-  const ochre = new THREE.Color(0xc98a3e);
+  const green = new THREE.Color(0x2f5d4a);
+  const pale = new THREE.Color(0xc9b892);
+  const ochre = new THREE.Color(0xb4502a);
   const color = new THREE.Color();
 
   const geometry = new THREE.BufferGeometry();

@@ -4,9 +4,10 @@ App web multiusuário para praticar inglês, espanhol e francês em conversas cu
 com personalização e coleta de dados para o TCC. Parte do projeto em
 `tcc-ana/` (spec em `../specs/001-app/spec.md`).
 
-**Status:** MVP funcional com LLM simulado, painel de dados, questionário final,
-segurança baseline, prática corrigida e QA local (4/5); **30 testes passando**.
-A identidade v2 tem faixa 3D (Three.js local) e motion discreto.
+**Status:** MVP funcional com LLM real (Gemini) validado, painel de dados, questionário
+final, segurança baseline, prática corrigida e QA local (4/5); **30 testes passando**.
+Identidade v0.2 aplicada: símbolo Bico, Instrument Serif/Sans, paleta papel/noite/canto
+e a faixa 3D em Three.js local.
 
 **Revisão das 60 lições:** [relatório](../docs/revisao-licoes.md) ·
 [agentes](../agents/README.md) · [design](../docs/design.md).
@@ -147,7 +148,7 @@ app/
       ratelimit.py
       parsing.py
     templates/       # consent, register, dashboard, lesson, feedback, admin...
-    static/          # styles.css, app.js
+    static/          # styles.css, app.js, hero.js, fonts/, vendor/three
     data/lessons/    # en.json, es.json, fr.json
   tests/test_flow.py
   docs/screenshots/
