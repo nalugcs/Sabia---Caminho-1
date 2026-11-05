@@ -1,8 +1,7 @@
 # Sabiá — app de prática de idiomas
 
 App web multiusuário para praticar inglês, espanhol e francês em conversas curtas,
-com personalização e coleta de dados para o TCC. Parte do projeto em
-`tcc-ana/` (spec em `../specs/001-app/spec.md`).
+com personalização e coleta de dados para o TCC.
 
 **Status:** MVP funcional com LLM real (Gemini) validado, painel de dados, questionário
 final, segurança baseline, prática corrigida e QA local (4/5); **30 testes passando**.
