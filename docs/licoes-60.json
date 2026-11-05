@@ -1,0 +1,3632 @@
+{
+  "total": 60,
+  "languages": [
+    {
+      "language": "Inglês",
+      "code": "en",
+      "lessons": [
+        {
+          "id": 1,
+          "level": "Básico",
+          "theme": "Apresentação pessoal",
+          "objective": "Apresentar-se, dizer o nome, a origem e a idade em inglês.",
+          "content": [
+            "My name is...",
+            "I am from...",
+            "I am ... years old",
+            "Nice to meet you",
+            "I live in...",
+            "I work as..."
+          ],
+          "phrases": [
+            {
+              "target": "Hello! My name is Ana.",
+              "pt": "Olá! Meu nome é Ana."
+            },
+            {
+              "target": "I am from Brazil.",
+              "pt": "Eu sou do Brasil."
+            },
+            {
+              "target": "I am twenty-five years old.",
+              "pt": "Eu tenho vinte e cinco anos."
+            },
+            {
+              "target": "Nice to meet you.",
+              "pt": "Prazer em conhecer você."
+            },
+            {
+              "target": "I live in a big city.",
+              "pt": "Eu moro em uma cidade grande."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "My name ___ Ana.",
+              "options": [
+                "is",
+                "are",
+                "am"
+              ],
+              "answer": "is",
+              "explanation": "Com 'my name' (sujeito de 3ª pessoa do singular), usamos 'is'."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'Nice to meet you'?",
+              "options": [
+                "Prazer em conhecer você.",
+                "Até logo.",
+                "Bom dia."
+              ],
+              "answer": "Prazer em conhecer você.",
+              "explanation": "'Nice to meet you' é usado ao conhecer alguém pela primeira vez."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Básico",
+          "theme": "Família e pessoas",
+          "objective": "Falar sobre familiares e usar adjetivos possessivos.",
+          "content": [
+            "mother, father, sister, brother",
+            "my, your, his, her",
+            "This is my...",
+            "I have two brothers.",
+            "My father is a teacher.",
+            "We are a big family."
+          ],
+          "phrases": [
+            {
+              "target": "This is my mother.",
+              "pt": "Esta é minha mãe."
+            },
+            {
+              "target": "I have two brothers.",
+              "pt": "Eu tenho dois irmãos."
+            },
+            {
+              "target": "My father is a teacher.",
+              "pt": "Meu pai é professor."
+            },
+            {
+              "target": "Her name is Julia.",
+              "pt": "O nome dela é Julia."
+            },
+            {
+              "target": "We are a big family.",
+              "pt": "Nós somos uma família grande."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "This ___ my sister.",
+              "options": [
+                "is",
+                "are",
+                "am"
+              ],
+              "answer": "is",
+              "explanation": "Usamos 'is' com 'this' no singular."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'I have two brothers'?",
+              "options": [
+                "Eu tenho dois irmãos.",
+                "Eu tenho duas irmãs.",
+                "Eu tenho dois primos."
+              ],
+              "answer": "Eu tenho dois irmãos.",
+              "explanation": "'Brothers' significa irmãos do sexo masculino."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Básico",
+          "theme": "Rotina diária",
+          "objective": "Descrever a rotina diária e os horários em inglês.",
+          "content": [
+            "I wake up at...",
+            "I have breakfast",
+            "I go to work by bus",
+            "I usually...",
+            "every day",
+            "in the morning"
+          ],
+          "phrases": [
+            {
+              "target": "I wake up at seven o'clock.",
+              "pt": "Eu acordo às sete horas."
+            },
+            {
+              "target": "I have breakfast with my family.",
+              "pt": "Eu tomo café da manhã com minha família."
+            },
+            {
+              "target": "I go to work by bus.",
+              "pt": "Eu vou ao trabalho de ônibus."
+            },
+            {
+              "target": "I usually study at night.",
+              "pt": "Eu normalmente estudo à noite."
+            },
+            {
+              "target": "I go to bed at eleven.",
+              "pt": "Eu vou dormir às onze."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "She ___ up at six every day.",
+              "options": [
+                "wakes",
+                "wake",
+                "waking"
+              ],
+              "answer": "wakes",
+              "explanation": "Com 'she' no presente simples, o verbo recebe -s: wakes."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "I go to work by bus.",
+                "I go to work in bus.",
+                "I go work by bus."
+              ],
+              "answer": "I go to work by bus.",
+              "explanation": "Usamos 'by' + meio de transporte: by bus, by car, by train."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "level": "Básico",
+          "theme": "Gostos e preferências",
+          "objective": "Expressar gostos, preferências e coisas favoritas.",
+          "content": [
+            "I like...",
+            "I love...",
+            "I don't like...",
+            "My favorite ... is...",
+            "I prefer...",
+            "playing soccer"
+          ],
+          "phrases": [
+            {
+              "target": "I like coffee in the morning.",
+              "pt": "Eu gosto de café de manhã."
+            },
+            {
+              "target": "I love playing soccer.",
+              "pt": "Eu adoro jogar futebol."
+            },
+            {
+              "target": "I don't like cold weather.",
+              "pt": "Eu não gosto de frio."
+            },
+            {
+              "target": "My favorite food is pizza.",
+              "pt": "Minha comida favorita é pizza."
+            },
+            {
+              "target": "I prefer tea to coffee.",
+              "pt": "Eu prefiro chá a café."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I ___ like horror movies.",
+              "options": [
+                "don't",
+                "doesn't",
+                "not"
+              ],
+              "answer": "don't",
+              "explanation": "Com 'I' usamos 'don't' para negar no presente simples."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'I prefer tea to coffee'?",
+              "options": [
+                "Eu prefiro chá a café.",
+                "Eu prefiro café a chá.",
+                "Eu tomo chá e café."
+              ],
+              "answer": "Eu prefiro chá a café.",
+              "explanation": "A estrutura 'prefer A to B' indica preferência de A em relação a B."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "level": "Básico",
+          "theme": "Revisão do básico",
+          "objective": "Revisar o presente simples, o verbo to be e as perguntas básicas.",
+          "content": [
+            "Verb to be: am, is, are",
+            "Present simple: I work / she works",
+            "Possessive adjectives: my, your, his, her",
+            "Frequency adverbs: always, usually, sometimes",
+            "Questions: Do you...? / Does she...?",
+            "What time do you get up?"
+          ],
+          "phrases": [
+            {
+              "target": "Do you speak English?",
+              "pt": "Você fala inglês?"
+            },
+            {
+              "target": "She works in a hospital.",
+              "pt": "Ela trabalha em um hospital."
+            },
+            {
+              "target": "They are my friends.",
+              "pt": "Eles são meus amigos."
+            },
+            {
+              "target": "I always have lunch at noon.",
+              "pt": "Eu sempre almoço ao meio-dia."
+            },
+            {
+              "target": "What time do you get up?",
+              "pt": "A que horas você se levanta?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ she like music?",
+              "options": [
+                "Does",
+                "Do",
+                "Is"
+              ],
+              "answer": "Does",
+              "explanation": "Perguntas com 'she' no presente simples usam 'Does'."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "He goes to school every day.",
+                "He go to school every day.",
+                "He going to school every day."
+              ],
+              "answer": "He goes to school every day.",
+              "explanation": "Com 'he', acrescentamos -es ao verbo 'go': goes."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "level": "Intermediário",
+          "theme": "Passado simples",
+          "objective": "Contar ações do passado usando verbos regulares e irregulares.",
+          "content": [
+            "yesterday, last week, last weekend",
+            "regular verbs: visited, worked, watched",
+            "irregular verbs: went, saw, had",
+            "did / didn't",
+            "Did you...?",
+            "time expressions in the past"
+          ],
+          "phrases": [
+            {
+              "target": "I visited my grandparents last weekend.",
+              "pt": "Eu visitei meus avós no fim de semana passado."
+            },
+            {
+              "target": "She went to the beach yesterday.",
+              "pt": "Ela foi à praia ontem."
+            },
+            {
+              "target": "We didn't watch the movie.",
+              "pt": "Nós não assistimos ao filme."
+            },
+            {
+              "target": "Did you study for the test?",
+              "pt": "Você estudou para a prova?"
+            },
+            {
+              "target": "He worked late last night.",
+              "pt": "Ele trabalhou até tarde ontem à noite."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I ___ to the cinema yesterday.",
+              "options": [
+                "went",
+                "go",
+                "gone"
+              ],
+              "answer": "went",
+              "explanation": "'Go' é irregular: o passado simples é 'went'."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'She went to the beach yesterday'?",
+              "options": [
+                "Ela foi à praia ontem.",
+                "Ela vai à praia amanhã.",
+                "Ela estava na praia ontem."
+              ],
+              "answer": "Ela foi à praia ontem.",
+              "explanation": "'Went' é o passado de 'go', indicando uma ação concluída."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "level": "Intermediário",
+          "theme": "Planos futuros",
+          "objective": "Falar sobre planos e previsões usando 'going to' e 'will'.",
+          "content": [
+            "I am going to...",
+            "will / won't",
+            "next week, next month",
+            "plan to",
+            "probably",
+            "I think it will..."
+          ],
+          "phrases": [
+            {
+              "target": "I am going to travel next month.",
+              "pt": "Eu vou viajar no mês que vem."
+            },
+            {
+              "target": "She will start a new job soon.",
+              "pt": "Ela vai começar um novo trabalho em breve."
+            },
+            {
+              "target": "We are planning to move.",
+              "pt": "Nós estamos planejando nos mudar."
+            },
+            {
+              "target": "I think it will rain tomorrow.",
+              "pt": "Eu acho que vai chover amanhã."
+            },
+            {
+              "target": "I am going to study tonight.",
+              "pt": "Eu vou estudar hoje à noite."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I ___ travel next month.",
+              "options": [
+                "am going to",
+                "going to",
+                "will going to"
+              ],
+              "answer": "am going to",
+              "explanation": "A estrutura correta é sujeito + verbo to be + going to + verbo."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'I am going to study tonight'?",
+              "options": [
+                "Eu vou estudar hoje à noite.",
+                "Eu estudei ontem à noite.",
+                "Eu estou estudando agora."
+              ],
+              "answer": "Eu vou estudar hoje à noite.",
+              "explanation": "'Am going to' expressa um plano ou intenção futura."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "level": "Intermediário",
+          "theme": "Compras e restaurante",
+          "objective": "Fazer pedidos, perguntar preços e pedir a conta.",
+          "content": [
+            "How much is it?",
+            "I would like...",
+            "Can I try this on?",
+            "size / larger size",
+            "the bill",
+            "order"
+          ],
+          "phrases": [
+            {
+              "target": "How much does this cost?",
+              "pt": "Quanto custa isto?"
+            },
+            {
+              "target": "I would like a coffee, please.",
+              "pt": "Eu gostaria de um café, por favor."
+            },
+            {
+              "target": "Can I have the menu?",
+              "pt": "Pode me trazer o cardápio, por favor?"
+            },
+            {
+              "target": "Could we have the bill, please?",
+              "pt": "Poderia trazer a conta, por favor?"
+            },
+            {
+              "target": "Do you have this in a larger size?",
+              "pt": "Você tem isto em um tamanho maior?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I ___ like a glass of water, please.",
+              "options": [
+                "would",
+                "will",
+                "do"
+              ],
+              "answer": "would",
+              "explanation": "'I would like' é a forma educada de pedir algo."
+            },
+            {
+              "type": "jogo",
+              "question": "Como você pede a conta em um restaurante?",
+              "options": [
+                "Could we have the bill, please?",
+                "How much is the menu?",
+                "Where is the kitchen?"
+              ],
+              "answer": "Could we have the bill, please?",
+              "explanation": "'Bill' significa a conta do restaurante."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "level": "Intermediário",
+          "theme": "Viagens",
+          "objective": "Usar vocabulário de aeroporto, passagens e hospedagem.",
+          "content": [
+            "boarding pass",
+            "luggage / hand luggage",
+            "one-way ticket / round-trip ticket",
+            "check in",
+            "departure gate",
+            "flight"
+          ],
+          "phrases": [
+            {
+              "target": "Where is the check-in counter?",
+              "pt": "Onde fica o balcão de check-in?"
+            },
+            {
+              "target": "I would like a one-way ticket to London.",
+              "pt": "Eu gostaria de uma passagem só de ida para Londres."
+            },
+            {
+              "target": "My flight departs at nine a.m.",
+              "pt": "Meu voo parte às nove da manhã."
+            },
+            {
+              "target": "Can I take this bag as hand luggage?",
+              "pt": "Posso levar esta bolsa como bagagem de mão?"
+            },
+            {
+              "target": "The gate is on the second floor.",
+              "pt": "O portão fica no piso superior."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I need to check ___ for my flight.",
+              "options": [
+                "in",
+                "on",
+                "up"
+              ],
+              "answer": "in",
+              "explanation": "O phrasal verb 'check in' é usado no aeroporto e em hotéis."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'boarding pass'?",
+              "options": [
+                "cartão de embarque",
+                "passaporte",
+                "bagagem"
+              ],
+              "answer": "cartão de embarque",
+              "explanation": "'Boarding pass' é o documento que permite embarcar no avião."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "level": "Intermediário",
+          "theme": "Revisão intermediária",
+          "objective": "Revisar passado, futuro e pedidos educados em situações reais.",
+          "content": [
+            "Past simple: went, visited, did",
+            "Future: going to / will",
+            "Polite requests: could, would like",
+            "Travel vocabulary",
+            "Did you...? / Have you...?",
+            "Time expressions"
+          ],
+          "phrases": [
+            {
+              "target": "I went to Rio last year.",
+              "pt": "Eu fui ao Rio no ano passado."
+            },
+            {
+              "target": "I am going to travel in July.",
+              "pt": "Eu vou viajar em julho."
+            },
+            {
+              "target": "Could you help me, please?",
+              "pt": "Você poderia me ajudar, por favor?"
+            },
+            {
+              "target": "I would like to book a room.",
+              "pt": "Eu gostaria de reservar um quarto."
+            },
+            {
+              "target": "Did you enjoy your trip?",
+              "pt": "Você gostou da sua viagem?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ you enjoy your trip last week?",
+              "options": [
+                "Did",
+                "Do",
+                "Are"
+              ],
+              "answer": "Did",
+              "explanation": "Para perguntas no passado simples usamos 'Did' + verbo base."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "I didn't go to the party.",
+                "I didn't went to the party.",
+                "I don't went to the party."
+              ],
+              "answer": "I didn't go to the party.",
+              "explanation": "Depois de 'didn't', o verbo fica na forma base: go."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "level": "Avançado",
+          "theme": "Opiniões e argumentos",
+          "objective": "Expressar e defender opiniões com conectores e ressalvas.",
+          "content": [
+            "In my opinion...",
+            "I believe that...",
+            "On the other hand...",
+            "However...",
+            "I agree / I disagree",
+            "From my point of view..."
+          ],
+          "phrases": [
+            {
+              "target": "In my opinion, education is essential.",
+              "pt": "Na minha opinião, a educação é essencial."
+            },
+            {
+              "target": "I believe that technology helps us learn.",
+              "pt": "Eu acredito que a tecnologia nos ajuda a aprender."
+            },
+            {
+              "target": "On the other hand, it can be distracting.",
+              "pt": "Por outro lado, ela pode distrair."
+            },
+            {
+              "target": "I completely agree with you.",
+              "pt": "Eu concordo totalmente com você."
+            },
+            {
+              "target": "However, there are some risks.",
+              "pt": "No entanto, existem alguns riscos."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ my opinion, this is the best option.",
+              "options": [
+                "In",
+                "On",
+                "At"
+              ],
+              "answer": "In",
+              "explanation": "A expressão fixa é 'in my opinion'."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz uma opinião?",
+              "options": [
+                "In my opinion...",
+                "On the other hand...",
+                "As a result..."
+              ],
+              "answer": "In my opinion...",
+              "explanation": "'In my opinion' anuncia o ponto de vista do falante."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "level": "Avançado",
+          "theme": "Texto e interpretação",
+          "objective": "Identificar ideia principal, argumentos e inferências em textos.",
+          "content": [
+            "main idea",
+            "according to the text",
+            "the author argues that...",
+            "in other words",
+            "the passage suggests that...",
+            "supporting details"
+          ],
+          "phrases": [
+            {
+              "target": "According to the text, the main problem is pollution.",
+              "pt": "De acordo com o texto, o principal problema é a poluição."
+            },
+            {
+              "target": "The author argues that schools should change.",
+              "pt": "O autor argumenta que as escolas deveriam mudar."
+            },
+            {
+              "target": "In other words, the plan is too expensive.",
+              "pt": "Em outras palavras, o plano é caro demais."
+            },
+            {
+              "target": "The passage suggests a new approach.",
+              "pt": "O trecho sugere uma nova abordagem."
+            },
+            {
+              "target": "What is the main idea of the text?",
+              "pt": "Qual é a ideia principal do texto?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "According ___ the text, prices are rising.",
+              "options": [
+                "to",
+                "with",
+                "for"
+              ],
+              "answer": "to",
+              "explanation": "A expressão correta é 'according to' (de acordo com)."
+            },
+            {
+              "type": "jogo",
+              "question": "O que significa 'main idea' em um texto?",
+              "options": [
+                "ideia principal",
+                "personagem principal",
+                "conclusão"
+              ],
+              "answer": "ideia principal",
+              "explanation": "'Main idea' é o ponto central que o texto defende."
+            }
+          ],
+          "reading": {
+            "title": "The Future of Work",
+            "text": "Remote work changed where we work, and artificial intelligence is changing what we do. Routine tasks are increasingly automated, while judgment, communication and learning quickly matter more. Companies expect professionals to explain their reasoning, collaborate across cultures and keep learning new tools. For language learners, this is an advantage: the ability to negotiate, present and disagree politely is now a core skill, not a bonus. The challenge is to practise these situations before they happen. A short conversation about a real project teaches more than a list of isolated words."
+          }
+        },
+        {
+          "id": 13,
+          "level": "Avançado",
+          "theme": "Correção gramatical",
+          "objective": "Reconhecer e corrigir erros gramaticais comuns em inglês.",
+          "content": [
+            "If I were you...",
+            "I have been living...",
+            "used to + verb",
+            "Despite + noun",
+            "third person: doesn't + base verb",
+            "present perfect vs. past simple"
+          ],
+          "phrases": [
+            {
+              "target": "I have been living here for five years.",
+              "pt": "Eu moro aqui há cinco anos."
+            },
+            {
+              "target": "If I were you, I would apologize.",
+              "pt": "Se eu fosse você, eu pediria desculpas."
+            },
+            {
+              "target": "She doesn't like being late.",
+              "pt": "Ela não gosta de se atrasar."
+            },
+            {
+              "target": "I used to play the guitar.",
+              "pt": "Eu costumava tocar violão."
+            },
+            {
+              "target": "Despite the rain, we went out.",
+              "pt": "Apesar da chuva, nós saímos."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "If I ___ you, I would accept the offer.",
+              "options": [
+                "were",
+                "be",
+                "am"
+              ],
+              "answer": "were",
+              "explanation": "No condicional irreal formal, usamos 'were' para todas as pessoas; 'was' é aceito na fala informal."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "She doesn't like being late.",
+                "She don't like being late.",
+                "She doesn't likes being late."
+              ],
+              "answer": "She doesn't like being late.",
+              "explanation": "Com 'doesn't', o verbo principal fica na forma base: like."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "level": "Avançado",
+          "theme": "Ambiente profissional",
+          "objective": "Comunicar-se em reuniões, prazos e tarefas de trabalho.",
+          "content": [
+            "deadline",
+            "meeting / schedule a meeting",
+            "colleague",
+            "report",
+            "I am responsible for...",
+            "follow up on..."
+          ],
+          "phrases": [
+            {
+              "target": "I am responsible for the marketing team.",
+              "pt": "Eu sou responsável pela equipe de marketing."
+            },
+            {
+              "target": "The deadline is next Friday.",
+              "pt": "O prazo final é na próxima sexta-feira."
+            },
+            {
+              "target": "Could you send me the report?",
+              "pt": "Você poderia me enviar o relatório?"
+            },
+            {
+              "target": "Let's schedule a meeting for Monday.",
+              "pt": "Vamos agendar uma reunião para segunda-feira."
+            },
+            {
+              "target": "I will follow up on this issue.",
+              "pt": "Eu vou acompanhar esta questão."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "We have to meet the Friday ___.",
+              "options": [
+                "deadline",
+                "schedule",
+                "report"
+              ],
+              "answer": "deadline",
+              "explanation": "'Meet the Friday deadline' significa cumprir o prazo de sexta."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de 'colleague'?",
+              "options": [
+                "colega de trabalho",
+                "cliente",
+                "gerente"
+              ],
+              "answer": "colega de trabalho",
+              "explanation": "'Colleague' é a pessoa que trabalha com você."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "level": "Avançado",
+          "theme": "Revisão avançada",
+          "objective": "Revisar tempos verbais, condicionais e linguagem profissional.",
+          "content": [
+            "present perfect: have worked",
+            "third conditional: would have called",
+            "linking words: despite, however",
+            "passive voice: was sent",
+            "opinion language",
+            "professional vocabulary"
+          ],
+          "phrases": [
+            {
+              "target": "I have worked here since 2020.",
+              "pt": "Eu trabalho aqui desde 2020."
+            },
+            {
+              "target": "If I had known, I would have called.",
+              "pt": "Se eu tivesse sabido, eu teria ligado."
+            },
+            {
+              "target": "In my opinion, we should invest more.",
+              "pt": "Na minha opinião, deveríamos investir mais."
+            },
+            {
+              "target": "The report was sent yesterday.",
+              "pt": "O relatório foi enviado ontem."
+            },
+            {
+              "target": "Despite the challenges, we succeeded.",
+              "pt": "Apesar dos desafios, nós tivemos sucesso."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "I have worked here ___ 2020.",
+              "options": [
+                "since",
+                "for",
+                "from"
+              ],
+              "answer": "since",
+              "explanation": "Usamos 'since' com um ponto de partida no tempo (2020)."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "If I had known, I would have called.",
+                "If I knew, I would have called.",
+                "If I have known, I would call."
+              ],
+              "answer": "If I had known, I would have called.",
+              "explanation": "O terceiro condicional usa 'had + past participle' e 'would have + past participle'."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "level": "Fluente",
+          "theme": "Conversa natural",
+          "objective": "Usar expressões naturais para manter uma conversa fluida.",
+          "content": [
+            "to be honest",
+            "by the way",
+            "it depends",
+            "I see what you mean",
+            "no worries",
+            "actually"
+          ],
+          "phrases": [
+            {
+              "target": "To be honest, I haven't decided yet.",
+              "pt": "Para ser sincero, eu ainda não decidi."
+            },
+            {
+              "target": "By the way, did you get my message?",
+              "pt": "A propósito, você recebeu minha mensagem?"
+            },
+            {
+              "target": "It depends on the situation.",
+              "pt": "Depende da situação."
+            },
+            {
+              "target": "I see what you mean, but I disagree.",
+              "pt": "Eu entendo o que você quer dizer, mas discordo."
+            },
+            {
+              "target": "No worries, take your time.",
+              "pt": "Sem problemas, não tenha pressa."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ the way, have you seen my keys?",
+              "options": [
+                "By",
+                "On",
+                "In"
+              ],
+              "answer": "By",
+              "explanation": "A expressão fixa é 'by the way' (a propósito)."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão mostra que você entendeu o ponto do outro?",
+              "options": [
+                "I see what you mean.",
+                "It depends on you.",
+                "By the way."
+              ],
+              "answer": "I see what you mean.",
+              "explanation": "Essa frase demonstra compreensão antes de responder ou discordar."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "level": "Fluente",
+          "theme": "Simulação real",
+          "objective": "Resolver situações reais ao telefone e em atendimentos.",
+          "content": [
+            "I'm calling about...",
+            "Would you mind...?",
+            "Could I ask a favor?",
+            "Let me check",
+            "I'll get back to you",
+            "speak more slowly"
+          ],
+          "phrases": [
+            {
+              "target": "I'm calling about my reservation.",
+              "pt": "Estou ligando sobre minha reserva."
+            },
+            {
+              "target": "Would you mind speaking more slowly?",
+              "pt": "Você se importaria de falar mais devagar?"
+            },
+            {
+              "target": "Could I ask you a favor?",
+              "pt": "Eu poderia pedir um favor a você?"
+            },
+            {
+              "target": "Let me check that for you.",
+              "pt": "Deixe-me verificar isso para você."
+            },
+            {
+              "target": "I will get back to you by email.",
+              "pt": "Eu retorno para você por e-mail."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Would you mind ___ the window?",
+              "options": [
+                "opening",
+                "open",
+                "to open"
+              ],
+              "answer": "opening",
+              "explanation": "Depois de 'would you mind' usamos o verbo com -ing."
+            },
+            {
+              "type": "jogo",
+              "question": "Como pedir um favor educadamente?",
+              "options": [
+                "Could I ask you a favor?",
+                "Give me that now.",
+                "You must help me."
+              ],
+              "answer": "Could I ask you a favor?",
+              "explanation": "'Could I...?' é uma forma educada e indireta de pedir algo."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "level": "Fluente",
+          "theme": "Fluência e naturalidade",
+          "objective": "Soar mais natural com conectores, atenuações e expressões idiomáticas.",
+          "content": [
+            "as far as I know",
+            "more or less",
+            "it turns out",
+            "to some extent",
+            "that being said",
+            "in the long run"
+          ],
+          "phrases": [
+            {
+              "target": "As far as I know, the store is closed.",
+              "pt": "Pelo que eu sei, a loja está fechada."
+            },
+            {
+              "target": "It turns out she was right.",
+              "pt": "Acontece que ela estava certa."
+            },
+            {
+              "target": "That being said, we still need to be careful.",
+              "pt": "Dito isso, ainda precisamos ter cuidado."
+            },
+            {
+              "target": "To some extent, I agree with you.",
+              "pt": "Até certo ponto, eu concordo com você."
+            },
+            {
+              "target": "We'll finish it more or less by noon.",
+              "pt": "Nós vamos terminar isso mais ou menos ao meio-dia."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "As far as I ___, the meeting is canceled.",
+              "options": [
+                "know",
+                "knew",
+                "known"
+              ],
+              "answer": "know",
+              "explanation": "A expressão fixa é 'as far as I know', no presente."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz um contraste ou ressalva?",
+              "options": [
+                "That being said...",
+                "In other words...",
+                "It turns out..."
+              ],
+              "answer": "That being said...",
+              "explanation": "'That being said' introduz uma ressalva ou contraste."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "level": "Fluente",
+          "theme": "Discussões complexas",
+          "objective": "Debater ideias complexas com argumentos e contra-argumentos.",
+          "content": [
+            "I take your point, but...",
+            "there is a strong case for...",
+            "the underlying issue",
+            "I would argue that...",
+            "on balance",
+            "the benefits outweigh the costs"
+          ],
+          "phrases": [
+            {
+              "target": "I take your point, but I see it differently.",
+              "pt": "Eu entendo seu ponto, mas vejo de outra forma."
+            },
+            {
+              "target": "There is a strong case for investing in education.",
+              "pt": "Há um forte argumento para investir em educação."
+            },
+            {
+              "target": "The underlying issue is inequality.",
+              "pt": "A questão de fundo é a desigualdade."
+            },
+            {
+              "target": "I would argue that the policy is flawed.",
+              "pt": "Eu argumentaria que a política é falha."
+            },
+            {
+              "target": "On balance, the benefits outweigh the costs.",
+              "pt": "No geral, os benefícios superam os custos."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "There is a strong ___ for changing the system.",
+              "options": [
+                "case",
+                "point",
+                "issue"
+              ],
+              "answer": "case",
+              "explanation": "'There is a strong case for' significa que há bons argumentos a favor."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase expressa discordância educada?",
+              "options": [
+                "I take your point, but I see it differently.",
+                "You are completely wrong.",
+                "I don't care about that."
+              ],
+              "answer": "I take your point, but I see it differently.",
+              "explanation": "Reconhecer o ponto do outro e depois discordar mantém o debate respeitoso."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "level": "Fluente",
+          "theme": "Avaliação final",
+          "objective": "Demonstrar domínio integrado de tempos, argumentos e apresentações.",
+          "content": [
+            "all verb tenses review",
+            "formal and informal register",
+            "presentation language",
+            "idiomatic expressions",
+            "cohesion and coherence",
+            "conclusion phrases"
+          ],
+          "phrases": [
+            {
+              "target": "I have been studying English for three years.",
+              "pt": "Eu estudo inglês há três anos."
+            },
+            {
+              "target": "If I had more time, I would travel more.",
+              "pt": "Se eu tivesse mais tempo, eu viajaria mais."
+            },
+            {
+              "target": "In conclusion, the project was a success.",
+              "pt": "Em conclusão, o projeto foi um sucesso."
+            },
+            {
+              "target": "I would like to highlight two main points.",
+              "pt": "Eu gostaria de destacar dois pontos principais."
+            },
+            {
+              "target": "Despite the difficulties, we achieved our goal.",
+              "pt": "Apesar das dificuldades, nós alcançamos nosso objetivo."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "In ___, the project was a success.",
+              "options": [
+                "conclusion",
+                "summarize",
+                "final"
+              ],
+              "answer": "conclusion",
+              "explanation": "A expressão fixa para concluir é 'in conclusion'."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta:",
+              "options": [
+                "I have been studying English for three years.",
+                "I am studying English for three years.",
+                "I study English since three years."
+              ],
+              "answer": "I have been studying English for three years.",
+              "explanation": "O present perfect continuous com 'for' indica duração até o presente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "Espanhol",
+      "code": "es",
+      "lessons": [
+        {
+          "id": 1,
+          "level": "Básico",
+          "theme": "Apresentação pessoal",
+          "objective": "Apresentar-se e cumprimentar pessoas em situações do dia a dia.",
+          "content": [
+            "Me llamo… / Mi nombre es…",
+            "Soy de Brasil.",
+            "Tengo veinte años.",
+            "Mucho gusto. / Encantado, encantada.",
+            "¿Cómo te llamas?",
+            "¿De dónde eres?"
+          ],
+          "phrases": [
+            {
+              "target": "Hola, me llamo Ana. ¿Y tú?",
+              "pt": "Olá, meu nome é Ana. E você?"
+            },
+            {
+              "target": "Soy brasileña y vivo en São Paulo.",
+              "pt": "Sou brasileira e moro em São Paulo."
+            },
+            {
+              "target": "Mucho gusto, ¿cómo estás?",
+              "pt": "Muito prazer, como você está?"
+            },
+            {
+              "target": "¿De dónde eres?",
+              "pt": "De onde você é?"
+            },
+            {
+              "target": "Tengo veinticinco años.",
+              "pt": "Tenho vinte e cinco anos."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Hola, ___ Ana. ¿Y tú?",
+              "options": [
+                "me llamo",
+                "llamo me",
+                "mi llamo"
+              ],
+              "answer": "me llamo",
+              "explanation": "Usamos \"me llamo\" + nome para se apresentar."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"Mucho gusto\"?",
+              "options": [
+                "Muito prazer",
+                "Muito obrigado",
+                "Até logo"
+              ],
+              "answer": "Muito prazer",
+              "explanation": "\"Mucho gusto\" é usado ao conhecer alguém."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Básico",
+          "theme": "Família e pessoas",
+          "objective": "Falar sobre a família e descrever pessoas.",
+          "content": [
+            "mi madre / mi padre",
+            "mi hermano / mi hermana",
+            "los abuelos",
+            "casado / soltero",
+            "¿Tienes hermanos?",
+            "Es simpático y alto."
+          ],
+          "phrases": [
+            {
+              "target": "Mi familia es pequeña: mi madre, mi padre y yo.",
+              "pt": "Minha família é pequena: minha mãe, meu pai e eu."
+            },
+            {
+              "target": "Tengo dos hermanos y una hermana.",
+              "pt": "Tenho dois irmãos e uma irmã."
+            },
+            {
+              "target": "Mis abuelos viven en Madrid.",
+              "pt": "Meus avós moram em Madri."
+            },
+            {
+              "target": "Mi hermana es alta y muy simpática.",
+              "pt": "Minha irmã é alta e muito simpática."
+            },
+            {
+              "target": "¿Cómo se llama tu padre?",
+              "pt": "Como se chama o seu pai?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Mi hermana ___ veinte años.",
+              "options": [
+                "tiene",
+                "tienes",
+                "tienen"
+              ],
+              "answer": "tiene",
+              "explanation": "Para ele ou ela usamos \"tiene\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"los abuelos\"?",
+              "options": [
+                "os avós",
+                "os tios",
+                "os primos"
+              ],
+              "answer": "os avós",
+              "explanation": "\"Los abuelos\" significa os avós."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Básico",
+          "theme": "Rotina diária",
+          "objective": "Descrever a rotina diária e os horários.",
+          "content": [
+            "me levanto a las siete",
+            "desayuno",
+            "voy al trabajo",
+            "por la mañana / por la noche",
+            "¿A qué hora…?",
+            "siempre / a veces / nunca"
+          ],
+          "phrases": [
+            {
+              "target": "Me levanto a las siete de la mañana.",
+              "pt": "Eu me levanto às sete da manhã."
+            },
+            {
+              "target": "Desayuno café con pan.",
+              "pt": "No café da manhã, tomo café com pão."
+            },
+            {
+              "target": "Trabajo de nueve a seis.",
+              "pt": "Trabalho das nove às seis."
+            },
+            {
+              "target": "Por la noche veo series con mi familia.",
+              "pt": "À noite assisto a séries com minha família."
+            },
+            {
+              "target": "¿A qué hora te acuestas?",
+              "pt": "A que horas você se deita?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ a las siete todos los días.",
+              "options": [
+                "Me levanto",
+                "Levanto me",
+                "Me levanto me"
+              ],
+              "answer": "Me levanto",
+              "explanation": "O verbo reflexivo \"levantarse\" fica \"me levanto\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"por la noche\"?",
+              "options": [
+                "à noite",
+                "de manhã",
+                "à tarde"
+              ],
+              "answer": "à noite",
+              "explanation": "\"Por la noche\" indica o período da noite."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "level": "Básico",
+          "theme": "Gostos e preferências",
+          "objective": "Expressar gostos, preferências e hobbies.",
+          "content": [
+            "me gusta / me gustan",
+            "no me gusta",
+            "prefiero",
+            "mi afición favorita es…",
+            "¿Qué te gusta hacer?",
+            "me encanta"
+          ],
+          "phrases": [
+            {
+              "target": "Me gusta mucho la música brasileña.",
+              "pt": "Gosto muito da música brasileira."
+            },
+            {
+              "target": "No me gustan las películas de terror.",
+              "pt": "Não gosto de filmes de terror."
+            },
+            {
+              "target": "Prefiero el café al té.",
+              "pt": "Prefiro café a chá."
+            },
+            {
+              "target": "Me encanta leer antes de dormir.",
+              "pt": "Adoro ler antes de dormir."
+            },
+            {
+              "target": "¿Qué te gusta hacer los fines de semana?",
+              "pt": "O que você gosta de fazer nos fins de semana?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Me ___ las películas de comedia.",
+              "options": [
+                "gustan",
+                "gusta",
+                "gusto"
+              ],
+              "answer": "gustan",
+              "explanation": "Com substantivo plural usamos \"gustan\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"Me encanta leer\"?",
+              "options": [
+                "Adoro ler",
+                "Não gosto de ler",
+                "Prefiro ler"
+              ],
+              "answer": "Adoro ler",
+              "explanation": "\"Me encanta\" expressa algo de que se gosta muito."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "level": "Básico",
+          "theme": "Revisão do básico",
+          "objective": "Revisar cumprimentos, família, rotina e gostos.",
+          "content": [
+            "el presente de indicativo",
+            "ser, estar y tener",
+            "los artículos el, la, los, las",
+            "me gusta / me gustan",
+            "preguntas con qué, cómo, dónde",
+            "los números y las horas"
+          ],
+          "phrases": [
+            {
+              "target": "Buenos días, ¿cómo está usted?",
+              "pt": "Bom dia, como está o senhor?"
+            },
+            {
+              "target": "Vivo con mis padres en Lisboa.",
+              "pt": "Moro com meus pais em Lisboa."
+            },
+            {
+              "target": "Los lunes empiezo a trabajar a las ocho.",
+              "pt": "Às segundas-feiras começo a trabalhar às oito."
+            },
+            {
+              "target": "Me gustan los deportes y la playa.",
+              "pt": "Gosto de esportes e da praia."
+            },
+            {
+              "target": "¿Dónde está la estación de tren?",
+              "pt": "Onde fica a estação de trem?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Yo los lunes ___ a trabajar a las ocho.",
+              "options": [
+                "empiezo",
+                "empieza",
+                "empiezas"
+              ],
+              "answer": "empiezo",
+              "explanation": "Com 'yo' a forma é 'empiezo'."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está correta?",
+              "options": [
+                "Me gustan los deportes.",
+                "Me gusta los deportes.",
+                "Me gusto los deportes."
+              ],
+              "answer": "Me gustan los deportes.",
+              "explanation": "Com substantivo plural usamos \"gustan\"."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "level": "Intermediário",
+          "theme": "Passado simples",
+          "objective": "Contar experiências passadas usando o pretérito indefinido.",
+          "content": [
+            "el pretérito indefinido",
+            "ayer, la semana pasada",
+            "fui / estuve / tuve",
+            "hice / comí / viví",
+            "¿Qué hiciste…?",
+            "hace dos años"
+          ],
+          "phrases": [
+            {
+              "target": "Ayer fui al cine con mis amigos.",
+              "pt": "Ontem fui ao cinema com meus amigos."
+            },
+            {
+              "target": "La semana pasada estuve en Río de Janeiro.",
+              "pt": "Na semana passada estive no Rio de Janeiro."
+            },
+            {
+              "target": "El año pasado viajé a Argentina.",
+              "pt": "No ano passado viajei para a Argentina."
+            },
+            {
+              "target": "¿Qué hiciste el fin de semana?",
+              "pt": "O que você fez no fim de semana?"
+            },
+            {
+              "target": "Hice la tarea y después salí.",
+              "pt": "Fiz a lição e depois saí."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Ayer ___ al cine con mis amigos y volví tarde.",
+              "options": [
+                "fui",
+                "voy",
+                "iré"
+              ],
+              "answer": "fui",
+              "explanation": "'Ayer' com ação concluída pede o pretérito indefinido: fui."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"¿Qué hiciste el fin de semana?\"?",
+              "options": [
+                "O que você fez no fim de semana?",
+                "O que você faz no fim de semana?",
+                "O que você fará no fim de semana?"
+              ],
+              "answer": "O que você fez no fim de semana?",
+              "explanation": "\"Hiciste\" é o passado, então a frase fala de algo já feito."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "level": "Intermediário",
+          "theme": "Planos futuros",
+          "objective": "Falar sobre planos e intenções futuras.",
+          "content": [
+            "ir a + infinitivo",
+            "voy a viajar",
+            "el próximo año",
+            "pensar + infinitivo",
+            "¿Qué vas a hacer…?",
+            "quizás / tal vez"
+          ],
+          "phrases": [
+            {
+              "target": "El próximo año voy a estudiar español.",
+              "pt": "No próximo ano vou estudar espanhol."
+            },
+            {
+              "target": "Vamos a viajar en diciembre.",
+              "pt": "Vamos viajar em dezembro."
+            },
+            {
+              "target": "Pienso cambiar de trabajo.",
+              "pt": "Pretendo mudar de emprego."
+            },
+            {
+              "target": "¿Qué vas a hacer este fin de semana?",
+              "pt": "O que você vai fazer neste fim de semana?"
+            },
+            {
+              "target": "Quizás visite a mi familia.",
+              "pt": "Talvez eu visite minha família."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "El próximo año ___ estudiar español.",
+              "options": [
+                "voy a",
+                "voy",
+                "ir a"
+              ],
+              "answer": "voy a",
+              "explanation": "O futuro com plano usa \"ir a\" + infinitivo."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase expressa um plano futuro?",
+              "options": [
+                "Voy a viajar en diciembre.",
+                "Viajé en diciembre.",
+                "Viajo todos los diciembres."
+              ],
+              "answer": "Voy a viajar en diciembre.",
+              "explanation": "\"Voy a + infinitivo\" indica uma intenção futura."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "level": "Intermediário",
+          "theme": "Compras e restaurante",
+          "objective": "Comprar, pedir comida e resolver situações no restaurante.",
+          "content": [
+            "¿Cuánto cuesta…?",
+            "Quisiera…, por favor",
+            "la cuenta, por favor",
+            "¿Tienen…?",
+            "una mesa para dos",
+            "pagar con tarjeta"
+          ],
+          "phrases": [
+            {
+              "target": "¿Cuánto cuesta esta camiseta?",
+              "pt": "Quanto custa esta camiseta?"
+            },
+            {
+              "target": "Quisiera una mesa para dos, por favor.",
+              "pt": "Eu gostaria de uma mesa para dois, por favor."
+            },
+            {
+              "target": "De primero, voy a pedir una ensalada.",
+              "pt": "De entrada, vou pedir uma salada."
+            },
+            {
+              "target": "La cuenta, por favor.",
+              "pt": "A conta, por favor."
+            },
+            {
+              "target": "¿Puedo pagar con tarjeta?",
+              "pt": "Posso pagar com cartão?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ una mesa para dos, por favor.",
+              "options": [
+                "Quisiera",
+                "Quiero que",
+                "Quisieras"
+              ],
+              "answer": "Quisiera",
+              "explanation": "\"Quisiera\" é a forma educada de pedir."
+            },
+            {
+              "type": "jogo",
+              "question": "Como se pede a conta em espanhol?",
+              "options": [
+                "La cuenta, por favor.",
+                "La compra, por favor.",
+                "El menú, por favor."
+              ],
+              "answer": "La cuenta, por favor.",
+              "explanation": "\"La cuenta\" é a conta do restaurante."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "level": "Intermediário",
+          "theme": "Viagens",
+          "objective": "Organizar viagens e lidar com transportes e hospedagem.",
+          "content": [
+            "el billete de avión / de tren",
+            "reservar una habitación",
+            "¿A qué hora sale…?",
+            "hacer una reserva",
+            "el equipaje",
+            "¿Cómo llego a…?"
+          ],
+          "phrases": [
+            {
+              "target": "Quiero reservar una habitación para dos noches.",
+              "pt": "Quero reservar um quarto para duas noites."
+            },
+            {
+              "target": "¿A qué hora sale el tren a Sevilla?",
+              "pt": "A que horas sai o trem para Sevilha?"
+            },
+            {
+              "target": "¿Cómo llego al centro desde el aeropuerto?",
+              "pt": "Como chego ao centro desde o aeroporto?"
+            },
+            {
+              "target": "He perdido mi equipaje.",
+              "pt": "Perdi minha bagagem."
+            },
+            {
+              "target": "Necesito un billete de ida y vuelta.",
+              "pt": "Preciso de uma passagem de ida e volta."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "¿A qué hora ___ el tren a Sevilla?",
+              "options": [
+                "sale",
+                "salgo",
+                "sales"
+              ],
+              "answer": "sale",
+              "explanation": "O sujeito é \"el tren\", então usamos \"sale\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"billete de ida y vuelta\"?",
+              "options": [
+                "passagem de ida e volta",
+                "passagem só de ida",
+                "cartão de embarque"
+              ],
+              "answer": "passagem de ida e volta",
+              "explanation": "\"Ida y vuelta\" significa ida e volta."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "level": "Intermediário",
+          "theme": "Revisão intermediária",
+          "objective": "Revisar passado, futuro, compras e viagens.",
+          "content": [
+            "el pretérito indefinido y \"ir a\" + infinitivo",
+            "los marcadores temporales",
+            "los pedidos con \"quisiera\"",
+            "el vocabulario de viajes",
+            "¿cuánto? / ¿a qué hora?",
+            "primero, después, al final"
+          ],
+          "phrases": [
+            {
+              "target": "Primero reservé el hotel y después compré los billetes.",
+              "pt": "Primeiro reservei o hotel e depois comprei as passagens."
+            },
+            {
+              "target": "El año pasado viajé a Perú y este año voy a viajar a Chile.",
+              "pt": "No ano passado viajei ao Peru e este ano vou viajar ao Chile."
+            },
+            {
+              "target": "Quisiera dos entradas, por favor.",
+              "pt": "Eu gostaria de dois ingressos, por favor."
+            },
+            {
+              "target": "¿Cuánto cuesta el desayuno?",
+              "pt": "Quanto custa o café da manhã?"
+            },
+            {
+              "target": "Al final, decidimos quedarnos un día más.",
+              "pt": "No fim, decidimos ficar mais um dia."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Primero reservé el hotel y después ___ los billetes.",
+              "options": [
+                "compré",
+                "compro",
+                "compraré"
+              ],
+              "answer": "compré",
+              "explanation": "A sequência de ações no passado usa o indefinido: \"compré\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase fala do futuro?",
+              "options": [
+                "Este año voy a viajar a Chile.",
+                "El año pasado viajé a Perú.",
+                "Siempre viajo en enero."
+              ],
+              "answer": "Este año voy a viajar a Chile.",
+              "explanation": "\"Voy a viajar\" indica um plano futuro."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "level": "Avançado",
+          "theme": "Opiniões e argumentos",
+          "objective": "Expressar opiniões e defender argumentos com conectores.",
+          "content": [
+            "en mi opinión",
+            "por un lado… por otro lado",
+            "sin embargo",
+            "estoy de acuerdo / no estoy de acuerdo",
+            "debido a",
+            "en consecuencia"
+          ],
+          "phrases": [
+            {
+              "target": "En mi opinión, la educación es la base de todo.",
+              "pt": "Na minha opinião, a educação é a base de tudo."
+            },
+            {
+              "target": "Por un lado, es más barato; por otro lado, es menos cómodo.",
+              "pt": "Por um lado, é mais barato; por outro, é menos confortável."
+            },
+            {
+              "target": "Sin embargo, no creo que sea la mejor solución.",
+              "pt": "No entanto, não acho que seja a melhor solução."
+            },
+            {
+              "target": "Estoy de acuerdo con tu punto de vista.",
+              "pt": "Concordo com o seu ponto de vista."
+            },
+            {
+              "target": "Debido a la crisis, muchas empresas cerraron.",
+              "pt": "Devido à crise, muitas empresas fecharam."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ mi opinión, la educación es la base de todo.",
+              "options": [
+                "En",
+                "De",
+                "A"
+              ],
+              "answer": "En",
+              "explanation": "A expressão fixa é \"en mi opinión\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual conector introduz uma oposição?",
+              "options": [
+                "Sin embargo",
+                "Además",
+                "Por ejemplo"
+              ],
+              "answer": "Sin embargo",
+              "explanation": "\"Sin embargo\" equivale a \"no entanto\"."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "level": "Avançado",
+          "theme": "Texto e interpretação",
+          "objective": "Ler e interpretar textos, identificando ideia principal e detalhes.",
+          "content": [
+            "la idea principal",
+            "el texto argumentativo",
+            "según el texto",
+            "el autor afirma que…",
+            "las palabras clave",
+            "inferir"
+          ],
+          "phrases": [
+            {
+              "target": "Según el texto, el cambio climático afecta a todos.",
+              "pt": "Segundo o texto, a mudança climática afeta a todos."
+            },
+            {
+              "target": "La idea principal del texto es la importancia de la lectura.",
+              "pt": "A ideia principal do texto é a importância da leitura."
+            },
+            {
+              "target": "El autor afirma que la tecnología cambió nuestra forma de vivir.",
+              "pt": "O autor afirma que a tecnologia mudou nossa forma de viver."
+            },
+            {
+              "target": "En el segundo párrafo, se explica el problema.",
+              "pt": "No segundo parágrafo, explica-se o problema."
+            },
+            {
+              "target": "Se puede inferir que el personaje está triste.",
+              "pt": "Pode-se inferir que o personagem está triste."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ el texto, el cambio climático afecta a todos.",
+              "options": [
+                "Según",
+                "Sobre",
+                "Entre"
+              ],
+              "answer": "Según",
+              "explanation": "\"Según el texto\" significa segundo o texto."
+            },
+            {
+              "type": "jogo",
+              "question": "O que significa \"la idea principal\"?",
+              "options": [
+                "a ideia principal",
+                "a conclusão",
+                "o título"
+              ],
+              "answer": "a ideia principal",
+              "explanation": "\"Principal\" significa principal, e \"idea\" é ideia."
+            }
+          ],
+          "reading": {
+            "title": "El futuro del trabajo",
+            "text": "El trabajo remoto cambió dónde trabajamos, y la inteligencia artificial está cambiando lo que hacemos. Las tareas rutinarias se automatizan cada vez más, mientras que el criterio, la comunicación y la capacidad de aprender rápido importan más. Las empresas esperan que los profesionales expliquen su razonamiento, colaboren entre culturas y sigan aprendiendo herramientas nuevas. Para quien aprende idiomas, esto es una ventaja: negociar, presentar y discrepar con educación es hoy una competencia central. El reto es practicar estas situaciones antes de que ocurran. Una conversación corta sobre un proyecto real enseña más que una lista de palabras aisladas."
+          }
+        },
+        {
+          "id": 13,
+          "level": "Avançado",
+          "theme": "Correção gramatical",
+          "objective": "Identificar e corrigir erros gramaticais comuns.",
+          "content": [
+            "la concordancia de género y número",
+            "ser vs. estar",
+            "por vs. para",
+            "el uso del subjuntivo",
+            "los pronombres de objeto",
+            "la acentuación"
+          ],
+          "phrases": [
+            {
+              "target": "Los libros están en la mesa.",
+              "pt": "Os livros estão na mesa."
+            },
+            {
+              "target": "Ella es profesora y está muy cansada.",
+              "pt": "Ela é professora e está muito cansada."
+            },
+            {
+              "target": "Este regalo es para ti.",
+              "pt": "Este presente é para você."
+            },
+            {
+              "target": "Es importante que estudies todos los días.",
+              "pt": "É importante que você estude todos os dias."
+            },
+            {
+              "target": "No sé si él viene hoy.",
+              "pt": "Não sei se ele vem hoje."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Ella ___ profesora y está muy cansada.",
+              "options": [
+                "es",
+                "está",
+                "hay"
+              ],
+              "answer": "es",
+              "explanation": "Profissão pede 'ser' sem artigo ('es profesora'); 'estar' indica estado ('está cansada') ou 'estar de + profissão'."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está correta?",
+              "options": [
+                "Es importante que estudies todos los días.",
+                "Es importante que estudias todos los días.",
+                "Es importante que estudiar todos los días."
+              ],
+              "answer": "Es importante que estudies todos los días.",
+              "explanation": "Depois de \"es importante que\" usa-se o subjuntivo."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "level": "Avançado",
+          "theme": "Ambiente profissional",
+          "objective": "Comunicar-se no trabalho: reuniões, e-mails e apresentações.",
+          "content": [
+            "la reunión, la agenda",
+            "adjuntar el archivo",
+            "el plazo / la fecha límite",
+            "la propuesta",
+            "¿Podríamos hablar…?",
+            "el informe"
+          ],
+          "phrases": [
+            {
+              "target": "Adjunto el informe en este correo.",
+              "pt": "Segue o relatório em anexo neste e-mail."
+            },
+            {
+              "target": "La reunión es el martes a las diez.",
+              "pt": "A reunião é na terça às dez."
+            },
+            {
+              "target": "Necesitamos cumplir el plazo de entrega.",
+              "pt": "Precisamos cumprir o prazo de entrega."
+            },
+            {
+              "target": "¿Podríamos hablar de la propuesta mañana?",
+              "pt": "Poderíamos falar da proposta amanhã?"
+            },
+            {
+              "target": "Estoy a cargo del proyecto.",
+              "pt": "Estou encarregado do projeto."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Yo ___ el informe en este correo.",
+              "options": [
+                "Adjunto",
+                "Adjunta",
+                "Adjuntar"
+              ],
+              "answer": "Adjunto",
+              "explanation": "Com \"yo\", o verbo fica \"adjunto\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de \"fecha límite\"?",
+              "options": [
+                "prazo final",
+                "data de início",
+                "reunião"
+              ],
+              "answer": "prazo final",
+              "explanation": "\"Fecha límite\" é o prazo final."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "level": "Avançado",
+          "theme": "Revisão avançada",
+          "objective": "Revisar argumentação, interpretação e gramática avançada.",
+          "content": [
+            "el subjuntivo presente",
+            "los conectores discursivos",
+            "ser, estar y haber",
+            "el discurso indirecto",
+            "el registro formal",
+            "la interpretación de texto"
+          ],
+          "phrases": [
+            {
+              "target": "Aunque llueva, vamos a salir.",
+              "pt": "Mesmo que chova, vamos sair."
+            },
+            {
+              "target": "Si tuviera más tiempo, viajaría más.",
+              "pt": "Se eu tivesse mais tempo, viajaria mais."
+            },
+            {
+              "target": "El director dijo que la reunión sería el lunes.",
+              "pt": "O diretor disse que a reunião seria na segunda."
+            },
+            {
+              "target": "No solo es caro, sino también innecesario.",
+              "pt": "Não só é caro, como também desnecessário."
+            },
+            {
+              "target": "Cabe destacar que los resultados mejoraron.",
+              "pt": "Cabe destacar que os resultados melhoraram."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Aunque ___ mañana, vamos a salir.",
+              "options": [
+                "llueva",
+                "llueve",
+                "llover"
+              ],
+              "answer": "llueva",
+              "explanation": "Com valor hipotético sobre o futuro, usa-se o subjuntivo: llueva."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está no discurso indireto?",
+              "options": [
+                "El director dijo que la reunión sería el lunes.",
+                "El director dice: la reunión es el lunes.",
+                "El director dirá la reunión el lunes."
+              ],
+              "answer": "El director dijo que la reunión sería el lunes.",
+              "explanation": "O discurso indireto relata a fala sem citá-la diretamente."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "level": "Fluente",
+          "theme": "Conversa natural",
+          "objective": "Conversar com naturalidade usando expressões típicas.",
+          "content": [
+            "las expresiones coloquiales",
+            "pues, bueno, o sea",
+            "¿Qué tal?",
+            "dar la razón",
+            "las muletillas naturales",
+            "mantener la conversación"
+          ],
+          "phrases": [
+            {
+              "target": "¿Qué tal el fin de semana? — Pues, bastante tranquilo.",
+              "pt": "Como foi o fim de semana? — Bom, bem tranquilo."
+            },
+            {
+              "target": "O sea, no es que no quiera, es que no puedo.",
+              "pt": "Quer dizer, não é que eu não queira, é que não posso."
+            },
+            {
+              "target": "Bueno, la verdad es que tienes razón.",
+              "pt": "Bom, a verdade é que você tem razão."
+            },
+            {
+              "target": "¡Qué interesante! Cuéntame más.",
+              "pt": "Que interessante! Me conta mais."
+            },
+            {
+              "target": "Por cierto, ¿sigues trabajando allí?",
+              "pt": "A propósito, você ainda trabalha lá?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "¿Qué tal el fin de semana? — Pues, ___ tranquilo.",
+              "options": [
+                "bastante",
+                "bastantes",
+                "muy mucho"
+              ],
+              "answer": "bastante",
+              "explanation": "'Bastante' é advérbio e não varia; 'bastantes' só varia quando é determinante (bastantes livros)."
+            },
+            {
+              "type": "jogo",
+              "question": "O que significa a expressão \"o sea\"?",
+              "options": [
+                "ou seja",
+                "ou não",
+                "então não"
+              ],
+              "answer": "ou seja",
+              "explanation": "\"O sea\" serve para reformular ou explicar melhor."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "level": "Fluente",
+          "theme": "Simulação real",
+          "objective": "Simular situações reais do cotidiano com fluidez.",
+          "content": [
+            "llamar por teléfono",
+            "pedir una cita",
+            "resolver un problema",
+            "disculparse",
+            "una queja formal",
+            "confirmar datos"
+          ],
+          "phrases": [
+            {
+              "target": "Buenos días, llamo para pedir una cita con el doctor.",
+              "pt": "Bom dia, ligo para marcar uma consulta com o médico."
+            },
+            {
+              "target": "Siento mucho las molestias, fue un error nuestro.",
+              "pt": "Sinto muito pelo transtorno, foi um erro nosso."
+            },
+            {
+              "target": "Quisiera presentar una queja por el servicio.",
+              "pt": "Gostaria de apresentar uma reclamação pelo serviço."
+            },
+            {
+              "target": "¿Podría confirmarme la dirección, por favor?",
+              "pt": "Poderia confirmar-me o endereço, por favor?"
+            },
+            {
+              "target": "Le devuelvo la llamada en cuanto tenga los datos.",
+              "pt": "Retorno a ligação assim que tiver os dados."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Siento mucho las ___, fue un error nuestro.",
+              "options": [
+                "molestias",
+                "molestia",
+                "molestando"
+              ],
+              "answer": "molestias",
+              "explanation": "\"Las molestias\" fica no plural depois de \"las\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase serve para reclamar de um serviço?",
+              "options": [
+                "Quisiera presentar una queja por el servicio.",
+                "Quisiera reservar una mesa para dos.",
+                "Quisiera aprender español."
+              ],
+              "answer": "Quisiera presentar una queja por el servicio.",
+              "explanation": "\"Una queja\" é uma reclamação formal."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "level": "Fluente",
+          "theme": "Fluência e naturalidade",
+          "objective": "Aprimorar fluência com ritmo, entonação e reformulação.",
+          "content": [
+            "los conectores de fluidez",
+            "reformular: es decir",
+            "la entonación y las pausas",
+            "las expresiones idiomáticas",
+            "la autocorrección",
+            "en resumidas cuentas"
+          ],
+          "phrases": [
+            {
+              "target": "Es decir, lo que quiero decir es que necesitamos más tiempo.",
+              "pt": "Ou seja, o que quero dizer é que precisamos de mais tempo."
+            },
+            {
+              "target": "No es para tanto, tampoco es el fin del mundo.",
+              "pt": "Não é para tanto, também não é o fim do mundo."
+            },
+            {
+              "target": "En resumidas cuentas, el proyecto salió bien.",
+              "pt": "Resumindo, o projeto deu certo."
+            },
+            {
+              "target": "Por decirlo así, estamos empezando de cero.",
+              "pt": "Por assim dizer, estamos começando do zero."
+            },
+            {
+              "target": "Mejor dicho, no fue un fracaso, fue un aprendizaje.",
+              "pt": "Melhor dizendo, não foi um fracasso, foi um aprendizado."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "En resumidas ___, el proyecto salió bien.",
+              "options": [
+                "cuentas",
+                "cuenta",
+                "cuentos"
+              ],
+              "answer": "cuentas",
+              "explanation": "A expressão fixa é \"en resumidas cuentas\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz uma reformulação?",
+              "options": [
+                "Es decir",
+                "Sin embargo",
+                "Por lo tanto"
+              ],
+              "answer": "Es decir",
+              "explanation": "\"Es decir\" reformula o que foi dito."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "level": "Fluente",
+          "theme": "Discussões complexas",
+          "objective": "Debater temas complexos com nuance e respeito.",
+          "content": [
+            "matizar: hasta cierto punto",
+            "rebatir con respeto",
+            "los argumentos y contraargumentos",
+            "la concesión: si bien",
+            "la postura crítica",
+            "la conclusión fundamentada"
+          ],
+          "phrases": [
+            {
+              "target": "Hasta cierto punto estoy de acuerdo, pero hay matices.",
+              "pt": "Até certo ponto concordo, mas há nuances."
+            },
+            {
+              "target": "Si bien es cierto que avanzamos, aún queda mucho por hacer.",
+              "pt": "Embora seja verdade que avançamos, ainda há muito a fazer."
+            },
+            {
+              "target": "Entiendo tu postura, aunque no la comparto del todo.",
+              "pt": "Entendo sua posição, embora não a compartilhe totalmente."
+            },
+            {
+              "target": "Habría que considerar también el impacto social.",
+              "pt": "Seria preciso considerar também o impacto social."
+            },
+            {
+              "target": "En definitiva, la solución requiere un enfoque colectivo.",
+              "pt": "Em suma, a solução exige uma abordagem coletiva."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ cierto punto estoy de acuerdo, pero hay matices.",
+              "options": [
+                "Hasta",
+                "Hacia",
+                "Desde"
+              ],
+              "answer": "Hasta",
+              "explanation": "A expressão é \"hasta cierto punto\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz uma concessão?",
+              "options": [
+                "Si bien",
+                "Por eso",
+                "Además"
+              ],
+              "answer": "Si bien",
+              "explanation": "\"Si bien\" admite um ponto antes de contrapor."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "level": "Fluente",
+          "theme": "Avaliação final",
+          "objective": "Demonstrar domínio do espanhol em situações variadas.",
+          "content": [
+            "repaso general: los tiempos verbales",
+            "el discurso indirecto",
+            "el registro formal e informal",
+            "la argumentación estructurada",
+            "las expresiones idiomáticas",
+            "la pronunciación y la entonación"
+          ],
+          "phrases": [
+            {
+              "target": "A lo largo de este curso, he aprendido a expresarme con más confianza.",
+              "pt": "Ao longo deste curso, aprendi a me expressar com mais confiança."
+            },
+            {
+              "target": "Si tuviera que elegir un momento, elegiría la primera clase.",
+              "pt": "Se tivesse que escolher um momento, escolheria a primeira aula."
+            },
+            {
+              "target": "No cabe duda de que la práctica es fundamental.",
+              "pt": "Não há dúvida de que a prática é fundamental."
+            },
+            {
+              "target": "A pesar de las dificultades, nunca dejé de estudiar.",
+              "pt": "Apesar das dificuldades, nunca deixei de estudar."
+            },
+            {
+              "target": "Me gustaría seguir perfeccionando mi español.",
+              "pt": "Eu gostaria de continuar aperfeiçoando meu espanhol."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "A lo largo de este curso, ___ aprendido a expresarme mejor.",
+              "options": [
+                "he",
+                "ha",
+                "haber"
+              ],
+              "answer": "he",
+              "explanation": "Com \"yo\" no pretérito perfecto usamos \"he\"."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está gramaticalmente correta?",
+              "options": [
+                "No cabe duda de que la práctica es fundamental.",
+                "No cabe duda que la práctica es fundamental.",
+                "No cabe duda de la práctica es fundamental."
+              ],
+              "answer": "No cabe duda de que la práctica es fundamental.",
+              "explanation": "A estrutura correta é \"no cabe duda de que\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "Francês",
+      "code": "fr",
+      "lessons": [
+        {
+          "id": 1,
+          "level": "Básico",
+          "theme": "Apresentação pessoal",
+          "objective": "Apresentar-se e cumprimentar alguém em francês.",
+          "content": [
+            "Bonjour ! Je m'appelle…",
+            "Je suis brésilien(ne).",
+            "J'ai vingt-cinq ans.",
+            "Enchanté(e) de vous rencontrer.",
+            "Comment vous appelez-vous ?",
+            "Je parle portugais et un peu français."
+          ],
+          "phrases": [
+            {
+              "target": "Bonjour, je m'appelle Ana. Et vous ?",
+              "pt": "Olá, eu me chamo Ana. E você?"
+            },
+            {
+              "target": "Je suis brésilienne et j'habite à São Paulo.",
+              "pt": "Sou brasileira e moro em São Paulo."
+            },
+            {
+              "target": "J'ai vingt-cinq ans et je suis étudiante.",
+              "pt": "Tenho vinte e cinco anos e sou estudante."
+            },
+            {
+              "target": "Enchanté de faire votre connaissance.",
+              "pt": "Prazer em conhecê-lo."
+            },
+            {
+              "target": "Comment est-ce que vous vous appelez ?",
+              "pt": "Como você se chama?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Bonjour, je ___ Ana.",
+              "options": [
+                "m'appelle",
+                "appelle",
+                "m'appelles"
+              ],
+              "answer": "m'appelle",
+              "explanation": "« Je m'appelle » é a forma correta: o verbo pronominal s'appeler usa o pronome me."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de « J'ai vingt-cinq ans » ?",
+              "options": [
+                "Eu tenho vinte e cinco anos.",
+                "Eu sou vinte e cinco.",
+                "Eu quero vinte e cinco anos."
+              ],
+              "answer": "Eu tenho vinte e cinco anos.",
+              "explanation": "« J'ai » significa «eu tenho»; a idade em francês é expressa com o verbo avoir."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Básico",
+          "theme": "Família e pessoas",
+          "objective": "Falar sobre a família e descrever pessoas.",
+          "content": [
+            "mon père / ma mère",
+            "mon frère / ma sœur",
+            "mes grands-parents",
+            "Il est marié, elle est célibataire.",
+            "Il a les cheveux bruns et les yeux verts.",
+            "Nous sommes une famille de quatre personnes."
+          ],
+          "phrases": [
+            {
+              "target": "Voici ma famille : mon père, ma mère et ma sœur.",
+              "pt": "Aqui está minha família: meu pai, minha mãe e minha irmã."
+            },
+            {
+              "target": "Mon frère est plus jeune que moi.",
+              "pt": "Meu irmão é mais novo que eu."
+            },
+            {
+              "target": "Mes grands-parents habitent à la campagne.",
+              "pt": "Meus avós moram no campo."
+            },
+            {
+              "target": "Elle a les cheveux blonds et les yeux bleus.",
+              "pt": "Ela tem cabelos loiros e olhos azuis."
+            },
+            {
+              "target": "Nous sommes quatre à la maison.",
+              "pt": "Somos quatro em casa."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Mon père ___ médecin.",
+              "options": [
+                "est",
+                "a",
+                "es"
+              ],
+              "answer": "est",
+              "explanation": "Para indicar profissão usa-se o verbo être: « mon père est médecin »."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de « ma sœur » ?",
+              "options": [
+                "minha irmã",
+                "meu irmão",
+                "minha mãe"
+              ],
+              "answer": "minha irmã",
+              "explanation": "« Sœur » significa irmã; « frère » é irmão."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Básico",
+          "theme": "Rotina diária",
+          "objective": "Descrever ações do dia a dia e horários.",
+          "content": [
+            "Je me lève à sept heures.",
+            "Je prends le petit-déjeuner.",
+            "Je vais au travail en bus.",
+            "Je déjeune à midi.",
+            "Je me couche vers vingt-trois heures.",
+            "tous les jours / le matin / le soir"
+          ],
+          "phrases": [
+            {
+              "target": "Je me lève à six heures et demie tous les jours.",
+              "pt": "Levanto-me às seis e meia todos os dias."
+            },
+            {
+              "target": "Je prends le petit-déjeuner avant de partir.",
+              "pt": "Tomo o café da manhã antes de sair."
+            },
+            {
+              "target": "Elle va au travail à vélo.",
+              "pt": "Ela vai ao trabalho de bicicleta."
+            },
+            {
+              "target": "Nous déjeunons ensemble à midi.",
+              "pt": "Almoçamos juntos ao meio-dia."
+            },
+            {
+              "target": "Je me couche rarement après minuit.",
+              "pt": "Raramente me deito depois da meia-noite."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Je me ___ à sept heures.",
+              "options": [
+                "lève",
+                "lèves",
+                "lever"
+              ],
+              "answer": "lève",
+              "explanation": "Com « je », o verbo pronominal se lever fica « je me lève »."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta: « Eu tomo o café da manhã às oito. »",
+              "options": [
+                "Je prends le petit-déjeuner à huit heures.",
+                "Je prends le déjeuner à huit heures.",
+                "Je prends le dîner à huit heures."
+              ],
+              "answer": "Je prends le petit-déjeuner à huit heures.",
+              "explanation": "« Petit-déjeuner » é o café da manhã; déjeuner é almoço e dîner é jantar."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "level": "Básico",
+          "theme": "Gostos e preferências",
+          "objective": "Expressar gostos, preferências e desagrados.",
+          "content": [
+            "J'aime beaucoup…",
+            "Je n'aime pas du tout…",
+            "Je préfère…",
+            "Je suis passionné(e) de musique.",
+            "Ça me plaît énormément.",
+            "Je déteste faire la queue."
+          ],
+          "phrases": [
+            {
+              "target": "J'aime beaucoup la musique brésilienne.",
+              "pt": "Gosto muito de música brasileira."
+            },
+            {
+              "target": "Je n'aime pas me lever tôt.",
+              "pt": "Não gosto de me levantar cedo."
+            },
+            {
+              "target": "Je préfère le thé au café.",
+              "pt": "Prefiro chá a café."
+            },
+            {
+              "target": "Elle est passionnée de photographie.",
+              "pt": "Ela é apaixonada por fotografia."
+            },
+            {
+              "target": "Ce film ne me plaît pas beaucoup.",
+              "pt": "Não gosto muito desse filme."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "J'___ beaucoup le cinéma français.",
+              "options": [
+                "aime",
+                "aimes",
+                "aimer"
+              ],
+              "answer": "aime",
+              "explanation": "Com 'je' diante de vogal ocorre elisão: j'aime. A forma é a mesma da 1ª pessoa do singular."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase significa « Eu prefiro viajar de trem »?",
+              "options": [
+                "Je préfère voyager en train.",
+                "Je préfère voyager en voiture.",
+                "Je déteste voyager en train."
+              ],
+              "answer": "Je préfère voyager en train.",
+              "explanation": "« Préférer » significa preferir; « en train » significa de trem."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "level": "Básico",
+          "theme": "Revisão do básico",
+          "objective": "Revisar apresentação, família, rotina e gostos.",
+          "content": [
+            "Je m'appelle… / J'ai… ans",
+            "mon, ma, mes",
+            "les verbes être et avoir au présent",
+            "les verbes en -er au présent",
+            "à + heure",
+            "aimer / préférer + infinitif"
+          ],
+          "phrases": [
+            {
+              "target": "Je m'appelle Lucas, j'ai trente ans et j'habite à Rio.",
+              "pt": "Chamo-me Lucas, tenho trinta anos e moro no Rio."
+            },
+            {
+              "target": "Ma sœur travaille dans un hôpital.",
+              "pt": "Minha irmã trabalha em um hospital."
+            },
+            {
+              "target": "Le matin, je prends un café et je lis le journal.",
+              "pt": "De manhã, tomo um café e leio o jornal."
+            },
+            {
+              "target": "Nous aimons beaucoup voyager.",
+              "pt": "Gostamos muito de viajar."
+            },
+            {
+              "target": "Qu'est-ce que tu préfères : le thé ou le café ?",
+              "pt": "O que você prefere: chá ou café?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Nous ___ étudiants à l'université.",
+              "options": [
+                "sommes",
+                "êtes",
+                "sont"
+              ],
+              "answer": "sommes",
+              "explanation": "Conjugação de être no presente: nous sommes."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de « Elle a deux frères » ?",
+              "options": [
+                "Ela tem dois irmãos.",
+                "Ela é dois irmãos.",
+                "Ela quer dois irmãos."
+              ],
+              "answer": "Ela tem dois irmãos.",
+              "explanation": "« Elle a » vem do verbo avoir, que significa ter."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "level": "Intermediário",
+          "theme": "Passado composto (passé composé)",
+          "objective": "Contar ações concluídas no passado com o passé composé.",
+          "content": [
+            "J'ai mangé…",
+            "Je suis allé(e)…",
+            "Hier soir, on a regardé un film.",
+            "Elle est arrivée à huit heures.",
+            "Je n'ai pas compris.",
+            "Qu'est-ce que tu as fait hier ?"
+          ],
+          "phrases": [
+            {
+              "target": "Hier, j'ai visité le musée avec mes amis.",
+              "pt": "Ontem, visitei o museu com meus amigos."
+            },
+            {
+              "target": "Nous sommes allés au restaurant samedi soir.",
+              "pt": "Fomos ao restaurante no sábado à noite."
+            },
+            {
+              "target": "Elle a fini ses devoirs avant le dîner.",
+              "pt": "Ela terminou a lição de casa antes do jantar."
+            },
+            {
+              "target": "Je n'ai pas dormi beaucoup cette nuit.",
+              "pt": "Não dormi muito esta noite."
+            },
+            {
+              "target": "Qu'est-ce que vous avez fait pendant le week-end ?",
+              "pt": "O que vocês fizeram durante o fim de semana?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Hier, j'___ un film très intéressant.",
+              "options": [
+                "ai regardé",
+                "suis regardé",
+                "ai regarder"
+              ],
+              "answer": "ai regardé",
+              "explanation": "Passé composé com avoir: j'ai + particípio passado « regardé »."
+            },
+            {
+              "type": "jogo",
+              "question": "Escolha a frase correta para « Ela foi ao mercado ».",
+              "options": [
+                "Elle est allée au marché.",
+                "Elle a allé au marché.",
+                "Elle est allé au marché."
+              ],
+              "answer": "Elle est allée au marché.",
+              "explanation": "O verbo aller usa être e o particípio concorda com o sujeito: allée."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "level": "Intermediário",
+          "theme": "Planos futuros",
+          "objective": "Falar de planos e intenções futuras.",
+          "content": [
+            "Je vais voyager…",
+            "Nous allons déménager…",
+            "Je voudrais…",
+            "l'année prochaine",
+            "dans deux ans",
+            "J'ai l'intention de…"
+          ],
+          "phrases": [
+            {
+              "target": "L'année prochaine, je vais étudier à Paris.",
+              "pt": "No ano que vem, vou estudar em Paris."
+            },
+            {
+              "target": "Nous allons déménager en décembre.",
+              "pt": "Vamos nos mudar em dezembro."
+            },
+            {
+              "target": "Je voudrais trouver un meilleur emploi.",
+              "pt": "Eu gostaria de encontrar um emprego melhor."
+            },
+            {
+              "target": "Dans deux ans, elle aura son diplôme.",
+              "pt": "Em dois anos, ela terá seu diploma."
+            },
+            {
+              "target": "Qu'est-ce que tu vas faire ce week-end ?",
+              "pt": "O que você vai fazer neste fim de semana?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "L'année prochaine, je ___ apprendre le français.",
+              "options": [
+                "vais",
+                "va",
+                "aller"
+              ],
+              "answer": "vais",
+              "explanation": "Futuro próximo: aller no presente + infinitivo. Com je: « je vais »."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase expressa um plano futuro?",
+              "options": [
+                "Je vais partir en vacances en juillet.",
+                "Je suis parti en vacances en juillet.",
+                "Je pars en vacances hier."
+              ],
+              "answer": "Je vais partir en vacances en juillet.",
+              "explanation": "« Je vais partir » indica futuro próximo; « hier » remete ao passado."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "level": "Intermediário",
+          "theme": "Compras e restaurante",
+          "objective": "Fazer compras e pedir em um restaurante.",
+          "content": [
+            "Combien ça coûte ?",
+            "Je voudrais une table pour deux, s'il vous plaît.",
+            "L'addition, s'il vous plaît.",
+            "Avez-vous une taille plus grande ?",
+            "Je prends le menu du jour.",
+            "C'est trop cher."
+          ],
+          "phrases": [
+            {
+              "target": "Bonjour, je voudrais une table pour deux personnes.",
+              "pt": "Olá, eu gostaria de uma mesa para duas pessoas."
+            },
+            {
+              "target": "Combien coûte cette chemise ?",
+              "pt": "Quanto custa esta camisa?"
+            },
+            {
+              "target": "Je vais prendre le plat du jour, s'il vous plaît.",
+              "pt": "Vou querer o prato do dia, por favor."
+            },
+            {
+              "target": "L'addition, s'il vous plaît.",
+              "pt": "A conta, por favor."
+            },
+            {
+              "target": "Est-ce que je peux payer par carte ?",
+              "pt": "Posso pagar com cartão?"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Je voudrais ___ table pour deux.",
+              "options": [
+                "une",
+                "un",
+                "des"
+              ],
+              "answer": "une",
+              "explanation": "« Table » é um substantivo feminino: une table."
+            },
+            {
+              "type": "jogo",
+              "question": "Como pedir a conta em francês?",
+              "options": [
+                "L'addition, s'il vous plaît.",
+                "La carte, s'il vous plaît.",
+                "Le menu, s'il vous plaît."
+              ],
+              "answer": "L'addition, s'il vous plaît.",
+              "explanation": "« L'addition » é a conta; « la carte » é o cardápio."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "level": "Intermediário",
+          "theme": "Viagens",
+          "objective": "Resolver situações comuns de viagem.",
+          "content": [
+            "Je voudrais un billet aller-retour.",
+            "Où est la gare ?",
+            "À quelle heure part le train ?",
+            "Je voudrais réserver une chambre.",
+            "Je suis perdu(e).",
+            "Combien de temps dure le trajet ?"
+          ],
+          "phrases": [
+            {
+              "target": "Je voudrais un billet aller-retour pour Lyon.",
+              "pt": "Eu gostaria de uma passagem de ida e volta para Lyon."
+            },
+            {
+              "target": "Où se trouve la gare la plus proche ?",
+              "pt": "Onde fica a estação mais próxima?"
+            },
+            {
+              "target": "À quelle heure part le prochain train ?",
+              "pt": "A que horas parte o próximo trem?"
+            },
+            {
+              "target": "J'ai réservé une chambre pour trois nuits.",
+              "pt": "Reservei um quarto para três noites."
+            },
+            {
+              "target": "Excusez-moi, je suis perdu.",
+              "pt": "Desculpe-me, estou perdido."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Où ___ la gare, s'il vous plaît ?",
+              "options": [
+                "est",
+                "es",
+                "a"
+              ],
+              "answer": "est",
+              "explanation": "Para localizar algo usa-se « où est… ? », com o verbo être."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de « un billet aller-retour » ?",
+              "options": [
+                "uma passagem de ida e volta",
+                "uma passagem só de ida",
+                "um bilhete de metrô"
+              ],
+              "answer": "uma passagem de ida e volta",
+              "explanation": "« Aller-retour » significa ida e volta; « aller simple » é só de ida."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "level": "Intermediário",
+          "theme": "Revisão intermediária",
+          "objective": "Revisar o passé composé, o futuro próximo e o vocabulário de viagens e compras.",
+          "content": [
+            "le passé composé avec avoir et être",
+            "le futur proche : aller + infinitif",
+            "les articles définis et indéfinis",
+            "les nombres et les prix",
+            "les formules de politesse"
+          ],
+          "phrases": [
+            {
+              "target": "La semaine dernière, nous sommes allés à Marseille en train.",
+              "pt": "Na semana passada, fomos a Marselha de trem."
+            },
+            {
+              "target": "Demain, je vais réserver une table pour quatre personnes.",
+              "pt": "Amanhã, vou reservar uma mesa para quatro pessoas."
+            },
+            {
+              "target": "Elle a acheté une robe et des chaussures.",
+              "pt": "Ela comprou um vestido e sapatos."
+            },
+            {
+              "target": "Combien coûte le billet aller simple ?",
+              "pt": "Quanto custa a passagem só de ida?"
+            },
+            {
+              "target": "Je voudrais payer par carte, s'il vous plaît.",
+              "pt": "Gostaria de pagar com cartão, por favor."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "La semaine dernière, nous ___ à la plage.",
+              "options": [
+                "sommes allés",
+                "avons allés",
+                "sommes aller"
+              ],
+              "answer": "sommes allés",
+              "explanation": "Aller usa être no passé composé e o particípio concorda: allés."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está no futuro próximo?",
+              "options": [
+                "Je vais visiter le musée demain.",
+                "J'ai visité le musée hier.",
+                "Je visite le musée tous les jours."
+              ],
+              "answer": "Je vais visiter le musée demain.",
+              "explanation": "« Je vais + infinitivo » marca o futuro próximo."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "level": "Avançado",
+          "theme": "Opiniões e argumentos",
+          "objective": "Expressar e justificar opiniões com argumentos.",
+          "content": [
+            "À mon avis…",
+            "Je pense que…",
+            "D'après moi…",
+            "Je suis d'accord / Je ne suis pas d'accord.",
+            "C'est parce que…",
+            "D'un côté… de l'autre côté…"
+          ],
+          "phrases": [
+            {
+              "target": "À mon avis, le télétravail a beaucoup d'avantages.",
+              "pt": "Na minha opinião, o trabalho remoto tem muitas vantagens."
+            },
+            {
+              "target": "Je pense que les transports publics devraient être gratuits.",
+              "pt": "Penso que o transporte público deveria ser gratuito."
+            },
+            {
+              "target": "Je suis d'accord avec toi sur ce point.",
+              "pt": "Concordo com você nesse ponto."
+            },
+            {
+              "target": "D'un côté, c'est pratique ; de l'autre, c'est fatigant.",
+              "pt": "Por um lado, é prático; por outro, é cansativo."
+            },
+            {
+              "target": "C'est parce que les prix ont augmenté.",
+              "pt": "É porque os preços aumentaram."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ mon avis, ce film est excellent.",
+              "options": [
+                "À",
+                "De",
+                "En"
+              ],
+              "answer": "À",
+              "explanation": "A expressão fixa é « à mon avis », que significa na minha opinião."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz uma opinião pessoal?",
+              "options": [
+                "Je pense que…",
+                "Il y a…",
+                "Tout à l'heure…"
+              ],
+              "answer": "Je pense que…",
+              "explanation": "« Je pense que » introduz uma opinião; « il y a » indica existência."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "level": "Avançado",
+          "theme": "Texto e interpretação",
+          "objective": "Ler e interpretar textos em francês.",
+          "content": [
+            "Selon l'auteur…",
+            "Le texte parle de…",
+            "L'idée principale est…",
+            "en revanche",
+            "par conséquent",
+            "cet extrait montre que…"
+          ],
+          "phrases": [
+            {
+              "target": "Selon l'auteur, la lecture reste essentielle.",
+              "pt": "Segundo o autor, a leitura continua essencial."
+            },
+            {
+              "target": "Le texte parle de l'impact des réseaux sociaux.",
+              "pt": "O texto fala do impacto das redes sociais."
+            },
+            {
+              "target": "L'idée principale est que l'éducation doit être accessible.",
+              "pt": "A ideia principal é que a educação deve ser acessível."
+            },
+            {
+              "target": "En revanche, les résultats restent contestés.",
+              "pt": "Em contrapartida, os resultados continuam contestados."
+            },
+            {
+              "target": "Cet extrait montre que la situation a changé.",
+              "pt": "Esse trecho mostra que a situação mudou."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "___ l'auteur, ce phénomène est récent.",
+              "options": [
+                "Selon",
+                "Comme",
+                "Parmi"
+              ],
+              "answer": "Selon",
+              "explanation": "« Selon » significa segundo e introduz a fonte da informação."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão indica oposição?",
+              "options": [
+                "En revanche",
+                "Par conséquent",
+                "De plus"
+              ],
+              "answer": "En revanche",
+              "explanation": "« En revanche » marca contraste; « par conséquent » indica consequência."
+            }
+          ],
+          "reading": {
+            "title": "L'avenir du travail",
+            "text": "Le travail à distance a changé le lieu où nous travaillons, et l'intelligence artificielle change ce que nous faisons. Les tâches routinières sont de plus en plus automatisées, tandis que le jugement, la communication et la capacité d'apprendre vite comptent davantage. Les entreprises attendent des professionnels qu'ils expliquent leur raisonnement, collaborent entre cultures et continuent d'apprendre de nouveaux outils. Pour les apprenants en langues, c'est un avantage : négocier, présenter et exprimer un désaccord avec courtoisie est aujourd'hui une compétence centrale. Le défi est de pratiquer ces situations avant qu'elles n'arrivent. Une courte conversation sur un projet réel enseigne plus qu'une liste de mots isolés."
+          }
+        },
+        {
+          "id": 13,
+          "level": "Avançado",
+          "theme": "Correção gramatical",
+          "objective": "Identificar e corrigir erros gramaticais frequentes.",
+          "content": [
+            "accord du participe passé",
+            "les pronoms relatifs qui / que",
+            "la négation ne… pas",
+            "les prépositions à / de",
+            "le subjonctif après « il faut que »"
+          ],
+          "phrases": [
+            {
+              "target": "Il faut que je parte avant la fin de la réunion.",
+              "pt": "É preciso que eu saia antes do fim da reunião."
+            },
+            {
+              "target": "Les livres que j'ai achetés sont sur la table.",
+              "pt": "Os livros que comprei estão sobre a mesa."
+            },
+            {
+              "target": "Elle ne travaille pas le dimanche.",
+              "pt": "Ela não trabalha aos domingos."
+            },
+            {
+              "target": "C'est la ville où j'ai grandi.",
+              "pt": "É a cidade onde cresci."
+            },
+            {
+              "target": "Nous parlons de ce projet depuis un mois.",
+              "pt": "Falamos desse projeto há um mês."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Il faut que tu ___ tôt demain.",
+              "options": [
+                "partes",
+                "pars",
+                "partir"
+              ],
+              "answer": "partes",
+              "explanation": "Após « il faut que » usa-se o subjonctif: que tu partes."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está gramaticalmente correta?",
+              "options": [
+                "Les fleurs que j'ai achetées sont belles.",
+                "Les fleurs que j'ai acheté sont belles.",
+                "Les fleurs que j'ai achetés sont belles."
+              ],
+              "answer": "Les fleurs que j'ai achetées sont belles.",
+              "explanation": "Com avoir, o particípio concorda com o objeto direto anteposto « que » (feminino plural): achetées."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "level": "Avançado",
+          "theme": "Ambiente profissional",
+          "objective": "Comunicar-se em contextos de trabalho.",
+          "content": [
+            "une réunion / un entretien",
+            "Je vous envoie le compte rendu.",
+            "le budget / le délai",
+            "Nous devons respecter l'échéance.",
+            "Je me permets de vous relancer.",
+            "Cordialement,"
+          ],
+          "phrases": [
+            {
+              "target": "Je vous envoie le compte rendu de la réunion.",
+              "pt": "Envio-lhe a ata da reunião."
+            },
+            {
+              "target": "Pouvez-vous respecter la date limite ?",
+              "pt": "Você pode cumprir o prazo?"
+            },
+            {
+              "target": "Nous devons réduire les coûts ce trimestre.",
+              "pt": "Devemos reduzir os custos neste trimestre."
+            },
+            {
+              "target": "Je me permets de vous relancer au sujet du devis.",
+              "pt": "Permito-me retomar o contato a respeito do orçamento."
+            },
+            {
+              "target": "Je reste à votre disposition pour toute question.",
+              "pt": "Fico à disposição para qualquer pergunta."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Je vous envoie le compte ___ de la réunion.",
+              "options": [
+                "rendu",
+                "rendre",
+                "rendue"
+              ],
+              "answer": "rendu",
+              "explanation": "A expressão fixa é « compte rendu », que significa ata ou relatório."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual é a tradução de « une date limite » ?",
+              "options": [
+                "um prazo",
+                "uma data de nascimento",
+                "uma linha do tempo"
+              ],
+              "answer": "um prazo",
+              "explanation": "« Date limite » significa prazo final."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "level": "Avançado",
+          "theme": "Revisão avançada",
+          "objective": "Revisar argumentação, interpretação e gramática avançada.",
+          "content": [
+            "le subjonctif présent",
+            "les connecteurs logiques : donc, cependant, néanmoins",
+            "le discours indirect",
+            "les pronoms relatifs composés : lequel, auquel",
+            "la voix passive"
+          ],
+          "phrases": [
+            {
+              "target": "Bien que le projet soit ambitieux, il reste réalisable.",
+              "pt": "Embora o projeto seja ambicioso, ele continua viável."
+            },
+            {
+              "target": "Il a affirmé qu'il enverrait le rapport le lendemain.",
+              "pt": "Ele afirmou que enviaria o relatório no dia seguinte."
+            },
+            {
+              "target": "Le document auquel je fais référence est confidentiel.",
+              "pt": "O documento ao qual me refiro é confidencial."
+            },
+            {
+              "target": "Néanmoins, certaines questions restent ouvertes.",
+              "pt": "No entanto, algumas questões permanecem abertas."
+            },
+            {
+              "target": "La décision a été prise par le comité.",
+              "pt": "A decisão foi tomada pelo comitê."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Bien qu'il ___ fatigué, il continue.",
+              "options": [
+                "soit",
+                "est",
+                "sera"
+              ],
+              "answer": "soit",
+              "explanation": "« Bien que » exige o subjonctif: qu'il soit."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual conectivo expressa concessão?",
+              "options": [
+                "Bien que",
+                "Donc",
+                "Ainsi"
+              ],
+              "answer": "Bien que",
+              "explanation": "« Bien que » introduz concessão; « donc » e « ainsi » indicam consequência."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "level": "Fluente",
+          "theme": "Conversa natural",
+          "objective": "Manter uma conversa espontânea com expressões do dia a dia.",
+          "content": [
+            "Tu vois ce que je veux dire ?",
+            "Ça marche !",
+            "Franchement…",
+            "En fait, …",
+            "Ça dépend.",
+            "Bref, …"
+          ],
+          "phrases": [
+            {
+              "target": "Tu vois ce que je veux dire ?",
+              "pt": "Você entende o que quero dizer?"
+            },
+            {
+              "target": "En fait, je n'y avais pas pensé.",
+              "pt": "Na verdade, eu não tinha pensado nisso."
+            },
+            {
+              "target": "Ça marche pour moi, on se voit à dix-huit heures.",
+              "pt": "Para mim está combinado, nos vemos às dezoito horas."
+            },
+            {
+              "target": "Franchement, cette idée me plaît beaucoup.",
+              "pt": "Sinceramente, essa ideia me agrada muito."
+            },
+            {
+              "target": "Bref, on a trouvé une solution.",
+              "pt": "Enfim, encontramos uma solução."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "En ___, je n'y avais pas pensé.",
+              "options": [
+                "fait",
+                "faite",
+                "faire"
+              ],
+              "answer": "fait",
+              "explanation": "A expressão fixa é « en fait », que significa na verdade."
+            },
+            {
+              "type": "jogo",
+              "question": "O que significa « Ça marche ! » em uma conversa?",
+              "options": [
+                "Está combinado!",
+                "Isso anda!",
+                "Isso funciona mal."
+              ],
+              "answer": "Está combinado!",
+              "explanation": "« Ça marche » confirma um acordo, como «combinado»."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "level": "Fluente",
+          "theme": "Simulação real",
+          "objective": "Simular situações reais, como ligações, reclamações e imprevistos.",
+          "content": [
+            "Je vous appelle au sujet de…",
+            "Il y a eu un problème avec…",
+            "Pourriez-vous m'aider ?",
+            "Je souhaiterais faire une réclamation.",
+            "Je suis bloqué(e) à l'aéroport.",
+            "Merci de votre compréhension."
+          ],
+          "phrases": [
+            {
+              "target": "Je vous appelle au sujet de ma réservation annulée.",
+              "pt": "Estou ligando a respeito da minha reserva cancelada."
+            },
+            {
+              "target": "Il y a eu un problème avec ma commande.",
+              "pt": "Houve um problema com meu pedido."
+            },
+            {
+              "target": "Pourriez-vous transférer mon appel au service concerné ?",
+              "pt": "Poderia transferir minha ligação ao setor responsável?"
+            },
+            {
+              "target": "Je souhaiterais faire une réclamation.",
+              "pt": "Eu gostaria de fazer uma reclamação."
+            },
+            {
+              "target": "Je suis bloqué à l'aéroport à cause de l'annulation.",
+              "pt": "Estou preso no aeroporto por causa do cancelamento."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Pourriez-vous m'___ à résoudre ce problème ?",
+              "options": [
+                "aider",
+                "aide",
+                "aidé"
+              ],
+              "answer": "aider",
+              "explanation": "Depois de « pourriez-vous » usa-se o infinitivo: m'aider."
+            },
+            {
+              "type": "jogo",
+              "question": "Como fazer uma reclamação de forma educada?",
+              "options": [
+                "Je souhaiterais faire une réclamation.",
+                "Je veux une réclamation maintenant.",
+                "Donnez-moi une réclamation."
+              ],
+              "answer": "Je souhaiterais faire une réclamation.",
+              "explanation": "« Je souhaiterais » suaviza o pedido e mantém a cortesia."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "level": "Fluente",
+          "theme": "Fluência e naturalidade",
+          "objective": "Usar expressões idiomáticas e nuances para soar mais natural.",
+          "content": [
+            "avoir le coup de foudre",
+            "tomber dans les pommes",
+            "ça vaut le coup",
+            "avoir du mal à…",
+            "à vrai dire",
+            "c'est du gâteau"
+          ],
+          "phrases": [
+            {
+              "target": "On a eu le coup de foudre pour cette maison.",
+              "pt": "Foi amor à primeira vista por esta casa."
+            },
+            {
+              "target": "Elle est tombée dans les pommes pendant la réunion.",
+              "pt": "Ela desmaiou durante a reunião."
+            },
+            {
+              "target": "Ça vaut vraiment le coup d'essayer.",
+              "pt": "Vale muito a pena tentar."
+            },
+            {
+              "target": "J'ai du mal à m'exprimer quand je suis stressé.",
+              "pt": "Tenho dificuldade em me expressar quando estou estressado."
+            },
+            {
+              "target": "À vrai dire, ce n'est pas si difficile.",
+              "pt": "Sinceramente, não é tão difícil."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Ça vaut le ___ d'essayer.",
+              "options": [
+                "coup",
+                "coût",
+                "cours"
+              ],
+              "answer": "coup",
+              "explanation": "« Ça vaut le coup » significa vale a pena."
+            },
+            {
+              "type": "jogo",
+              "question": "O que significa « tomber dans les pommes » ?",
+              "options": [
+                "desmaiar",
+                "colher maçãs",
+                "adorar maçãs"
+              ],
+              "answer": "desmaiar",
+              "explanation": "É uma expressão idiomática: « tomber dans les pommes » significa desmaiar."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "level": "Fluente",
+          "theme": "Discussões complexas",
+          "objective": "Debater temas complexos com nuance e estrutura.",
+          "content": [
+            "Il n'en demeure pas moins que…",
+            "force est de constater que…",
+            "dans la mesure où…",
+            "en dépit de…",
+            "loin de…",
+            "cela soulève la question de…"
+          ],
+          "phrases": [
+            {
+              "target": "Il n'en demeure pas moins que des inégalités persistent.",
+              "pt": "Não obstante, as desigualdades persistem."
+            },
+            {
+              "target": "Force est de constater que les mesures ont échoué.",
+              "pt": "É forçoso constatar que as medidas fracassaram."
+            },
+            {
+              "target": "Cette politique est efficace dans la mesure où elle cible les plus vulnérables.",
+              "pt": "Essa política é eficaz na medida em que visa os mais vulneráveis."
+            },
+            {
+              "target": "En dépit des critiques, le projet a été maintenu.",
+              "pt": "Apesar das críticas, o projeto foi mantido."
+            },
+            {
+              "target": "Cela soulève la question de la responsabilité individuelle.",
+              "pt": "Isso levanta a questão da responsabilidade individual."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Cette solution est valable ___ la mesure où elle est durable.",
+              "options": [
+                "dans",
+                "en",
+                "à"
+              ],
+              "answer": "dans",
+              "explanation": "A locução é « dans la mesure où », que significa na medida em que."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual expressão introduz uma objeção ou concessão?",
+              "options": [
+                "En dépit de",
+                "Par conséquent",
+                "De plus"
+              ],
+              "answer": "En dépit de",
+              "explanation": "« En dépit de » equivale a «apesar de» e introduz contraste."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "level": "Fluente",
+          "theme": "Avaliação final",
+          "objective": "Demonstrar domínio global do francês em situações variadas.",
+          "content": [
+            "le passé composé et l'imparfait",
+            "le subjonctif et le conditionnel",
+            "les connecteurs : cependant, ainsi, en effet",
+            "le registre soutenu",
+            "l'expression de l'hypothèse : si + imparfait → conditionnel présent",
+            "la nuance et la reformulation"
+          ],
+          "phrases": [
+            {
+              "target": "Si j'avais plus de temps, je suivrais des cours de théâtre.",
+              "pt": "Se eu tivesse mais tempo, faria aulas de teatro."
+            },
+            {
+              "target": "Cependant, il conviendrait de nuancer cette conclusion.",
+              "pt": "No entanto, conviria nuançar essa conclusão."
+            },
+            {
+              "target": "Bien qu'elle soit débutante, elle progresse rapidement.",
+              "pt": "Embora seja iniciante, ela progride rapidamente."
+            },
+            {
+              "target": "En effet, les résultats confirment notre hypothèse.",
+              "pt": "Com efeito, os resultados confirmam nossa hipótese."
+            },
+            {
+              "target": "Il nous a expliqué qu'il avait déjà terminé le rapport.",
+              "pt": "Ele nos explicou que já tinha terminado o relatório."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "completar frase",
+              "question": "Si j'avais le temps, je ___ davantage.",
+              "options": [
+                "voyagerais",
+                "voyagerai",
+                "voyage"
+              ],
+              "answer": "voyagerais",
+              "explanation": "Com « si + imparfait », usa-se o condicional: je voyagerais."
+            },
+            {
+              "type": "jogo",
+              "question": "Qual frase está no discurso indireto corretamente?",
+              "options": [
+                "Il a dit qu'il viendrait le lendemain.",
+                "Il a dit qu'il viendra le lendemain.",
+                "Il a dit qu'il vient le lendemain."
+              ],
+              "answer": "Il a dit qu'il viendrait le lendemain.",
+              "explanation": "No discurso indireto no passado, o futuro do presente vira condicional: viendrait."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

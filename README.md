@@ -9,12 +9,12 @@ final, segurança baseline, prática corrigida e QA local (4/5); **30 testes pas
 Identidade v0.2 aplicada: símbolo Bico, Instrument Serif/Sans, paleta papel/noite/canto
 e a faixa 3D em Three.js local.
 
-**Revisão das 60 lições:** [relatório](../docs/revisao-licoes.md) ·
-[agentes](../agents/README.md) · [design](../docs/design.md).
+**Revisão das 60 lições:** [relatório](docs/revisao-licoes.md) ·
+[agentes](agents/README.md) · [design](docs/design.md).
 
-**As 60 lições para revisão:** [XLSX](../docs/licoes-60.xlsx) ·
-[Markdown](../docs/licoes-60.md) · [JSON](../docs/licoes-60.json).
-QA: [relatório](../docs/qa-relatorio.md) · Design: [identidade e UX](../docs/design.md) ·
+**As 60 lições para revisão:** [XLSX](docs/licoes-60.xlsx) ·
+[Markdown](docs/licoes-60.md) · [JSON](docs/licoes-60.json).
+QA: [relatório](docs/qa-relatorio.md) · Design: [identidade e UX](docs/design.md) ·
 Deploy: [DEPLOY.md](DEPLOY.md).
 
 ![Consentimento](docs/screenshots/consentimento.png)
@@ -22,7 +22,7 @@ Deploy: [DEPLOY.md](DEPLOY.md).
 ## Rodar localmente (sem chave de API)
 
 ```bash
-cd tcc-ana/app
+cd .
 uv venv .venv --python 3.12
 uv pip install --python .venv/bin/python -r requirements.txt
 LLM_PROVIDER=mock .venv/bin/python -m uvicorn app.main:app --port 8000
@@ -70,7 +70,7 @@ proposital. Para Gemini, troque o `LLM_BASE_URL` pelo endpoint do Google.
 ## Piloto
 
 Roteiro de 30–40 min com 3–5 pessoas, o que observar, registro de bugs e critérios de
-sucesso em [`../docs/piloto.md`](../docs/piloto.md).
+sucesso em [`docs/piloto.md`](docs/piloto.md).
 
 ## Backup
 
@@ -111,8 +111,8 @@ As exportações usam **apenas o código do participante**, sem nome ou sobrenom
 - Exportação pseudonimizada e acesso restrito por senha.
 
 Detalhes, riscos residuais e checklist de deploy em
-[`../docs/seguranca.md`](../docs/seguranca.md). Erros conhecidos e prevenções ficam em
-[`../docs/licoes-aprendidas.md`](../docs/licoes-aprendidas.md).
+[`docs/seguranca.md`](docs/seguranca.md). Erros conhecidos e prevenções ficam em
+[`docs/licoes-aprendidas.md`](docs/licoes-aprendidas.md).
 
 ## Testes
 
@@ -172,7 +172,7 @@ atenção no dashboard.
 
 As 60 lições passaram por uma **revisão em 4 agentes** (EN, ES, FR e pedagógico):
 64 achados, 25 correções aplicadas e 3 textos de leitura. O que sobrou está no
-[relatório de revisão](../docs/revisao-licoes.md), com o que ainda precisa de professor
+[relatório de revisão](docs/revisao-licoes.md), com o que ainda precisa de professor
 humano.
 
 Cada lição agora tem uma seção **Prática** com os 2 exercícios: o app corrige na hora,
@@ -181,9 +181,9 @@ embaralha as opções por sessão e grava a resposta em `exerciseattempt` (expor
 
 Arquivos prontos para revisão:
 
-- [licoes-60.xlsx](../docs/licoes-60.xlsx) — resumo, lições, frases, exercícios e leituras.
-- [licoes-60.md](../docs/licoes-60.md) — leitura corrida.
-- [licoes-60.json](../docs/licoes-60.json) — consolidado para importar em outra ferramenta.
+- [licoes-60.xlsx](docs/licoes-60.xlsx) — resumo, lições, frases, exercícios e leituras.
+- [licoes-60.md](docs/licoes-60.md) — leitura corrida.
+- [licoes-60.json](docs/licoes-60.json) — consolidado para importar em outra ferramenta.
 
 ## Próximos passos
 
