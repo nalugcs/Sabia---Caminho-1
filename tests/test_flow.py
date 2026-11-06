@@ -10,7 +10,14 @@ from sqlmodel import Session, select
 
 from app.config import Settings
 from app.main import create_app
-from app.models import ExerciseAttempt, Participant, PracticeSession, Turn, TurnEvaluation
+from app.models import (
+    Event,
+    ExerciseAttempt,
+    Participant,
+    PracticeSession,
+    Turn,
+    TurnEvaluation,
+)
 from app.services.exercises import build_exercise_view
 from app.services.instrument import LIKERT_KEYS
 from app.services.markdown_render import render_markdown
@@ -137,7 +144,7 @@ class TestRegistration:
         dashboard = client.get("/app")
         assert dashboard.status_code == 200
         assert "Olá, Ana" in dashboard.text
-        assert re.search(r'class="mono">[A-Z0-9]{6}<', dashboard.text)
+        assert re.search(r'class="mono"[^>]*>[A-Z0-9]{6}<', dashboard.text)
 
     def test_register_requires_language(self, client):
         response = register(client, idiomas=[])
@@ -146,7 +153,7 @@ class TestRegistration:
 
     def test_enter_with_saved_code(self, app, client):
         register(client)
-        code = re.search(r'class="mono">([A-Z0-9]{6})<', client.get("/app").text).group(1)
+        code = re.search(r'class="mono"[^>]*>([A-Z0-9]{6})<', client.get("/app").text).group(1)
 
         with TestClient(app) as fresh:
             token = csrf(fresh)
@@ -225,6 +232,55 @@ class TestLessonFlow:
         assert "<script" not in html
         assert "<h2>Título</h2>" in html
         assert "<strong>forte</strong>" in html
+
+    def test_micro_has_no_preselected_answer(self, client):
+        register(client)
+        session_id = lesson_session(client, "en", 1)
+        send_turn(client, session_id, "Hello, my name is Ana.")
+        finish = client.post(
+            "/api/encerrar",
+            json={"session_id": session_id},
+            headers={"X-CSRF-Token": csrf(client)},
+        )
+        assert finish.status_code == 200
+        feedback = client.get(f"/feedback/{session_id}")
+        assert 'value="4" checked' not in feedback.text
+        assert 'name="m1"' in feedback.text
+
+    def test_practice_page_has_several_items_and_api(self, client):
+        register(client)
+        page = client.get("/praticar")
+        assert page.status_code == 200
+        assert page.text.count("data-practice-card") >= 5
+        session_id = int(re.search(r'data-session="(\d+)"', page.text).group(1))
+        choice = re.search(r'data-choice="([^"]+)"', page.text).group(1)
+        response = client.post(
+            "/api/pratica",
+            json={"session_id": session_id, "index": 0, "choice": choice},
+            headers={"X-CSRF-Token": csrf(client)},
+        )
+        assert response.status_code == 200
+        assert response.json()["ok"] is True
+
+    def test_tabs_and_code_modal(self, client):
+        register(client)
+        page = client.get("/app")
+        for href in ("/praticar", "/jogar", "/conversar"):
+            assert f'href="{href}"' in page.text
+        assert "data-code-modal" in page.text
+        assert "A1 — Iniciante" in client.get("/cadastro").text
+
+    def test_cefr_changes_prompt(self):
+        from app.services.prompts import turn_messages
+
+        lesson = json.loads((BASE / "data" / "lessons" / "en.json").read_text("utf-8"))[
+            "lessons"
+        ][0]
+        a1, _ = turn_messages(lesson, "Inglês", "conversa", [], "Hello", cefr="A1")
+        c1, _ = turn_messages(lesson, "Inglês", "conversa", [], "Hello", cefr="C1")
+        assert "Nível CEFR do participante: A1" in a1[1]["content"]
+        assert "Nível CEFR do participante: C1" in c1[1]["content"]
+        assert a1[1]["content"] != c1[1]["content"]
 
     def test_micro_survey(self, client):
         register(client)
@@ -368,6 +424,15 @@ class TestAdmin:
         assert "code" in export.text
         assert "Ana" not in export.text
         assert "César" not in export.text
+
+        with Session(client.app.state.engine) as db:
+            audit = db.exec(
+                select(Event)
+                .where(Event.type == "admin_export")
+                .order_by(Event.id.desc())
+            ).first()
+        assert audit is not None
+        assert '"participantes"' in audit.payload_json
 
     def test_admin_export_requires_login(self, client):
         response = client.get("/admin/exportar/turnos", follow_redirects=False)

@@ -4,12 +4,13 @@
 {% block content %}
 <section class="dash">
   <header class="dash-head">
-    <p class="label">{{ participant.level|capitalize }} · {{ recommendation.language }}</p>
+    <p class="label">{{ level_label }} · {{ recommendation.language }}</p>
     <h1>Olá, {{ participant.name }}.<br>Vamos conversar?</h1>
     <p class="lede">
-      Seu código é <strong class="mono">{{ participant.code }}</strong>. Guarde-o para
+      Seu código é <strong class="mono" data-code-value>{{ participant.code }}</strong>. Guarde-o para
       voltar de qualquer aparelho.
     </p>
+    <button class="code-trigger" type="button" data-code-open>Ver meu código</button>
     {% if recommendation.top_error %}
     <p class="tiny">
       Ponto de atenção até agora: {{ recommendation.top_error.label }}
@@ -77,4 +78,18 @@
   </section>
   {% endif %}
 </section>
+
+<dialog class="code-modal" data-code-modal aria-labelledby="code-modal-title">
+  <p class="label">Código pessoal</p>
+  <h2 id="code-modal-title">Guarde seu código!</h2>
+  <p>Este código é importante para recuperar seu progresso e continuar seus estudos.
+     Salve-o em um local seguro.</p>
+  <code class="code-value" data-code-modal-value>{{ participant.code }}</code>
+  <div class="code-actions">
+    <button class="btn" type="button" data-code-copy>Copiar código</button>
+    <button class="btn ghost" type="button" data-code-share>Compartilhar</button>
+    <button class="btn ghost" type="button" data-code-close>Já salvei</button>
+  </div>
+  <p class="modal-status" data-code-status aria-live="polite"></p>
+</dialog>
 {% endblock %}

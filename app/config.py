@@ -34,6 +34,7 @@ class Settings:
     tcle_version: str = "1.0"
     cookie_secure: bool = False
     rate_limit_enabled: bool = True
+    practice_items: int = 7
 
     def __post_init__(self) -> None:
         if not self.database_url:
@@ -58,10 +59,11 @@ class Settings:
             llm_fallback_api_key=os.getenv("LLM_FALLBACK_API_KEY", ""),
             llm_fallback_model=os.getenv("LLM_FALLBACK_MODEL", ""),
             llm_timeout_s=float(os.getenv("LLM_TIMEOUT_S", str(cls.llm_timeout_s))),
-            admin_password=os.getenv("ADMIN_PASSWORD", ""),
+            admin_password=os.getenv("ADMIN_PASSWORD", "").rstrip("\r\n"),
             required_sessions=int(os.getenv("REQUIRED_SESSIONS", "3")),
             instrument_version=os.getenv("INSTRUMENT_VERSION", cls.instrument_version),
             tcle_version=os.getenv("TCLE_VERSION", cls.tcle_version),
             cookie_secure=os.getenv("APP_COOKIE_SECURE", "0") == "1",
             rate_limit_enabled=os.getenv("RATE_LIMIT_ENABLED", "1") == "1",
+            practice_items=max(5, min(10, int(os.getenv("PRACTICE_ITEMS", "7")))),
         )

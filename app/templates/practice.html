@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — sabiá{% endblock %}
+
+{% block content %}
+<section class="practice-page" data-practice-run data-session="{{ session.id }}"
+         data-mode="{{ mode }}" data-total="{{ items|length }}">
+  <header class="practice-head">
+    <p class="label">{{ title }} · {{ language_name }} · {{ level_label }}</p>
+    <h1>{{ "Rodada de jogo" if game else "Sessão de prática" }}</h1>
+    <p class="lede">{{ lesson.theme }} — {{ lesson.objective }}</p>
+    <div class="practice-meta">
+      <span class="mono" data-practice-progress>1 de {{ items|length }}</span>
+      <span class="mono" data-practice-score>0 acertos</span>
+    </div>
+  </header>
+
+  <div class="practice-stack">
+    {% for item in items %}
+    <section class="practice-card" data-practice-card data-index="{{ loop.index0 }}"
+             {% if not loop.first %}hidden{% endif %}>
+      <p class="label">{{ item.kind }}</p>
+      <h2>{{ item.question }}</h2>
+      <div class="options" role="group" aria-label="Alternativas">
+        {% for option in item.options %}
+        <button class="option" type="button" data-choice="{{ option }}">{{ option }}</button>
+        {% endfor %}
+      </div>
+      <p class="exercise-feedback" data-feedback aria-live="polite"></p>
+      <div class="practice-actions">
+        <button class="btn" type="button" data-next hidden>Próximo</button>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+
+  <section class="practice-result" data-practice-result hidden>
+    <p class="label">Rodada concluída</p>
+    <h2 data-result-title>Bom trabalho.</h2>
+    <p class="lede" data-result-copy></p>
+    <div class="actions">
+      <a class="btn" href="{{ round_url }}">Nova rodada</a>
+      <a class="btn ghost" href="/conversar">Ir para a conversa</a>
+    </div>
+  </section>
+</section>
+{% endblock %}

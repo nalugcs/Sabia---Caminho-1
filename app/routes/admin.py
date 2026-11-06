@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import io
+import json
 import secrets
 from datetime import datetime, timezone
 
@@ -340,4 +341,12 @@ def admin_export(kind: str, request: Request, db: Session = Depends(get_db)):
     if kind not in EXPORTS:
         return Response(status_code=404)
     builder, filename = EXPORTS[kind]
+    db.add(
+        Event(
+            type="admin_export",
+            payload_json=json.dumps({"kind": kind}),
+            created_at=datetime.now(timezone.utc),
+        )
+    )
+    db.commit()
     return _csv(builder(db), filename)

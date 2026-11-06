@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/static/fonts/fonts.css">
   <link rel="stylesheet" href="/static/styles.css">
 </head>
-<body class="{% block body_class %}{% endblock %}">
+<body class="{% block body_class %}{% endblock %}{% if participant %} has-tabs{% endif %}">
   <header class="topbar">
     <a class="brand" href="/app">
       <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
@@ -32,6 +32,32 @@
     </div>
     {% endif %}
   </header>
+
+  {% if participant %}
+  {% set path = request.url.path %}
+  <nav class="tabs" aria-label="Navegação principal">
+    <a class="tab {% if path == '/app' or path.startswith('/feedback') or path.startswith('/questionario') %}is-active{% endif %}" href="/app"
+       {% if path == '/app' or path.startswith('/feedback') or path.startswith('/questionario') %}aria-current="page"{% endif %}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21H3z"/><path d="M9 21v-6h6v6"/></svg>
+      <span>Início</span>
+    </a>
+    <a class="tab {% if path.startswith('/praticar') %}is-active{% endif %}" href="/praticar"
+       {% if path.startswith('/praticar') %}aria-current="page"{% endif %}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="m6 16 4-4 3 3 5-6"/><path d="M18 9h-4"/><path d="M18 9v4"/></svg>
+      <span>Praticar</span>
+    </a>
+    <a class="tab {% if path.startswith('/jogar') %}is-active{% endif %}" href="/jogar"
+       {% if path.startswith('/jogar') %}aria-current="page"{% endif %}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="12" rx="4"/><path d="M8 11v4M6 13h4"/><path d="M16 12h.01M18 14h.01"/></svg>
+      <span>Jogar</span>
+    </a>
+    <a class="tab {% if path.startswith('/licao') or path.startswith('/conversar') %}is-active{% endif %}" href="/conversar"
+       {% if path.startswith('/licao') or path.startswith('/conversar') %}aria-current="page"{% endif %}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
+      <span>Conversar</span>
+    </a>
+  </nav>
+  {% endif %}
 
   <main class="page">
     {% block content %}{% endblock %}

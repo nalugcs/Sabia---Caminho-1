@@ -23,10 +23,11 @@ from ..models import (
 )
 from ..services.exercises import build_exercise_view
 from ..services.llm import LLMError
+from ..services.practice import build_practice_items
 from ..services.instrument import FINAL_BLOCKS, LIKERT_KEYS, OPEN_QUESTIONS
 from ..services.markdown_render import render_markdown
 from ..services.parsing import parse_json_object
-from ..services.personalization import recommend
+from ..services.personalization import cefr_of, level_label, recommend
 from ..services.prompts import feedback_messages, turn_messages
 from ..services.ratelimit import enforce
 from ..security import verify_csrf
@@ -55,6 +56,12 @@ class ExerciseIn(BaseModel):
     choice: str = Field(min_length=1, max_length=300)
 
 
+class PracticeIn(BaseModel):
+    session_id: int
+    index: int = Field(ge=0, le=9)
+    choice: str = Field(min_length=1, max_length=300)
+
+
 def _participant_or_redirect(request: Request, db: Session):
     participant = current_participant(request, db)
     if participant is None:
@@ -77,6 +84,55 @@ def _completed_count(db: Session, participant_id: int) -> int:
             )
         ).all()
     )
+
+
+def _ensure_session(
+    db: Session,
+    participant: Participant,
+    lesson: dict,
+    language: str,
+    mode: str,
+    *,
+    reset: bool = False,
+) -> PracticeSession:
+    """Reaproveita a sessão aberta; ``reset`` começa uma nova rodada."""
+
+    session = None
+    if not reset:
+        session = db.exec(
+            select(PracticeSession)
+            .where(
+                PracticeSession.participant_id == participant.id,
+                PracticeSession.language == language,
+                PracticeSession.lesson_id == lesson["id"],
+                PracticeSession.mode == mode,
+                PracticeSession.completed == False,  # noqa: E712
+            )
+            .order_by(PracticeSession.id.desc())
+        ).first()
+    if session is None:
+        session = PracticeSession(
+            participant_id=participant.id,
+            lesson_id=lesson["id"],
+            language=language,
+            mode=mode,
+        )
+        db.add(session)
+        db.commit()
+        db.refresh(session)
+        if mode == "conversa":
+            opening = (
+                f"Vamos praticar {lesson['theme']} ({lesson['level']}).\n\n"
+                f"{lesson['objective']}\n\n"
+                f"Comece com uma frase parecida com: “{lesson['phrases'][0]['target']}”"
+            )
+            db.add(Turn(session_id=session.id, role="assistant", content=opening))
+            db.commit()
+    return session
+
+
+def _seed(session: PracticeSession, mode: str) -> int:
+    return session.id * 1000 + session.lesson_id * 17 + (500 if mode == "jogo" else 0)
 
 
 @router.get("/app")
@@ -107,12 +163,76 @@ def dashboard(request: Request, db: Session = Depends(get_db)):
         "dashboard.html",
         participant=participant,
         recommendation=recommendation,
+        level_label=level_label(participant.level),
         done=len(completed),
         required=settings.required_sessions,
         sessions=completed[-3:],
         final_answered=final is not None,
         needs_final=len(completed) >= settings.required_sessions and final is None,
         questionario_ok=request.query_params.get("questionario") == "ok",
+    )
+
+
+def _recommended(request: Request, db: Session):
+    participant, redirect = _participant_or_redirect(request, db)
+    if redirect:
+        return None, None, redirect
+    recommendation = recommend(request.app.state.catalog, participant, db)
+    return participant, recommendation, None
+
+
+def _practice_page(request: Request, db: Session, *, game: bool):
+    participant, recommendation, redirect = _recommended(request, db)
+    if redirect:
+        return redirect
+    lesson = recommendation["lesson"]
+    mode = "jogo" if game else "pratica"
+    session = _ensure_session(
+        db, participant, lesson, recommendation["language_code"], mode,
+        reset=request.query_params.get("nova") == "1",
+    )
+    items = build_practice_items(
+        lesson,
+        seed=_seed(session, mode),
+        cefr=cefr_of(participant.level),
+        count=request.app.state.settings.practice_items,
+        game=game,
+        language_code=recommendation["language_code"],
+    )
+    return render(
+        request,
+        "practice.html",
+        participant=participant,
+        lesson=lesson,
+        language_name=recommendation["language"],
+        level_label=level_label(participant.level),
+        session=session,
+        items=items,
+        game=game,
+        mode=mode,
+        title="Jogar" if game else "Praticar",
+        round_url=("/jogar" if game else "/praticar") + "?nova=1",
+    )
+
+
+@router.get("/praticar")
+def practice_page(request: Request, db: Session = Depends(get_db)):
+    return _practice_page(request, db, game=False)
+
+
+@router.get("/jogar")
+def game_page(request: Request, db: Session = Depends(get_db)):
+    return _practice_page(request, db, game=True)
+
+
+@router.get("/conversar")
+def conversation_page(request: Request, db: Session = Depends(get_db)):
+    participant, recommendation, redirect = _recommended(request, db)
+    if redirect:
+        return redirect
+    return RedirectResponse(
+        f"/licao/{recommendation['language_code']}/{recommendation['lesson']['id']}?chat=1",
+        status_code=303,
     )
 
 
@@ -129,38 +249,13 @@ def lesson_page(
     if lesson is None:
         raise HTTPException(404, "Lição não encontrada.")
 
-    session = db.exec(
-        select(PracticeSession)
-        .where(
-            PracticeSession.participant_id == participant.id,
-            PracticeSession.language == language,
-            PracticeSession.lesson_id == lesson_id,
-            PracticeSession.completed == False,  # noqa: E712
-        )
-        .order_by(PracticeSession.id.desc())
-    ).first()
-
-    if session is None:
-        session = PracticeSession(
-            participant_id=participant.id,
-            lesson_id=lesson_id,
-            language=language,
-            mode="conversa",
-        )
-        db.add(session)
-        db.commit()
-        db.refresh(session)
-        opening = (
-            f"Vamos praticar {lesson['theme']} ({lesson['level']}).\n\n"
-            f"{lesson['objective']}\n\n"
-            f"Comece com uma frase parecida com: “{lesson['phrases'][0]['target']}”"
-        )
-        db.add(Turn(session_id=session.id, role="assistant", content=opening))
-        db.commit()
-
+    session = _ensure_session(db, participant, lesson, language, "conversa")
     turns = _history(db, session.id)
     language_name = (catalog.get_language(language) or {}).get("language", language)
-    exercises = build_exercise_view(lesson, seed=session.id * 1000 + lesson_id)
+    chat_only = request.query_params.get("chat") == "1"
+    exercises = [] if chat_only else build_exercise_view(
+        lesson, seed=session.id * 1000 + lesson_id
+    )
     return render(
         request,
         "lesson.html",
@@ -171,6 +266,8 @@ def lesson_page(
         session=session,
         turns=turns,
         exercises=exercises,
+        chat_only=chat_only,
+        level_label=level_label(participant.level),
     )
 
 
@@ -206,6 +303,7 @@ async def api_turn(
         session.mode,
         history,
         payload.message,
+        cefr_of(participant.level),
     )
 
     settings = request.app.state.settings
@@ -332,6 +430,7 @@ async def api_finish(
         session.mode,
         history,
         average,
+        cefr_of(participant.level),
     )
     settings = request.app.state.settings
     try:
@@ -531,6 +630,80 @@ def api_exercise(
         "correct": correct,
         "answer": exercise.get("answer", ""),
         "explanation": exercise.get("explanation", ""),
+    }
+
+
+@router.post("/api/pratica")
+def api_practice(request: Request, payload: PracticeIn, db: Session = Depends(get_db)):
+    verify_csrf(request, request.headers.get("x-csrf-token"))
+    enforce(request, "practice", 80)
+    participant = current_participant(request, db)
+    if participant is None:
+        raise HTTPException(401, "Sessão expirada. Entre novamente.")
+
+    session = db.get(PracticeSession, payload.session_id)
+    if session is None or session.participant_id != participant.id:
+        raise HTTPException(404, "Sessão de prática não encontrada.")
+    if session.mode not in {"pratica", "jogo"}:
+        raise HTTPException(400, "Sessão não é de prática.")
+
+    lesson = request.app.state.catalog.get(session.language, session.lesson_id)
+    if lesson is None:
+        raise HTTPException(500, "Conteúdo da lição indisponível.")
+    items = build_practice_items(
+        lesson,
+        seed=_seed(session, session.mode),
+        cefr=cefr_of(participant.level),
+        count=request.app.state.settings.practice_items,
+        game=session.mode == "jogo",
+        language_code=session.language,
+    )
+    if not 0 <= payload.index < len(items):
+        raise HTTPException(400, "Item inválido.")
+    item = items[payload.index]
+    if payload.choice not in item.get("options", []):
+        raise HTTPException(400, "Alternativa inválida.")
+    correct = payload.choice == item.get("answer")
+    offset = 1000 if session.mode == "pratica" else 2000
+    stored_index = offset + payload.index
+    attempt = db.exec(
+        select(ExerciseAttempt).where(
+            ExerciseAttempt.participant_id == participant.id,
+            ExerciseAttempt.session_id == session.id,
+            ExerciseAttempt.exercise_index == stored_index,
+        )
+    ).first()
+    if attempt is None:
+        attempt = ExerciseAttempt(
+            participant_id=participant.id,
+            session_id=session.id,
+            lesson_id=session.lesson_id,
+            language=session.language,
+            exercise_index=stored_index,
+            chosen=payload.choice,
+            correct=correct,
+        )
+    else:
+        attempt.chosen = payload.choice
+        attempt.correct = correct
+        attempt.created_at = datetime.now(timezone.utc)
+    db.add(attempt)
+    db.add(
+        Event(
+            participant_id=participant.id,
+            type="practice",
+            payload_json=json.dumps(
+                {"session_id": session.id, "mode": session.mode, "index": payload.index,
+                 "correct": correct}
+            ),
+        )
+    )
+    db.commit()
+    return {
+        "ok": True,
+        "correct": correct,
+        "answer": item.get("answer", ""),
+        "explanation": item.get("explanation", ""),
     }
 
 

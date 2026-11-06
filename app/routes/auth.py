@@ -16,7 +16,21 @@ from ..web import render
 
 router = APIRouter()
 
-LEVELS = ["iniciante", "básico", "intermediário", "avançado", "fluente"]
+LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
+LEVEL_LABELS = {
+    "A1": "A1 — Iniciante",
+    "A2": "A2 — Básico",
+    "B1": "B1 — Intermediário",
+    "B2": "B2 — Intermediário superior",
+    "C1": "C1 — Avançado",
+    "C2": "C2 — Proficiência",
+}
+LEVEL_OPTIONS = [(code, LEVEL_LABELS[code]) for code in LEVELS]
+# compatibilidade com cadastros antigos
+ALLOWED_LEVELS = set(LEVELS) | {
+    "iniciante", "básico", "basico", "intermediário", "intermediario",
+    "avançado", "avancado", "fluente",
+}
 LANGUAGES = [("en", "Inglês"), ("es", "Espanhol"), ("fr", "Francês")]
 INTERESTS = ["viagem", "trabalho", "cultura", "tecnologia", "cotidiano"]
 
@@ -67,7 +81,7 @@ def consent_submit(
         participant=None,
         error=None,
         form={},
-        levels=LEVELS,
+        level_options=LEVEL_OPTIONS,
         languages=LANGUAGES,
         interests=INTERESTS,
     )
@@ -81,7 +95,7 @@ def register_page(request: Request):
         participant=None,
         error=None,
         form={},
-        levels=LEVELS,
+        level_options=LEVEL_OPTIONS,
         languages=LANGUAGES,
         interests=INTERESTS,
     )
@@ -124,7 +138,7 @@ def register(
         error = "A participação é permitida apenas para maiores de 18 anos."
     elif age > 120:
         error = "Verifique a idade informada."
-    elif nivel not in LEVELS:
+    elif nivel not in ALLOWED_LEVELS:
         error = "Escolha um nível válido."
     elif not idiomas or any(code not in {"en", "es", "fr"} for code in idiomas):
         error = "Escolha pelo menos um idioma."
@@ -136,7 +150,7 @@ def register(
             participant=None,
             error=error,
             form=form,
-            levels=LEVELS,
+            level_options=LEVEL_OPTIONS,
             languages=LANGUAGES,
             interests=INTERESTS,
         )
@@ -155,7 +169,7 @@ def register(
             participant=None,
             error="Não foi possível gerar seu código. Tente novamente.",
             form=form,
-            levels=LEVELS,
+            level_options=LEVEL_OPTIONS,
             languages=LANGUAGES,
             interests=INTERESTS,
         )

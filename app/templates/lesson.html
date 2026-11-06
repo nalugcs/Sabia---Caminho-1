@@ -3,9 +3,10 @@
 {% block body_class %}lesson-body{% endblock %}
 
 {% block content %}
-<section class="lesson" data-session="{{ session.id }}">
+<section class="lesson {% if chat_only %}chat-only{% endif %}" data-session="{{ session.id }}">
+  {% if not chat_only %}
   <aside class="rail">
-    <p class="label">{{ language_name }} · {{ lesson.level }}</p>
+    <p class="label">{{ language_name }} · {{ level_label }}</p>
     <h1>{{ lesson.theme }}</h1>
     <p class="rail-objective">{{ lesson.objective }}</p>
 
@@ -45,10 +46,11 @@
       <a class="tiny" href="/app">Voltar ao início</a>
     </div>
   </aside>
+  {% endif %}
 
   <div class="chat">
     <header class="chat-head">
-      <p class="label">{{ language_name }} · {{ lesson.level }}</p>
+      <p class="label">{{ language_name }} · {{ level_label }}</p>
       <h1>{{ lesson.theme }}</h1>
     </header>
     <div class="chat-log" data-chat aria-live="polite">
@@ -66,6 +68,12 @@
       <button class="btn" type="submit">Enviar</button>
     </form>
     <p class="composer-note" data-status>Enter para enviar · Shift+Enter para nova linha</p>
+    {% if chat_only %}
+    <div class="chat-finish">
+      <button id="finish-lesson" class="btn ghost" type="button">Encerrar conversa</button>
+      <a class="tiny" href="/app">Voltar ao início</a>
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endblock %}

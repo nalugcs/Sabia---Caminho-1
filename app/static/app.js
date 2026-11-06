@@ -165,6 +165,7 @@
         });
         if (!response.ok) throw new Error("Não foi possível salvar.");
         if (status) status.textContent = "Respostas salvas. Obrigado!";
+        setTimeout(() => { window.location.href = "/app"; }, 900);
       } catch (error) {
         if (status) status.textContent = error.message;
       } finally {
@@ -228,7 +229,205 @@
     });
   }
 
+
+  function initPracticeRun() {
+    const root = document.querySelector("[data-practice-run]");
+    if (!root) return;
+
+    const cards = Array.from(root.querySelectorAll("[data-practice-card]"));
+    const progress = root.querySelector("[data-practice-progress]");
+    const scoreLabel = root.querySelector("[data-practice-score]");
+    const result = root.querySelector("[data-practice-result]");
+    const total = cards.length;
+    const storageKey = `sabia-practice-${root.dataset.session}`;
+    let saved = null;
+    try { saved = JSON.parse(sessionStorage.getItem(storageKey) || "null"); } catch (error) { saved = null; }
+    let current = saved && Number.isInteger(saved.index) && saved.index < total ? saved.index : 0;
+    let score = saved && Number.isInteger(saved.score) ? saved.score : 0;
+
+    function persist() {
+      try { sessionStorage.setItem(storageKey, JSON.stringify({ index: current, score })); } catch (error) { /* modo privado */ }
+    }
+
+    function showCard(index) {
+      current = index;
+      cards.forEach((card, position) => {
+        card.hidden = position !== index;
+        card.dataset.busy = "0";
+      });
+      if (progress) progress.textContent = `${index + 1} de ${total}`;
+      if (scoreLabel) scoreLabel.textContent = `${score} acerto${score === 1 ? "" : "s"}`;
+      persist();
+    }
+
+    if (!total) {
+      if (result) result.hidden = false;
+      return;
+    }
+
+    cards.forEach((card) => {
+      const index = Number(card.dataset.index);
+      const buttons = Array.from(card.querySelectorAll(".option"));
+      const feedback = card.querySelector("[data-feedback]");
+      const next = card.querySelector("[data-next]");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", async () => {
+          if (card.dataset.busy === "1") return;
+          card.dataset.busy = "1";
+          buttons.forEach((item) => { item.disabled = true; });
+
+          try {
+            const response = await fetch("/api/pratica", {
+              method: "POST",
+              headers: jsonHeaders(),
+              body: JSON.stringify({
+                session_id: Number(root.dataset.session),
+                index,
+                choice: button.dataset.choice,
+              }),
+            });
+            if (!response.ok) {
+              const body = await response.json().catch(() => ({}));
+              throw new Error(body.detail || "Não foi possível corrigir agora.");
+            }
+            const data = await response.json();
+            button.classList.add(data.correct ? "is-correct" : "is-wrong");
+            if (!data.correct) {
+              const right = buttons.find((item) => item.dataset.choice === data.answer);
+              if (right) right.classList.add("is-correct");
+            } else {
+              score += 1;
+            }
+            if (scoreLabel) scoreLabel.textContent = `${score} acerto${score === 1 ? "" : "s"}`;
+            persist();
+            if (feedback) {
+              feedback.hidden = false;
+              feedback.classList.add(data.correct ? "is-correct" : "is-wrong");
+              feedback.textContent = data.correct
+                ? `Correto. ${data.explanation}`
+                : `Ainda não. Resposta: ${data.answer}. ${data.explanation}`;
+            }
+            if (next) {
+              next.hidden = false;
+              next.textContent = index + 1 >= total ? "Ver resultado" : "Próximo";
+            }
+          } catch (error) {
+            buttons.forEach((item) => { item.disabled = false; });
+            card.dataset.busy = "0";
+            if (feedback) {
+              feedback.hidden = false;
+              feedback.textContent = error.message;
+            }
+          }
+        });
+      });
+
+      if (next) {
+        next.addEventListener("click", () => {
+          if (index + 1 >= total) {
+            cards.forEach((item) => { item.hidden = true; });
+            try { sessionStorage.removeItem(storageKey); } catch (error) { /* modo privado */ }
+            if (result) {
+              result.hidden = false;
+              const title = result.querySelector("[data-result-title]");
+              const copy = result.querySelector("[data-result-copy]");
+              if (title) {
+                title.textContent = score === total ? "Rodada perfeita." :
+                  score >= Math.ceil(total * 0.6) ? "Bom trabalho." : "Vale revisar.";
+              }
+              if (copy) {
+                copy.textContent = `Você acertou ${score} de ${total}. ` +
+                  "Você pode repetir com outra ordem ou levar isso para a conversa.";
+              }
+            }
+            return;
+          }
+          current = index + 1;
+          showCard(current);
+        });
+      }
+    });
+
+    showCard(current);
+  }
+
+
+  function initCodeModal() {
+    const dialog = document.querySelector("[data-code-modal]");
+    if (!dialog) return;
+    const code = (document.querySelector("[data-code-value]")?.textContent || "").trim();
+    const modalCode = dialog.querySelector("[data-code-modal-value]");
+    const status = dialog.querySelector("[data-code-status]");
+    const openButton = document.querySelector("[data-code-open]");
+    const key = "sabia-code-ack";
+
+    function setStatus(text) {
+      if (status) status.textContent = text;
+    }
+
+    function remember() {
+      try { localStorage.setItem(key, code); } catch (error) { /* modo privado */ }
+    }
+
+    function show() {
+      if (typeof dialog.showModal !== "function") return;
+      if (!dialog.open) dialog.showModal();
+    }
+
+    async function copy() {
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(code);
+        } else {
+          const area = document.createElement("textarea");
+          area.value = code;
+          area.setAttribute("readonly", "");
+          area.style.position = "fixed";
+          area.style.opacity = "0";
+          document.body.appendChild(area);
+          area.select();
+          document.execCommand("copy");
+          area.remove();
+        }
+        setStatus("Código copiado.");
+      } catch (error) {
+        setStatus("Não foi possível copiar. Selecione o código acima.");
+      }
+    }
+
+    if (modalCode) modalCode.textContent = code;
+    try {
+      if (localStorage.getItem(key) !== code) show();
+    } catch (error) { show(); }
+
+    if (openButton) openButton.addEventListener("click", show);
+    dialog.querySelector("[data-code-copy]")?.addEventListener("click", copy);
+    dialog.querySelector("[data-code-share]")?.addEventListener("click", async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: "Sabiá — meu código",
+            text: `Meu código no Sabiá é ${code}. Guarde para voltar de qualquer aparelho.`,
+          });
+          setStatus("Compartilhado.");
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") return;
+        }
+      }
+      await copy();
+    });
+    dialog.querySelector("[data-code-close]")?.addEventListener("click", () => {
+      remember();
+      dialog.close();
+    });
+    dialog.addEventListener("close", remember);
+  }
+
   initLesson();
   initPractice();
+  initPracticeRun();
   initMicro();
+  initCodeModal();
 })();

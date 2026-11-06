@@ -13,6 +13,9 @@ from .lessons import LessonCatalog
 logger = logging.getLogger(__name__)
 
 LEVEL_BAND = {
+    "a1": 1, "a2": 1,
+    "b1": 2, "b2": 3,
+    "c1": 3, "c2": 4,
     "iniciante": 1,
     "básico": 1,
     "basico": 1,
@@ -22,6 +25,30 @@ LEVEL_BAND = {
     "avancado": 3,
     "fluente": 4,
 }
+
+LEVEL_LABELS = {
+    "A1": "A1 — Iniciante", "A2": "A2 — Básico",
+    "B1": "B1 — Intermediário", "B2": "B2 — Intermediário superior",
+    "C1": "C1 — Avançado", "C2": "C2 — Proficiência",
+    "iniciante": "Iniciante", "básico": "Básico", "basico": "Básico",
+    "intermediário": "Intermediário", "intermediario": "Intermediário",
+    "avançado": "Avançado", "avancado": "Avançado", "fluente": "Fluente",
+}
+
+
+def level_label(level: str) -> str:
+    return LEVEL_LABELS.get((level or "").strip(), (level or "").strip() or "B1")
+
+
+def cefr_of(level: str) -> str:
+    value = (level or "").strip()
+    if value.upper() in {"A1", "A2", "B1", "B2", "C1", "C2"}:
+        return value.upper()
+    return {
+        "iniciante": "A1", "básico": "A2", "basico": "A2",
+        "intermediário": "B1", "intermediario": "B1",
+        "avançado": "C1", "avancado": "C1", "fluente": "C2",
+    }.get(value.lower(), "B1")
 
 
 def level_band(level: str) -> int:

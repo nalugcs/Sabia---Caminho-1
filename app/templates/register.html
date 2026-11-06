@@ -30,8 +30,8 @@
       <label for="nivel">Nível</label>
       <select id="nivel" name="nivel" required>
         <option value="">Escolha</option>
-        {% for level in levels %}
-        <option value="{{ level }}" {% if form.get('nivel') == level %}selected{% endif %}>{{ level|capitalize }}</option>
+        {% for code, label in level_options %}
+        <option value="{{ code }}" {% if form.get('nivel') == code %}selected{% endif %}>{{ label }}</option>
         {% endfor %}
       </select>
     </div>
